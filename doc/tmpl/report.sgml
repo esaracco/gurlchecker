@@ -1,0 +1,230 @@
+<!-- ##### SECTION Title ##### -->
+report
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage graphic report work.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_report_export ##### -->
+<para>
+
+</para>
+
+@format: 
+@list: 
+@ftype: 
+
+
+<!-- ##### FUNCTION uc_check_report_force_values ##### -->
+<para>
+
+</para>
+
+@all: 
+@checked: 
+@bad: 
+@malformed: 
+@good: 
+@ignored: 
+@timeout: 
+@elapsedtime: 
+
+
+<!-- ##### FUNCTION uc_check_html_is_valid ##### -->
+<para>
+
+</para>
+
+@buffer: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_url_get_content ##### -->
+<para>
+
+</para>
+
+@prop: 
+@current_path: 
+@current_port: 
+@current_args: 
+@current_host: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_get_ignoredlinks ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_get_checkedlinks ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_get_badlinks ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_get_malformedlinks ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_get_goodlinks ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_get_timedoutlinks ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_get_alllinks ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_get_elapsedtime ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_timer_callback ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_report_set_elapsedtime ##### -->
+<para>
+
+</para>
+
+@val: 
+
+
+<!-- ##### FUNCTION uc_report_set_timedoutlinks ##### -->
+<para>
+
+</para>
+
+@val: 
+
+
+<!-- ##### FUNCTION uc_report_set_alllinks ##### -->
+<para>
+
+</para>
+
+@val: 
+
+
+<!-- ##### FUNCTION uc_report_set_checkedlinks ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_report_display_update ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_report_set_badlinks ##### -->
+<para>
+
+</para>
+
+@val: 
+
+
+<!-- ##### FUNCTION uc_report_set_malformedlinks ##### -->
+<para>
+
+</para>
+
+@val: 
+
+
+<!-- ##### FUNCTION uc_check_report_reset ##### -->
+<para>
+
+</para>
+
+@val: 
+
+
+<!-- ##### FUNCTION uc_report_set_goodlinks ##### -->
+<para>
+
+</para>
+
+@val: 
+
+
+<!-- ##### FUNCTION uc_report_set_ignoredlinks ##### -->
+<para>
+
+</para>
+
+@val: 
+
+

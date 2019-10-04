@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE refentry PUBLIC 
+"-//OASIS//DTD DocBook XML V4.5//EN"
+"http://www.docbook.org/xml/4.5/docbookx.dtd"
+[
+  <!-- Fill in your name for FIRSTNAME and SURNAME. -->
+  <!ENTITY dhfirstname1 "<firstname>Daniel</firstname>">
+  <!ENTITY dhsurname1   "<surname>Pecos Martinez</surname>">
+  <!ENTITY dhfirstname2 "<firstname>Emmanuel</firstname>">
+  <!ENTITY dhsurname2   "<surname>Saracco</surname>">
+  <!-- Please adjust the date whenever revising the manpage. -->
+  <!ENTITY dhdate      "<date>Apr 8, 2009</date>">
+  
+  <!-- SECTION should be 1-8, maybe w/ subsection other parameters are
+       allowed: see man(7), man(1). -->
+  <!ENTITY dhemail1     "<email>dani@netpecos.org</email>">
+  <!ENTITY dhusername1  "Daniel Pecos Martinez">
+  <!ENTITY dhemail2     "<email>esaracco@users.labs.libre-entreprise.org</email>">
+  <!ENTITY dhusername2  "Emmanuel Saracco">
+  <!ENTITY dhpackage   "gurlchecker">
+]>
+
+<refentry lang="en">
+  <refentryinfo>
+    <address>&dhemail1;</address>
+    <address>&dhemail2;</address>
+    <author>&dhfirstname1; &dhsurname1;</author>
+    <author>&dhfirstname2; &dhsurname2;</author>
+    <copyright>
+      <year>2003-2005</year>
+      <holder>&dhusername1;</holder>
+      <holder>&dhusername2;</holder>
+    </copyright>
+    &dhdate;
+  </refentryinfo>
+  <refmeta>
+    <refentrytitle>&dhpackage;</refentrytitle>
+    <manvolnum>1</manvolnum>
+    <refmiscinfo class="version">@VERSION@</refmiscinfo>
+    <refmiscinfo class="source">http://gurlchecker.labs.libre-entreprise.org</refmiscinfo>
+    <refmiscinfo class="manual">http://labs.libre-entreprise.org/docman/view.php/7/13/FAQ.txt</refmiscinfo>
+  </refmeta>
+  <refnamediv>
+    <refname>&dhpackage;</refname>
+
+    <refpurpose>A graphical web link checker that works on a whole site, a single local page or a browser bookmarks file.</refpurpose>
+  </refnamediv>
+  <refsynopsisdiv>
+    <cmdsynopsis>
+      <command>&dhpackage;</command>
+
+      <arg><option>-h|--help</option></arg>
+      <arg><option>-v|--version</option></arg>
+      <arg><option>-u|--http-user</option> <replaceable>user</replaceable></arg>
+      <arg><option>-p|--http-passwd</option> <replaceable>password</replaceable></arg>
+      <arg><option>-A|--no-urls-args</option></arg>
+      <arg><replaceable>URL</replaceable></arg>
+
+    </cmdsynopsis>
+  </refsynopsisdiv>
+  <refsect1>
+    <title>DESCRIPTION</title>
+
+    <para>
+      This manual page documents the <command>&dhpackage;</command> command.
+    </para>
+
+    <para>
+      <command>&dhpackage;</command> is a graphical web link checker.
+      It searches URLs in a whole site, a single local page or a browser 
+      bookmarks page, checking them, one by one, in order to know their 
+      validity. Furthermore, it can manage entire projects.
+    </para>
+
+  </refsect1>
+  <refsect1>
+    <title>OPTIONS</title>
+
+    <para>This program follows the usual GNU command line syntax,
+      with long options starting with two dashes (`-').  A summary of
+      options is included below.</para>
+
+    <variablelist>
+      <varlistentry>
+        <term><option>-h</option>, <option>--help</option>
+        </term>
+        <listitem>
+          <para>Show summary of options.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><option>-v</option>, <option>--version</option>
+        </term>
+        <listitem>
+          <para>Show version of program.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><option>-u</option>, <option>--http-user</option>
+        </term>
+        <listitem>
+          <para>User name for HTTP Basic Authentication.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><option>-p</option>, <option>--http-passwd</option>
+        </term>
+        <listitem>
+          <para>Password for HTTP Basic Authentication.</para>
+        </listitem>
+      </varlistentry>
+     <varlistentry>
+        <term><option>-A</option>, <option>--no-urls-args</option>
+        </term>
+        <listitem>
+          <para>Ignore URLs arguments.</para>
+	  <para>
+          With this option gurlchecker will systematically remove arguments 
+	  on URLs. It is useful to avoid nasty infinite loops when arguments 
+	  are randomly generated, for example.
+	  </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <!--<para>Especific options</para>-->
+    
+  </refsect1>
+  <refsect1>
+    <title>AUTHORS</title>
+
+    <para>This manual page was written by &dhusername1; &lt;&dhemail1;&gt; and 
+      &dhusername2; &lt;&dhemail2;&gt; for the Debian system (but may be 
+      used by others).  Permission is granted to copy, distribute and/or 
+      modify this document under the terms of the <acronym>GNU</acronym> Free 
+      Documentation License, Version 1.1 or any later version published by 
+      the Free Software Foundation; with no Invariant Sections, no Front-Cover
+      Texts and no Back-Cover Texts.</para>
+
+  </refsect1>
+</refentry>

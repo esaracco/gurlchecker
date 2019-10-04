@@ -1,0 +1,421 @@
+<!-- ##### SECTION Title ##### -->
+utils
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage some common functions used by all other files.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_utils_str_is_not_alphanum ##### -->
+<para>
+
+</para>
+
+@str: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_swap_file_proto_option ##### -->
+<para>
+
+</para>
+
+@begin: 
+
+
+<!-- ##### FUNCTION uc_utils_clear_container ##### -->
+<para>
+
+</para>
+
+@container: 
+
+
+<!-- ##### FUNCTION uc_utils_http_atotm ##### -->
+<para>
+
+</para>
+
+@time_string: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_url_reencode_escapes ##### -->
+<para>
+
+</para>
+
+@s: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_ftp_code_search ##### -->
+<para>
+
+</para>
+
+@buffer: 
+@code: 
+@len: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_get_string_from_size ##### -->
+<para>
+
+</para>
+
+@size: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_get_server_from_header_field ##### -->
+<para>
+
+</para>
+
+@field: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_copy ##### -->
+<para>
+
+</para>
+
+@src: 
+@dest: 
+
+
+<!-- ##### FUNCTION uc_utils_get_meta_refresh_location ##### -->
+<para>
+
+</para>
+
+@prop: 
+@tag: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_to_utf8 ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_copy_files ##### -->
+<para>
+
+</para>
+
+@src: 
+@dest: 
+
+
+<!-- ##### FUNCTION uc_utils_debug ##### -->
+<para>
+
+</para>
+
+@format: 
+@Varargs: 
+
+
+<!-- ##### FUNCTION uc_utils_debug_dump_link_properties ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_utils_set_userfriendly_treeview_column ##### -->
+<para>
+
+</para>
+
+@tv: 
+@position: 
+
+
+<!-- ##### FUNCTION uc_utils_get_file_content ##### -->
+<para>
+
+</para>
+
+@path: 
+@length: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_split_email ##### -->
+<para>
+
+</para>
+
+@email: 
+@user: 
+@domain: 
+
+
+<!-- ##### FUNCTION uc_utils_get_mx ##### -->
+<para>
+
+</para>
+
+@domain: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_get_yesno ##### -->
+<para>
+
+</para>
+
+@yesno: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_mx_is_valid ##### -->
+<para>
+
+</para>
+
+@mx: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_get_ip ##### -->
+<para>
+
+</para>
+
+@host: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_email_is_valid ##### -->
+<para>
+
+</para>
+
+@email: 
+@check_mx: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_string_cut ##### -->
+<para>
+
+</para>
+
+@label: 
+@size: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_string_format4display ##### -->
+<para>
+
+</para>
+
+@label: 
+@size: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_replace ##### -->
+<para>
+
+</para>
+
+@str: 
+@old: 
+@new: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_replace1 ##### -->
+<para>
+
+</para>
+
+@string: 
+@c1: 
+@c2: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_replacelr ##### -->
+<para>
+
+</para>
+
+@string: 
+@c: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_convert_uid2file ##### -->
+<para>
+
+</para>
+
+@uid: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_get_gnome_proxy_conf ##### -->
+<para>
+
+</para>
+
+@host: 
+@port: 
+
+
+<!-- ##### FUNCTION uc_utils_clean_tag_link_value ##### -->
+<para>
+
+</para>
+
+@value: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_search_string_next ##### -->
+<para>
+
+</para>
+
+@buf: 
+@str: 
+@limit_char: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_memcasecmp ##### -->
+<para>
+
+</para>
+
+@str1: 
+@str2: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_rmfiles ##### -->
+<para>
+
+</para>
+
+@path: 
+
+
+<!-- ##### FUNCTION uc_utils_mkdirs ##### -->
+<para>
+
+</para>
+
+@path: 
+@create_all: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_rmdirs ##### -->
+<para>
+
+</para>
+
+@path: 
+@delete_all: 
+
+
+<!-- ##### FUNCTION uc_utils_vector_length ##### -->
+<para>
+
+</para>
+
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_strpbrk_or_eos ##### -->
+<para>
+
+</para>
+
+@str: 
+@accept: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_strdup_delim ##### -->
+<para>
+
+</para>
+
+@begin: 
+@end: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_test_socket_open ##### -->
+<para>
+
+</para>
+
+@sock: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_get_gnome_browser_conf ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_get_auth_fields ##### -->
+<para>
+
+</para>
+
+@g: 
+@w_auth_user: 
+@w_auth_password: 
+@auth_user: 
+@auth_password: 
+@auth_line: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_utils_build_auth_line ##### -->
+<para>
+
+</para>
+
+@auth_user: 
+@auth_password: 
+@Returns: 
+
+

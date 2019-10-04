@@ -1,0 +1,446 @@
+<!-- ##### SECTION Title ##### -->
+check
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage some common work relative on links check.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### MACRO UC_CHECK_PARSER_WHILE_CONDITION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_ABORT_IF_CONDITION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### ENUM UCHTTPCheckReturn ##### -->
+<para>
+
+</para>
+
+@UC_HTTP_CHECK_RETURN_SAME: 
+@UC_HTTP_CHECK_RETURN_OK: 
+@UC_HTTP_CHECK_RETURN_BAD: 
+@UC_HTTP_CHECK_RETURN_REDIR: 
+@UC_HTTP_CHECK_RETURN_IGNORE: 
+@UC_HTTP_CHECK_RETURN_FAKED_URL: 
+@UC_HTTP_CHECK_RETURN_TIMEOUT: 
+@UC_HTTP_CHECK_RETURN_MALFORMED: 
+
+<!-- ##### FUNCTION uc_check_content_type_w3c_accepted ##### -->
+<para>
+
+</para>
+
+@type: 
+@path: 
+@content_type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_get_main_page_id ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_is_w3c_alert ##### -->
+<para>
+
+</para>
+
+@prop: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_run_w3c_checks ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_check_run_security_checks ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_check_refresh_report ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_check_set_depth ##### -->
+<para>
+
+</para>
+
+@list: 
+@depth: 
+
+
+<!-- ##### FUNCTION uc_check_copy_node ##### -->
+<para>
+
+</para>
+
+@src: 
+@dst: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_is_main_page ##### -->
+<para>
+
+</para>
+
+@prop: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_get_link_type_icon_path ##### -->
+<para>
+
+</para>
+
+@link_type: 
+@proto: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_get_link_type_label ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_refresh_link ##### -->
+<para>
+
+</para>
+
+@id: 
+
+
+<!-- ##### FUNCTION uc_check_refresh_link_real ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_check_refresh_link_get_value ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_refresh_link_set_value ##### -->
+<para>
+
+</para>
+
+@value: 
+
+
+<!-- ##### FUNCTION uc_check_get_link_type_for_icon ##### -->
+<para>
+
+</para>
+
+@proto: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_get_link_type_icon ##### -->
+<para>
+
+</para>
+
+@link_type: 
+@proto: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_currentitem_init ##### -->
+<para>
+
+</para>
+
+@parent: 
+@current_host: 
+@tag: 
+@url: 
+@is_first: 
+
+
+<!-- ##### FUNCTION uc_check_wait ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_check_link_already_checked_with_insert ##### -->
+<para>
+
+</para>
+
+@prop: 
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_register_link ##### -->
+<para>
+
+</para>
+
+@normalized_url: 
+@lp: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_link_get_properties ##### -->
+<para>
+
+</para>
+
+@depth: 
+@current_host: 
+@current_path: 
+@tag: 
+@old_prop: 
+@accept: 
+@retry: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_link_properties_node_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_mx_is_valid ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_check_status_is_ignored ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_status_is_good ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_status_is_bad ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_status_is_malformed ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_status_is_timeout ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_status_is_email ##### -->
+<para>
+
+</para>
+
+@status: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_suspend_continue ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_check_cancel_get_value ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_suspend_get_value ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_ignore_item_get_value ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_treeview_get_selected_row_id ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_check_web_begin ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_check_bookmarks_begin ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_check_cancel_set_value ##### -->
+<para>
+
+</para>
+
+@value: 
+
+
+<!-- ##### FUNCTION uc_check_ignore_item_set_value ##### -->
+<para>
+
+</para>
+
+@value: 
+
+
+<!-- ##### FUNCTION uc_check_display_items_active_all ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_check_display_list ##### -->
+<para>
+
+</para>
+
+@list: 
+@path: 
+@iter: 
+
+
+<!-- ##### FUNCTION uc_check_reset ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_check_alarm_callback ##### -->
+<para>
+
+</para>
+
+@dum: 
+
+
+<!-- ##### FUNCTION uc_check_link_view_source ##### -->
+<para>
+
+</para>
+
+@void: 
+
+

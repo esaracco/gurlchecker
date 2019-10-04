@@ -1,0 +1,5 @@
+?package(gurlchecker):needs="X11" \
+  section="Apps/Net"\
+  title="gURLChecker" \
+  command="/usr/bin/gurlchecker" \
+  icon="/usr/share/pixmaps/gurlchecker_icon.xpm"

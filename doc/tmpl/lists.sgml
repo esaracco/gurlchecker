@@ -1,0 +1,234 @@
+<!-- ##### SECTION Title ##### -->
+lists
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage some work on lists.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_dump ##### -->
+<para>
+
+</para>
+
+@list: 
+@fd: 
+@ftype: 
+
+
+<!-- ##### FUNCTION uc_lists_refresh_preserved_links_reset ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_lists_refresh_preserved_links_append ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_lists_refresh_preserved_links_restore ##### -->
+<para>
+
+</para>
+
+@src: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_links_first_minus_second ##### -->
+<para>
+
+</para>
+
+@first: 
+@second: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_similar_links_remove_item ##### -->
+<para>
+
+</para>
+
+@list: 
+@url: 
+
+
+<!-- ##### FUNCTION uc_lists_similar_links_remove_items ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_lists_already_checked_links_remove_branch_items ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_lists_already_checked_links_remove ##### -->
+<para>
+
+</para>
+
+@url: 
+
+
+<!-- ##### FUNCTION uc_lists_already_checked_links_remove_items ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_node_replace ##### -->
+<para>
+
+</para>
+
+@old: 
+@new: 
+
+
+<!-- ##### FUNCTION uc_lists_already_checked_links_lookup ##### -->
+<para>
+
+</para>
+
+@url: 
+@return_node: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_already_checked_links_append ##### -->
+<para>
+
+</para>
+
+@url: 
+@ac_p: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_already_checked_free ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_is_empty ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_set ##### -->
+<para>
+
+</para>
+
+@list: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_get ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_node_free ##### -->
+<para>
+
+</para>
+
+@list: 
+@prop: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_lookup ##### -->
+<para>
+
+</para>
+
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_exist ##### -->
+<para>
+
+</para>
+
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_lookup_by_uid ##### -->
+<para>
+
+</para>
+
+@uid: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_checked_links_free ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_lists_similar_links_exist ##### -->
+<para>
+
+</para>
+
+@list: 
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_lists_similar_links_append ##### -->
+<para>
+
+</para>
+
+@prop_p: 
+@url: 
+
+

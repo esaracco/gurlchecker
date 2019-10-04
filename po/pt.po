@@ -1,0 +1,2104 @@
+# Translation of gurlchecker's runtime messages to Portuguese (European)
+# Copyright (C) 2011 the gurlchecker's copyright holder
+# This file is distributed under the same license as the gurlchecker package.
+#
+# Américo Monteiro <a_monteiro@netcabo.pt>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: gurlchecker 0.13.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 08:53+0100\n"
+"PO-Revision-Date: 2011-03-09 19:38+0000\n"
+"Last-Translator: Américo Monteiro <a_monteiro@netcabo.pt>\n"
+"Language-Team: Portuguese <traduz@debianpt.org>\n"
+"Language: Pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/cookies.c:239
+msgid "The following cookie will be <b>deleted</b>"
+msgstr "O seguinte cookie será <b>apagado</b>"
+
+#: ../src/cookies.c:259
+msgid "The following cookie will be <b>updated</b>"
+msgstr "O seguinte cookie será <b>actualizado</b>"
+
+#: ../src/cookies.c:290
+msgid "The following cookie will be <b>added</b>"
+msgstr "O seguinte cookie será <b>adicionado</b>"
+
+#: ../src/uccroco.c:49
+#, c-format
+msgid "%u - Error after: %s\n"
+msgstr "%u - Erro após: %s\n"
+
+#: ../src/uccroco.c:52
+#, c-format
+msgid "%u - Unknown error...\n"
+msgstr "%u - Erro desconhecido...\n"
+
+#: ../src/application.c:112 ../src/search.c:133
+msgid "Id"
+msgstr "Id"
+
+#: ../src/application.c:118
+msgid "Type"
+msgstr "Tipo"
+
+#: ../src/application.c:123 ../src/application.c:309 ../src/application.c:1737
+#: ../src/application.c:1804 ../src/application.c:1867 ../src/search.c:141
+msgid "URL"
+msgstr "URL"
+
+#: ../src/application.c:288
+msgid "Custom action"
+msgstr "Acção personalizada"
+
+#: ../src/application.c:300 ../src/application.c:1667
+#: ../src/application.c:1743
+msgid "Label"
+msgstr "Etiqueta"
+
+#: ../src/application.c:318
+msgid "Date"
+msgstr "Data"
+
+#: ../src/application.c:523 ../src/application.c:1507
+msgid "Name"
+msgstr "Nome"
+
+#: ../src/application.c:529
+msgid "Content"
+msgstr "Conteúdo"
+
+#: ../src/application.c:805 ../src/application.c:869
+msgid "At the end of this session"
+msgstr "No final desta sessão"
+
+#: ../src/application.c:906
+#, c-format
+msgid "Enter login and password for %s at %s"
+msgstr "Insira login e palavra-passe para %s em %s"
+
+#: ../src/application.c:1020 ../src/application.c:1024
+msgid "W3C CSS validation result (libcroco)"
+msgstr "Resultado da validação CSS W3C (libcroco)"
+
+#: ../src/application.c:1025
+msgid "This is a valid stylesheet."
+msgstr "Esta é uma folha de estilo válida."
+
+#: ../src/application.c:1029
+msgid ""
+"A problem occured while using Croco library.\n"
+"<i>Please check your configuration or your libcroco version</i>.\n"
+"\n"
+msgstr ""
+"Ocorreu um problema ao usar a biblioteca Croco.\n"
+"<i>Por favor verifique a sua configuração ou a sua versão de libcroco</i>.\n"
+"\n"
+
+#: ../src/application.c:1048
+msgid "W3C HTML validation result (libtidy)"
+msgstr "Resultado de validação HTML W3C (libtidy)"
+
+#: ../src/application.c:1052
+msgid ""
+"A problem occured while using Tidy library.\n"
+"<i>Please check your configuration or your libtidy version</i>.\n"
+"\n"
+msgstr ""
+"Ocorreu um problema ao usar a biblioteca Tidy.\n"
+"<i>Por favor verifique a sua configuração ou a sua versão de libtidy</i>.\n"
+"\n"
+
+#: ../src/application.c:1289
+msgid "Found Bad extensions.\n"
+msgstr "Encontradas extensões Más.\n"
+
+#: ../src/application.c:1291
+msgid "Found Virus: "
+msgstr "Encontrado Virus: "
+
+#: ../src/application.c:1302 ../src/application.c:1557
+#: ../src/application.c:1559
+msgid "No referrer"
+msgstr "Nenhum referrer"
+
+#: ../src/application.c:1536
+msgid "Missing URL"
+msgstr "URL em falta"
+
+#: ../src/application.c:1567 ../src/application.c:1599
+#: ../src/application.c:1609
+msgid "Not specified"
+msgstr "Não especificado"
+
+#: ../src/application.c:1577
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: ../src/application.c:1582
+msgid "(gURLChecker internals)"
+msgstr "(internos do gURLChecker)"
+
+#: ../src/application.c:1592
+msgid "Disk Cache"
+msgstr "Cache de Disco"
+
+#: ../src/application.c:1592
+msgid "Not cached"
+msgstr "Não em cache"
+
+#: ../src/application.c:1661 ../src/check.c:406 ../ui/gurlchecker.glade.h:109
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: ../src/application.c:1776 ../src/application.c:1839
+#: ../src/application.c:1934 ../src/application.c:1978
+#: ../src/application.c:3428 ../src/application.c:3479 ../src/callbacks.c:554
+#: ../src/callbacks.c:568 ../src/callbacks.c:590 ../src/callbacks.c:818
+#: ../src/callbacks.c:864 ../src/callbacks.c:877 ../src/callbacks.c:1028
+#: ../src/check.c:1302 ../src/project.c:548
+msgid "Please, select a item."
+msgstr "Por favor, seleccione um item."
+
+#: ../src/application.c:1906
+msgid ""
+"Cannot start your web browser\n"
+"The following error occured:\n"
+msgstr ""
+"Incapaz de iniciar o seu explorador web\n"
+"Ocorreu o seguinte erro:\n"
+
+#: ../src/application.c:1956 ../src/application.c:1988
+msgid ""
+"Either the corresponding file is empty or does not exist in the cache "
+"directory!"
+msgstr ""
+"Ou o ficheiro correspondente está vazio ou não existe no directório de cache!"
+
+#: ../src/application.c:1986 ../ui/gurlchecker.glade.h:209
+msgid "View source"
+msgstr "Ver a fonte"
+
+#: ../src/application.c:2029
+msgid "Redirect"
+msgstr "Redireccionar"
+
+#: ../src/application.c:2030
+msgid "Edit"
+msgstr "Editar"
+
+#: ../src/application.c:2031
+msgid "Create target"
+msgstr "Criar alvo"
+
+#: ../src/application.c:2096
+msgid "Host unreachable"
+msgstr "Máquina não alcançável"
+
+#: ../src/application.c:2097
+msgid ""
+"The remote host does not respond at all...\n"
+"Perhaps you would change the timeout in gURLChecker preferences, or perhaps "
+"it is really down.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"A máquina remota não responde...\n"
+"Talvez você deva mudar o tempo limite nas preferências do gURLChecker, ou "
+"talvez esteja mesmo desligada.\n"
+"\n"
+"Tente verificar mais tarde."
+
+#: ../src/application.c:2106
+msgid "FILE:// protocol"
+msgstr "FILE:// protocol"
+
+#: ../src/application.c:2107
+msgid ""
+"File protocol detected.\n"
+"You have asked me to warn you when I find the \"FILE://\" protocol in a link."
+msgstr ""
+"Protocolo File detectado.\n"
+"Você pediu-me para o avisar caso Eu encontrasse o protocolo \"FILE://\" num "
+"link."
+
+#: ../src/application.c:2115 ../src/application.c:2174
+msgid "Page available"
+msgstr "Página disponível"
+
+#: ../src/application.c:2116 ../src/application.c:2175
+#: ../src/application.c:2192 ../src/application.c:2200
+msgid ""
+"No problem with this page.\n"
+"Server is up and document can be loaded without any problem."
+msgstr ""
+"Nenhum problema com esta página.\n"
+"O servidor está ligado e o documento pode ser carregado sem qualquer "
+"problema."
+
+#: ../src/application.c:2123 ../src/application.c:2240
+msgid "Page not found"
+msgstr "Página não encontrada"
+
+#: ../src/application.c:2123 ../src/application.c:2240
+msgid "The page does not exist on the server."
+msgstr "A página não existe no servidor."
+
+#: ../src/application.c:2129
+msgid "Bad E-Mail link"
+msgstr "Mau link de E-Mail"
+
+#: ../src/application.c:2130
+msgid "The E-Mail specified in the link is not well formatted."
+msgstr "O E-Mail especificado neste link está mal formatado."
+
+#: ../src/application.c:2136
+msgid "Problem with MX"
+msgstr "Problema com o MX"
+
+#: ../src/application.c:2137
+msgid ""
+"The MX of the domain specified for this E-Mail is not valid or the domain "
+"itself is not valid."
+msgstr ""
+"O MX de domínio especificado para este E-Mail não é válido ou o próprio "
+"domínio não é válido."
+
+#: ../src/application.c:2144
+msgid "E-Mail link ok"
+msgstr "link de E-Mail ok"
+
+#: ../src/application.c:2144
+msgid "No problem with this E-Mail."
+msgstr "Nenhum problema com este E-Mail."
+
+#: ../src/application.c:2150
+msgid "Item ignored"
+msgstr "Item ignorado"
+
+#: ../src/application.c:2151
+msgid "You chose to ignore this item while gURLChecker was checking it."
+msgstr "Você escolheu ignorar este item enquanto o gURLChecker o verificava."
+
+#: ../src/application.c:2158
+msgid "Malformed link"
+msgstr "Link mal formado"
+
+#: ../src/application.c:2159
+msgid ""
+"The HTML link is malformed.\n"
+"Perhaps HREF value is missing?"
+msgstr ""
+"O link HTML está mal formado.\n"
+"Talvez o valor HREF esteja em falta?"
+
+#: ../src/application.c:2165
+msgid "No valid information"
+msgstr "Nenhuma informação válida"
+
+#: ../src/application.c:2166
+msgid ""
+"gURLChecker can't interpret the status code sent by the remote host.\n"
+"Please, report the value of the \"Status\" header field to the author of "
+"gURLChecker."
+msgstr ""
+"O gURLChecker não pode interpretar o código de estado enviado pela máquina "
+"remota.\n"
+"Por favor, reporte o valor do campo de cabeçalho \"Status\" para o autor do "
+"gURLChecker."
+
+#: ../src/application.c:2182
+msgid "Page moved permanently"
+msgstr "Página movida permanentemente"
+
+#: ../src/application.c:2183
+msgid ""
+"No real problem with this page.\n"
+"The requested resource just has been assigned a new permanent URI."
+msgstr ""
+"Nenhum problema real com esta página.\n"
+"Ao recurso pedido foi atribuído um novo URI permanente."
+
+#: ../src/application.c:2191
+msgid "Page moved Temporarily"
+msgstr "Página movida Temporariamente"
+
+#: ../src/application.c:2199
+msgid "The response to the request can be found under a different URI"
+msgstr "A resposta ao pedido pode ser encontrada sob um URI diferente"
+
+#: ../src/application.c:2207
+msgid "Restricted access"
+msgstr "Acesso restringido"
+
+#: ../src/application.c:2208
+msgid "This page need authentication to be viewed."
+msgstr "Esta página precisa de autenticação para ser visualizada"
+
+#: ../src/application.c:2214
+msgid "Access forbidden"
+msgstr "Acesso proibido"
+
+#: ../src/application.c:2215 ../src/application.c:2263
+msgid ""
+"The remote host has refused to serve us the page.\n"
+"Given the way gURLChecker process links, this error should not occured.\n"
+"\n"
+"Please report this bug to the gURLChecker Team."
+msgstr ""
+"A máquina remota recusou servir-nos a página.\n"
+"Devido ao modo como o gURLChecker processa os links, este erros nunca "
+"deveria ocorrer.\n"
+"\n"
+"Por favor reporte este bug para a Equipa do gURLChecker."
+
+#: ../src/application.c:2224
+msgid "Page available, but with no content"
+msgstr "Página disponível, mas sem conteúdo"
+
+#: ../src/application.c:2225
+msgid ""
+"No problem with this page, but it has no content at all...\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Nenhum problema com esta página, mas não tem nenhum conteúdo...\n"
+"\n"
+"Tente verificá-la mais tarde."
+
+#: ../src/application.c:2232
+msgid "Malformed URL"
+msgstr "URL mal formado"
+
+#: ../src/application.c:2233
+msgid ""
+"The request could not be understood by the server due to malformed syntax."
+msgstr ""
+"O pedido não foi compreendido pelo servidor devido a sintaxe mal formada."
+
+#: ../src/application.c:2246
+msgid "Method not allowed"
+msgstr "Método não permitido"
+
+#: ../src/application.c:2247
+msgid ""
+"The remote host has refused to serve us the page.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"A máquina remota recusou servir-nos a página.\n"
+"\n"
+"Tente verificá-la mais tarde."
+
+#: ../src/application.c:2254
+msgid "Internal server error"
+msgstr "Erro interno do servidor"
+
+#: ../src/application.c:2255
+msgid ""
+"The page contain bad code, or the server is misconfigured.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"A página contém mau código, ou o servidor está mal configurado.\n"
+"\n"
+"Tente verificá-la mais tarde."
+
+#: ../src/application.c:2262
+msgid "Method not supported"
+msgstr "Método não suportado"
+
+#: ../src/application.c:2272
+msgid "Bad Gateway"
+msgstr "Má Gateway"
+
+#: ../src/application.c:2273
+msgid ""
+"The server, while acting as a gateway or proxy, received an invalid response "
+"from the upstream server it accessed in attempting to fulfill the request.\n"
+"\n"
+"Try to check this page later."
+msgstr ""
+"O servidor, a agir como uma gateway ou um proxy, recebeu uma resposta "
+"inválida do servidor original a que acedeu numa tentativa de atender ao "
+"pedido.\n"
+"\n"
+"Tente verificar esta página mais tarde."
+
+#: ../src/application.c:2282
+msgid "Service unavailable"
+msgstr "Serviço não disponível"
+
+#: ../src/application.c:2283
+msgid ""
+"The server is currently unable to handle the request due to a temporary "
+"overloading or maintenance of the server. It is also possible that you are "
+"using a proxy that can not join the given host.\n"
+"\n"
+"Try to check it later, or change your proxy settings."
+msgstr ""
+"O servidor está actualmente incapaz de lidar com o pedido devido a uma "
+"sobrecarga temporária ou a manutenção. É também possível que você esteja a "
+"um proxy que não se possa juntar à máquina especificada.\n"
+"\n"
+"Tente verificar mais tarde, ou mude as suas definições de proxy."
+
+#: ../src/application.c:2293
+msgid "Request not completed"
+msgstr "Pedido não completo"
+
+#: ../src/application.c:2294
+msgid ""
+"The server, while acting as a gateway or proxy, did not receive a timely "
+"response from the upstream server specified by the URI (e.g. HTTP, FTP, "
+"LDAP) or some other auxiliary server (e.g. DNS) it needed to access in "
+"attempting to complete the request."
+msgstr ""
+"O servidor, agindo como uma gateway ou proxy, não recebeu uma resposta "
+"dentro do tempo limite do servidor original especificado pelo URI (ex. HTTP, "
+"FTP, LDAP) ou de qualquer outro servidor auxiliar (ex. DNS) a que precisou "
+"de aceder na tentativa de completar o pedido."
+
+#: ../src/application.c:2304
+msgid "Access forbidden or too many connections"
+msgstr "Acesso proibido ou demasiadas ligações"
+
+#: ../src/application.c:2306
+msgid ""
+"This server do not accept anonymous users, or the maximum number of allowed "
+"clients are already connected.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Este servidor não aceita utilizadores anónimos, ou foi alcançado o número "
+"máximo de ligações de clientes permitidas.\n"
+"\n"
+"Tente verificar mais tarde."
+
+#: ../src/application.c:2314
+msgid "Receiving timout requesting the page"
+msgstr "A receber aviso de tempo limite ao pedir a página"
+
+#: ../src/application.c:2315
+msgid ""
+"Perhaps you would change the timeout in gURLChecker preferences. Perhaps the "
+"remote host is too busy for the moment to responde to gURLChecker request, "
+"or perhaps the remote host does not exist at all.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Talvez você deva mudar o tempo limite nas preferências do gURLChecker. "
+"Talvez a máquina remota esteja muito ocupada no momento para responder ao "
+"pedido do gURLChecker, ou talvez a máquina remota nem sequer exista.\n"
+"\n"
+"Tente verificar mais tarde."
+
+#: ../src/application.c:2371
+msgid "Cannot start new instance of gURLChecker; the following error occured:"
+msgstr ""
+"Incapaz de iniciar nova instância do gURLChecker; ocorreu o seguinte erro:"
+
+#: ../src/application.c:2698
+#, c-format
+msgid ""
+"A problem occured while initializing Clamav library :\n"
+"<b><i>%s</i></b>\n"
+"<i>Please check your configuration or your libclamav version</i>.\n"
+"\n"
+"<b>Virii will not be detected</b>."
+msgstr ""
+"Ocorreu um problema ao inicializar a biblioteca Clamav :\n"
+"<b><i>%s</i></b>\n"
+"<i>Por favor verifique a sua configuração ou a versão da sua libclamav</i>.\n"
+"\n"
+"<b>Os vírus não serão detectados</b>."
+
+#: ../src/application.c:2726
+msgid ""
+"A problem occured while initializing Croco library.\n"
+"<i>Please check your configuration or your libcroco version</i>.\n"
+"\n"
+"<b>CSS stylesheets will not be validated</b>."
+msgstr ""
+"Ocorreu um problema ao inicializar a biblioteca Croco.\n"
+"<i>Por favor verifique a sua configuração ou a versão da sua libcroco</i>.\n"
+"\n"
+"<b>As folhas de estilo CSS não serão validadas</b>."
+
+#: ../src/application.c:2743
+msgid ""
+"A problem occured while initializing Tidy library.\n"
+"<i>Please check your configuration or your libtidy version</i>.\n"
+"\n"
+"<b>HTML pages will not be validated</b>."
+msgstr ""
+"Ocorreu um problema ao inicializar a biblioteca Tidy.\n"
+"<i>Por favor verifique a sua configuração ou a versão da sua libtidy</i>.\n"
+"\n"
+"<b>As páginas HTML não serão validadas</b>."
+
+#: ../src/application.c:3003 ../src/web_site.c:270 ../src/bookmarks.c:544
+#: ../ui/gurlchecker.glade.h:59
+msgid "Check in progress..."
+msgstr "Verificação em progresso..."
+
+#: ../src/application.c:3067
+msgid ""
+"Emmanuel Saracco\n"
+"\n"
+"Contributors:\n"
+"Stephane Loeuillet"
+msgstr ""
+"Emmanuel Saracco\n"
+"\n"
+"Contribuintes:\n"
+"Stephane Loeuillet"
+
+#: ../src/application.c:3074
+msgid "Manpage:"
+msgstr "Página de manual:"
+
+#: ../src/application.c:3078
+msgid "Code:"
+msgstr "Código:"
+
+#: ../src/application.c:3083
+msgid ""
+"Takeshi Aihana, Japanese\n"
+"Alexander Hunziker, German\n"
+"Florent Jugla, Esperanto\n"
+"Daniel Pecos, Spanish\n"
+"Gunner Poulsen, Danish\n"
+"Emmanuel Saracco, French\n"
+"Angelo Theodorou, Italian\n"
+msgstr ""
+"Takeshi Aihana, Japonês\n"
+"Alexander Hunziker, Alemão\n"
+"Florent Jugla, Esperanto\n"
+"Daniel Pecos, Espanhol\n"
+"Gunner Poulsen, Dinamarquês\n"
+"Emmanuel Saracco, Francês\n"
+"Angelo Theodorou, Italiano\n"
+"Américo Monteiro, Português\n"
+
+#: ../src/application.c:3103
+msgid ""
+"gURLChecker is a graphical web links checker.\n"
+"It can work on a whole site, a single local page or a browser bookmarks file"
+msgstr ""
+"O gURLChecker é um verificador gráfico de links web.\n"
+"Pode funcionar num site completo, numa página local única ou num ficheiro de "
+"favoritos de um explorador"
+
+#: ../src/application.c:3327
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, Google Chrome, or Firefox "
+"database file"
+msgstr ""
+"Você pode seleccionar um ficheiro de favoritos local ou remoto.\n"
+"Este ficheiro tem de ser um ficheiro de base de dados de XBEL, Opera, Google "
+"Chrome, ou Firefox"
+
+#: ../src/application.c:3332
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, or a Firefox database file"
+msgstr ""
+"Você pode seleccionar um ficheiro de favoritos local ou remoto.\n"
+"Este ficheiro tem de ser um ficheiro de base de dados de XBEL, Opera ou "
+"Firefox"
+
+#: ../src/application.c:3337
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, or a Google Chrome file"
+msgstr ""
+"Você pode seleccionar um ficheiro de favoritos local ou remoto.\n"
+"Este ficheiro tem de ser um ficheiro de XBEL, Opera, ou Google Chrome"
+
+#: ../src/application.c:3342
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be in XBEL or Opera format"
+msgstr ""
+"Você pode seleccionar um ficheiro de favoritos local ou remoto.\n"
+"Este ficheiro tem de estar em formato do XBEL ou Opera"
+
+#: ../src/application.c:3359
+msgid "New domain to reject"
+msgstr "Novo domínio a rejeitar"
+
+#: ../src/application.c:3360
+msgid "Add a domain to reject"
+msgstr "Adicionar um domínio a rejeitar"
+
+#: ../src/application.c:3372
+msgid "This domain name is not valid."
+msgstr "Este nome de domínio não é válido."
+
+#: ../src/application.c:3441
+msgid "New directory to reject"
+msgstr "Novo directório a rejeitar"
+
+#: ../src/application.c:3442
+msgid "Add a directory to reject"
+msgstr "Adicionar um directório a rejeitar"
+
+#: ../src/application.c:3543
+msgid "Please, enter a string to search."
+msgstr "Por favor, insira uma string para procurar."
+
+#: ../src/application.c:3566
+msgid "Please, check that there is no mismatch in your URL and try again."
+msgstr "Por favor, verifique que não ha erro no seu URL e tente de novo."
+
+#: ../src/application.c:3593
+msgid "Sorry, but this version of gurlchecker have no SSL support"
+msgstr "Desculpe, mas esta versão do gurlchecker não tem suporte de SSL"
+
+#: ../src/application.c:3672 ../src/project.c:441
+msgid "[<b>Local file</b>] Page information"
+msgstr "[<b>Ficheiro Local</b>] Informação de  Página"
+
+#: ../src/application.c:3675 ../src/project.c:444
+msgid "[<b>Web site</b>] Page information"
+msgstr "[<b>Sítio Web</b>] Informação de Página"
+
+#: ../src/application.c:3730
+msgid "Please choose a bookmarks file to check."
+msgstr "Por favor escolha um ficheiro de favoritos para verificar."
+
+#: ../src/application.c:3785
+msgid ""
+"A problem occured when retrieving remote bookmarks file.\n"
+"<i>Try to pump up the timeout delay</i>."
+msgstr ""
+"Ocorreu um problema ao obter o ficheiro de favoritos remoto.\n"
+"<i>Tente aumentar o atraso de tempo limite</i>."
+
+#: ../src/application.c:3799
+msgid ""
+"Either the file is not correct or your don't have appropriate rights on it.\n"
+"<b>Please choose a valid bookmarks file</b>."
+msgstr ""
+"O ficheiro não é correcto ou você não tem permissões apropriadas para ele.\n"
+"<b>por favor escolha um ficheiro de favoritos válido</b>."
+
+#: ../src/application.c:3815
+msgid ""
+"The file format is not correct.\n"
+"<i>gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b>, <b>Google "
+"Chrome</b>, and <b>Firefox</b> database file</i>."
+msgstr ""
+"O formato do ficheiro não é correcto.\n"
+"<i>O gurlchecker apenas pode lidar com ficheiros de base de dados do "
+"<b>XBEL</b>, <b>Opera</b>, <b>Google Chrome</b>, e <b>Firefox</b></i>."
+
+#: ../src/application.c:3822
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b> "
+"and <b>Firefox</b> database file</i>."
+msgstr ""
+"O formato do ficheiro não é correcto.\n"
+"<i>Esta versão do gurlchecker apenas pode lidar com ficheiros de base de "
+"dados do <b>XBEL</b>, <b>Opera</b>  e <b>Firefox</b></i>."
+
+#: ../src/application.c:3829
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b> "
+"and <b>Google Chrome</b> file</i>."
+msgstr ""
+"O formato do ficheiro não é correcto.\n"
+"<i>Esta versão do gurlchecker apenas pode lidar com ficheiros do <b>XBEL</"
+"b>, <b>Opera</b>  e <b>Google Chrome</b></i>."
+
+#: ../src/application.c:3835
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b> and <b>Opera</"
+"b> file</i>."
+msgstr ""
+"O formato do ficheiro não é correcto.\n"
+"<i>Esta versão do gurlchecker apenas pode lidar com ficheiros do <b>XBEL</b> "
+"e <b>Opera</b>"
+
+#: ../src/application.c:3852
+msgid "[<b>Remote bookmarks</b>] Page information"
+msgstr "[<b>Favoritos Remoto</b>] Informação de Página"
+
+#: ../src/application.c:3855
+msgid "[<b>Local bookmarks</b>] Page information"
+msgstr "[<b>Favoritos Local</b>] Informação de Página"
+
+#: ../src/application.c:4071 ../src/check.c:1556
+msgid "Cleaning..."
+msgstr "A limpar..."
+
+#: ../src/callbacks.c:774
+msgid ""
+"All bookmarks referring to not found page will be removed.\n"
+"<b>Do you want to continue</b>?"
+msgstr ""
+"Todos os favoritos referentes a páginas não encontradas serão removidos.\n"
+"<b>Deseja continuar</b>?"
+
+#: ../src/callbacks.c:803
+msgid ""
+"Selected link will be removed.\n"
+"<b>Do you want to continue</b>?"
+msgstr ""
+"O link seleccionado será removido.\n"
+"<b>Deseja continuar</b>?"
+
+#: ../src/callbacks.c:900 ../src/callbacks.c:918
+msgid "Please, select a project."
+msgstr "Por favor, seleccione um projecto."
+
+#: ../src/callbacks.c:913 ../src/callbacks.c:1013
+msgid "Are you sure you want to delete this project?"
+msgstr "Tem a certeza que deseja apagar este projecto?"
+
+#: ../src/check.c:400
+msgid "Hypertext Link"
+msgstr "Link de Hipertexto"
+
+#: ../src/check.c:402
+msgid "Local Hypertext Link"
+msgstr "Link de Hipertexto Local"
+
+#: ../src/check.c:404
+msgid "Local Image"
+msgstr "Imagem Local"
+
+#: ../src/check.c:408 ../ui/gurlchecker.glade.h:131
+msgid "Image"
+msgstr "Imagem"
+
+#: ../src/check.c:410
+msgid "Frame link"
+msgstr "Link de moldura"
+
+#: ../src/check.c:412
+msgid "StyleSheet link"
+msgstr "Link de folha de estilo"
+
+#: ../src/check.c:414
+msgid "Unknown Type"
+msgstr "Tipo Desconhecido"
+
+#: ../src/check.c:867
+msgid "Retrieving source..."
+msgstr "A obter a fonte.."
+
+#: ../src/check.c:998
+msgid "Continue"
+msgstr "Continuar"
+
+#: ../src/check.c:1004 ../ui/gurlchecker.glade.h:184
+msgid "Suspend"
+msgstr "Suspender"
+
+#: ../src/check.c:1045
+msgid "Checking file (FTP)..."
+msgstr "A verificar ficheiro (FTP)..."
+
+#: ../src/check.c:1056
+msgid "Retrieving header..."
+msgstr "A obter o cabeçalho..."
+
+#: ../src/check.c:1228
+msgid "Item already checked..."
+msgstr "Item já verificado..."
+
+#: ../src/check.c:1316
+#, c-format
+msgid "MX host %s for this domain is alive and listen on port 25."
+msgstr "A máquina MX %s para este domínio está viva e escuta no porto 25."
+
+#: ../src/check.c:1322
+msgid "MX host does not respond or the E-Mail's domain is not valid."
+msgstr "A máquina MX não responde ou o domínio de E-Mail não é válido."
+
+#: ../src/check.c:1328
+msgid "The E-Mail's domain is not valid."
+msgstr "O domínio de E-Mail não é válido."
+
+#: ../src/check.c:1767
+msgid "<b>SECURITY</b>: Checking for virii..."
+msgstr "<b>SEGURANÇA</b>: A verificar por vírus..."
+
+#: ../src/check.c:1797
+msgid "<b>W3C</b>: Validate CSS stylesheet..."
+msgstr "<b>W3C</b>: A validar folha de estilo CSS..."
+
+#: ../src/check.c:1829
+msgid "<b>W3C</b>: Validate HTML page..."
+msgstr "<b>W3C</b>: A validar página HTML..."
+
+#: ../src/check.c:1917
+#, c-format
+msgid "<b>SECURITY</b>: Checking for bad extensions [<b>%s</b>]..."
+msgstr "<b>SEGURANÇA</b>: A verificar extensões más [<b>%s</b>]..."
+
+#: ../src/check.c:2006
+#, c-format
+msgid "Sleeping %u second(s)..."
+msgstr "A dormir %u segundo(s)..."
+
+#: ../src/check.c:2119
+msgid "Checking E-Mail..."
+msgstr "A verificar E-Mail..."
+
+#: ../src/check.c:2185
+msgid "Checking local file..."
+msgstr "A verificar ficheiro local..."
+
+#: ../src/check.c:2288 ../ui/gurlchecker.glade.h:203
+msgid "Updating report..."
+msgstr "A actualizar relatório..."
+
+#: ../src/check.c:2594 ../src/web_site.c:175
+msgid "Searching..."
+msgstr "A procurar..."
+
+#: ../src/web_site.c:267
+msgid "Updating link..."
+msgstr "A actualizar o link..."
+
+#: ../src/web_site.c:683
+msgid "Updating branch..."
+msgstr "A actualizar o branch..."
+
+#: ../src/web_site.c:733
+msgid "Updating all project..."
+msgstr "A actualizar todo o projecto..."
+
+#: ../src/web_site.c:814
+#, c-format
+msgid "Checking %s..."
+msgstr "A verificar %s..."
+
+#: ../src/web_site.c:829
+msgid "MAIN PAGE"
+msgstr "PÁGINA PRINCIPAL"
+
+#: ../src/web_site.c:848
+msgid ""
+"Access to the specified project URL is restricted.\n"
+"Check has been cancelled"
+msgstr ""
+"O acesso ao URL do projecto especificado é restrito.\n"
+"A verificação foi cancelada"
+
+#: ../src/web_site.c:908
+msgid ""
+"The specified project URL does not respond.\n"
+"Check has been cancelled."
+msgstr ""
+"O URL do projecto especificado não responde.\n"
+"A verificação foi cancelada"
+
+#: ../src/bookmarks.c:305
+msgid "Should remote bookmarks be saved on your machine?"
+msgstr "Deverão os favoritos remotos ser guardados na sua máquina?"
+
+#: ../src/bookmarks.c:311
+msgid "Save bookmarks file"
+msgstr "Guardar ficheiro de favoritos"
+
+#: ../src/bookmarks.c:312
+msgid "Input filename"
+msgstr "Insira nome do ficheiro"
+
+#: ../src/bookmarks.c:320
+msgid ""
+"The filename is not in a correct format.\n"
+"<b>Nothing has been done</b>."
+msgstr ""
+"O nome do ficheiro não está num formato correcto.\n"
+"<b>Nada foi feito</b>."
+
+#: ../src/bookmarks.c:344
+msgid ""
+"Bookmarks changes will be saved.\n"
+"<i>Your old bookmarks file will be renamed with \".uc\" extension</i>.\n"
+"<b>Do you want to save</b>?"
+msgstr ""
+"As alterações aos favoritos serão gravadas.\n"
+"<i>O seu ficheiro antigo de favoritos irá ser renomeado com a extensão \".uc"
+"\"</i>.\n"
+"<b>Deseja gravar</b>?"
+
+#: ../src/bookmarks.c:379
+msgid ""
+"A error occured.\n"
+"<b>Nothing has been done</b>."
+msgstr ""
+"Ocorreu um erro.\n"
+"<b>Nada foi feito</b>."
+
+#: ../src/bookmarks.c:391
+msgid ""
+"Bookmarks changes will be applied.\n"
+"<i>We recommand you to manually backup your Firefox database before applying "
+"changes!</i>\n"
+"<b>Do you want to apply</b>?"
+msgstr ""
+"As alterações aos favoritos irão ser aplicadas.\n"
+"<i>Recomendamos que faça um backup manual da base de dados do seu Firefox "
+"antes de aplicar as alterações!</i>\n"
+"<b>Deseja aplicar</b>?"
+
+#: ../src/bookmarks.c:1058
+msgid ""
+"Either the given XML file is not well formed or its encoding can not be "
+"found...\n"
+"<i>If you are checking a remote bookmarks file, try to pump up the timeout "
+"delay</i>.\n"
+"<b>Check has been aborted</b>."
+msgstr ""
+"O ficheiro XML fornecido não está bem formado ou a sua codificação não pode "
+"ser encontrada...\n"
+"<i>Se você está a verificar um ficheiro de favoritos remoto, tente aumentar "
+"o atraso de tempo limite</i>.\n"
+"<b>A verificação foi abortada</b>."
+
+#: ../src/bookmarks.c:1073
+msgid "The given XML file is empty.\n"
+msgstr "O ficheiro XML fornecido está vazio.\n"
+
+#: ../src/main.c:126
+msgid "Wrote by Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>."
+msgstr ""
+"Escrito por Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>."
+
+#: ../src/main.c:127
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO "
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr ""
+"Isto é software livre; veja a fonte para condições de cópia NÃO há nenhuma "
+"garantia; nem mesmo para COMERCIALIZAÇÃO ou APTIDÃO PARA OBJECTIVO "
+"PARTICULAR."
+
+#: ../src/main.c:136
+#, c-format
+msgid ""
+"Usage: %s [OPTION] [URL]\n"
+"A graphic web link checker.\n"
+"\n"
+"  -h, --help          display this help\n"
+"  -V, --version       display %s version\n"
+"  -u, --http-user     user for basic authentication\n"
+"  -p, --http-passwd   password for basic authentication\n"
+"  -A, --no-urls-args   ignore URLs arguments\n"
+"\n"
+"Report bugs to <esaracco@users.labs.libre-entreprise.org>\n"
+msgstr ""
+"Utilização: %s [OPÇÃO] [URL]\n"
+"Um verificador gráfico de links web.\n"
+"\n"
+"  -h, --help          mostra esta ajuda\n"
+"  -V, --version       mostra a versão %s\n"
+"  -u, --http-user     utilizador para autenticação básica\n"
+"  -p, --http-passwd   palavra-passe para autenticação básica\n"
+"  -A, --no-urls-args   ignora argumentos do URL\n"
+"\n"
+"Reporte bugs para <esaracco@users.labs.libre-entreprise.org>\n"
+
+#: ../src/report.c:244
+msgid "Cannot execute xsltproc; the following error occured:"
+msgstr "Incapaz de executar o xsltproc; ocorreu o seguinte erro:"
+
+#: ../src/report.c:472
+#, c-format
+msgid "<i><b>Checked links</b></i>: %d"
+msgstr "<i><b>Links verificados</b></i>: %d"
+
+#: ../src/report.c:475
+#, c-format
+msgid "<i><b>Checked links</b></i>: %d / %d"
+msgstr "<i><b>Links verificados</b></i>: %d / %d"
+
+#: ../src/report.c:484 ../ui/gurlchecker.glade.h:124
+msgid "Good links"
+msgstr "Links bons"
+
+#: ../src/report.c:488 ../ui/gurlchecker.glade.h:44
+msgid "Bad links"
+msgstr "Links maus"
+
+#: ../src/report.c:493 ../ui/gurlchecker.glade.h:144
+msgid "Malformed links"
+msgstr "Links mal formados"
+
+#: ../src/report.c:499
+msgid "Ignored links"
+msgstr "Links ignorados"
+
+#: ../src/report.c:504 ../ui/gurlchecker.glade.h:191
+msgid "Timeouts"
+msgstr "Tempos limites"
+
+#: ../src/report.c:562
+#, c-format
+msgid "<i><b>Elapsed time</b></i>: %02d:%02d:%02d"
+msgstr "<i><b>Tempo decorrido</b></i>: %02d:%02d:%02d"
+
+#: ../src/utils.c:1671
+#, c-format
+msgid "%lu bytes"
+msgstr "%lu bytes"
+
+#: ../src/utils.c:1673
+#, c-format
+msgid "%.2f KB (%lu bytes)"
+msgstr "%.2f KB (%lu bytes)"
+
+#: ../src/utils.c:1676
+#, c-format
+msgid "%.2f MB (%lu bytes)"
+msgstr "%.2f MB (%lu bytes)"
+
+#: ../src/html_parser.c:84
+msgid "Parsing HTML code..."
+msgstr "A analisar código HTML..."
+
+#: ../src/html_parser.c:129
+msgid "Parsing CSS code..."
+msgstr "A analisar código CSS..."
+
+#: ../src/search.c:522
+#, c-format
+msgid "<b>%u</b> item(s) found"
+msgstr "<b>%u</b> item(s) encontrados"
+
+#: ../src/search.c:528
+msgid "Search ended"
+msgstr "Procura finalizada"
+
+#. status bar message
+#: ../src/project.c:361
+#, c-format
+msgid "Loading [%s] project..."
+msgstr "A carregar projecto [%s]..."
+
+#: ../src/project.c:562
+#, c-format
+msgid ""
+"<i>Created on</i> %s\n"
+"<i>Updated on</i> %s"
+msgstr ""
+"<i>Criado em</i> %s\n"
+"<i>Actualizado em</i> %s"
+
+#: ../src/project.c:609
+msgid "Please, enter a title for the current project."
+msgstr "Por favor, insira um título para o projecto actual."
+
+#: ../src/project.c:1391
+msgid "Save the current project ?"
+msgstr "Guardar o projecto actual ?"
+
+#: ../src/project.c:1400
+msgid "Saving project..."
+msgstr "A guardar o projecto..."
+
+#: ../src/tooltips.c:214
+#, c-format
+msgid ""
+"<b>Status</b>: %s\n"
+"<b>Location</b>: %s\n"
+"<b>Parent location</b>: %s\n"
+"<b>Last modified</b>: %s"
+msgstr ""
+"<b>Estado</b>: %s\n"
+"<b>Localização</b>: %s\n"
+"<b>Localização do pai</b>: %s\n"
+"<b>Última modificação</b>: %s"
+
+#: ../gurlchecker.desktop.in.h:1
+msgid "Graphical Web Links checker"
+msgstr "Verificador Gráfico de Links Web"
+
+#: ../gurlchecker.desktop.in.h:2
+msgid "gurlchecker"
+msgstr "gurlchecker"
+
+#: ../src/getopt.c:689
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: a opção `%s' é ambígua\n"
+
+#: ../src/getopt.c:715
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: a opção `--%s' não permite um argumento\n"
+
+#: ../src/getopt.c:721
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: a opção `%c%s' não permite um argumento\n"
+
+#: ../src/getopt.c:740 ../src/getopt.c:919
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: a opção `%s' requer um argumento\n"
+
+#: ../src/getopt.c:771
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: opção não reconhecida `--%s'\n"
+
+#: ../src/getopt.c:777
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: opção não reconhecida `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../src/getopt.c:803
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: opção ilegal -- %c\n"
+
+#: ../src/getopt.c:805
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: opção inválida -- %c\n"
+
+#: ../src/getopt.c:836 ../src/getopt.c:969
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: a opção requer um argumento -- %c\n"
+
+#: ../src/getopt.c:886
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: a opção `-W %s' é ambígua\n"
+
+#: ../src/getopt.c:904
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: a opção `-W %s' não permite um argumento\n"
+
+#: ../ui/gurlchecker.glade.h:1
+msgid "\n"
+msgstr "\n"
+
+#: ../ui/gurlchecker.glade.h:3
+msgid "    "
+msgstr "    "
+
+#: ../ui/gurlchecker.glade.h:4
+msgid "<b>CSS Extensions to check</b>"
+msgstr "<b>Extensões CSS para verificar</b>"
+
+#: ../ui/gurlchecker.glade.h:5
+msgid "<b>Content management</b>"
+msgstr "<b>Gestão de conteúdo</b>"
+
+#: ../ui/gurlchecker.glade.h:6
+msgid "<b>Documents to ignore</b>"
+msgstr "<b>Documentos para ignorar</b>"
+
+#: ../ui/gurlchecker.glade.h:7
+msgid "<b>Expires :</b>"
+msgstr "<b>Expira :</b>"
+
+#: ../ui/gurlchecker.glade.h:8
+msgid "<b>Extensions to search for</b>"
+msgstr "<b>Extensões para procurar por</b>"
+
+#: ../ui/gurlchecker.glade.h:9
+msgid "<b>Files to check</b>"
+msgstr "<b>Ficheiros para verificar</b>"
+
+#: ../ui/gurlchecker.glade.h:10
+msgid "<b>HTML extensions to check</b>"
+msgstr "<b>Extensões HTML para verificar</b>"
+
+#: ../ui/gurlchecker.glade.h:11
+msgid "<b>Images to ignore</b>"
+msgstr "<b>Imagens para ignorar</b>"
+
+#: ../ui/gurlchecker.glade.h:12
+msgid "<b>Location :</b>"
+msgstr "<b>Localização :</b>"
+
+#: ../ui/gurlchecker.glade.h:13
+msgid "<b>Location:</b>"
+msgstr "<b>Localização:</b>"
+
+#: ../ui/gurlchecker.glade.h:14
+msgid "<b>Meta Tags</b>"
+msgstr "<b>Meta Etiquetas</b>"
+
+#: ../ui/gurlchecker.glade.h:15
+msgid "<b>Modified :</b>"
+msgstr "<b>Modificado :</b>"
+
+#: ../ui/gurlchecker.glade.h:16
+msgid "<b>Name :</b>"
+msgstr "<b>Nome :</b>"
+
+#: ../ui/gurlchecker.glade.h:17
+msgid "<b>Options</b>"
+msgstr "<b>Opções</b>"
+
+#: ../ui/gurlchecker.glade.h:18
+msgid "<b>Page:</b>"
+msgstr "<b>Página:</b>"
+
+#: ../ui/gurlchecker.glade.h:19
+msgid "<b>Path :</b>"
+msgstr "<b>Caminho :</b>"
+
+#: ../ui/gurlchecker.glade.h:20
+msgid "<b>Properties</b>"
+msgstr "<b>Propriedades</b>"
+
+#: ../ui/gurlchecker.glade.h:21
+msgid "<b>Referrer :</b>"
+msgstr "<b>Referrer :</b>"
+
+#: ../ui/gurlchecker.glade.h:22
+msgid "<b>Security:</b>"
+msgstr "<b>Segurança:</b>"
+
+#: ../ui/gurlchecker.glade.h:23
+msgid "<b>Server type :</b>"
+msgstr "<b>Tipo de servidor :</b>"
+
+#: ../ui/gurlchecker.glade.h:24
+msgid "<b>Server:</b>"
+msgstr "<b>Servidor:</b>"
+
+#: ../ui/gurlchecker.glade.h:25
+msgid "<b>Size :</b>"
+msgstr "<b>Tamanho :</b>"
+
+#: ../ui/gurlchecker.glade.h:26
+msgid "<b>Source :</b>"
+msgstr "<b>Fonte :</b>"
+
+#: ../ui/gurlchecker.glade.h:27
+msgid "<b>Status :</b>"
+msgstr "<b>Estado :</b>"
+
+#: ../ui/gurlchecker.glade.h:28
+msgid "<b>Type :</b>"
+msgstr "<b>Tipo :</b>"
+
+#: ../ui/gurlchecker.glade.h:29
+msgid "<b>Value :</b>"
+msgstr "<b>Valor :</b>"
+
+#: ../ui/gurlchecker.glade.h:30
+msgid "<b>Warnings</b>"
+msgstr "<b>Avisos</b>"
+
+#: ../ui/gurlchecker.glade.h:31
+msgid "<i>You can edit cookie's properties before accepting it:</i>"
+msgstr "<i>Você pode editar as propriedades do cookie antes de o aceitar:</i>"
+
+#: ../ui/gurlchecker.glade.h:32
+msgid "Accept"
+msgstr "Aceitar"
+
+#: ../ui/gurlchecker.glade.h:33
+msgid "Accept all cookies"
+msgstr "Aceitar todos os cookies"
+
+#: ../ui/gurlchecker.glade.h:34
+msgid "Activate"
+msgstr "Activar"
+
+#: ../ui/gurlchecker.glade.h:35
+msgid "Activate W3C validation"
+msgstr "Activar validação W3C"
+
+#: ../ui/gurlchecker.glade.h:36
+msgid "Activate security checks"
+msgstr "Activar verificações de segurança"
+
+#: ../ui/gurlchecker.glade.h:37
+msgid "Advanced options"
+msgstr "Opções avançadas"
+
+#: ../ui/gurlchecker.glade.h:38
+msgid "After that time, unsuccessful connection intent will be aborted"
+msgstr "Após esse tempo, as tentativas de ligação sem sucesso serão abortadas"
+
+#: ../ui/gurlchecker.glade.h:39
+msgid "All the links"
+msgstr "Todos os links"
+
+#: ../ui/gurlchecker.glade.h:40
+msgid "Authentication"
+msgstr "Autenticação"
+
+#: ../ui/gurlchecker.glade.h:41
+msgid ""
+"Bad extensions to search for, separated by comma.\n"
+"Ex.: bak,bad,sav,~,ok,-,old,orig,false,::$data"
+msgstr ""
+"Extensões más para procurar, separadas por vírgulas.\n"
+"Ex.: bak,bad,sav,~,ok,-,old,orig,false,::$data"
+
+#: ../ui/gurlchecker.glade.h:43
+msgid "Bad extentions on server"
+msgstr "Más extensões no servidor"
+
+#: ../ui/gurlchecker.glade.h:45
+msgid "Block a host in timeout after"
+msgstr "Bloquear uma máquina após o tempo limite"
+
+#: ../ui/gurlchecker.glade.h:46
+msgid "Bookmarks file"
+msgstr "Ficheiro de favoritos"
+
+#: ../ui/gurlchecker.glade.h:47
+msgid "Branch update"
+msgstr "Actualização do branch"
+
+#: ../ui/gurlchecker.glade.h:48
+msgid "By protocol"
+msgstr "Pelo protocolo"
+
+#: ../ui/gurlchecker.glade.h:49
+msgid "By status"
+msgstr "Pelo estado"
+
+#: ../ui/gurlchecker.glade.h:50
+msgid "By type"
+msgstr "Pelo tipo"
+
+#: ../ui/gurlchecker.glade.h:51
+msgid ""
+"CSS extensions to check, separated by comma.\n"
+"Ex.: css"
+msgstr ""
+"Extensões CSS para verificar, separadas por vírgulas.\n"
+"Ex.: css"
+
+#: ../ui/gurlchecker.glade.h:53
+msgid "CSV export"
+msgstr "exportação CSV"
+
+#: ../ui/gurlchecker.glade.h:54
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../ui/gurlchecker.glade.h:55
+msgid "Cancel check"
+msgstr "Cancelar verificação"
+
+#: ../ui/gurlchecker.glade.h:56
+msgid "Case sensitive"
+msgstr "Sensível a maiúsculas/minúsculas"
+
+#: ../ui/gurlchecker.glade.h:57
+msgid "Check"
+msgstr "Verificar"
+
+#: ../ui/gurlchecker.glade.h:58
+msgid "Check MX"
+msgstr "Verificar MX"
+
+#: ../ui/gurlchecker.glade.h:60
+msgid "Check report"
+msgstr "Verificar relatório"
+
+#: ../ui/gurlchecker.glade.h:61
+msgid "Check this option for links numbering"
+msgstr "Ligue esta opção para numeração dos links"
+
+#: ../ui/gurlchecker.glade.h:62
+msgid "Check this option if you are not interested in bookmarks pages content"
+msgstr ""
+"Ligue esta opção se não está interessado no conteúdo das páginas de favoritos"
+
+#: ../ui/gurlchecker.glade.h:63
+msgid ""
+"Check this option if you want to limit check to the given directory and its "
+"subdirectories on the given Web site"
+msgstr ""
+"Ligue esta opção se deseja limitar a verificação ao directório fornecido e "
+"aos seus sub-directórios no sítio web fornecido"
+
+#: ../ui/gurlchecker.glade.h:64
+msgid ""
+"Check this option to avoid possible infinite scan (when some arguments are "
+"randomly generated, for example)"
+msgstr ""
+"Ligue esta opção para evitar uma possível sondagem infinita (por exemplo, "
+"quando alguns argumentos são gerados aleatoriamente)"
+
+#: ../ui/gurlchecker.glade.h:65
+msgid ""
+"Check this option to avoid some nasty infinite loops (when some arguments "
+"are randomly generated, for example)"
+msgstr ""
+"Ligue esta opção para evitar alguns ciclos infinitos desagradáveis (por "
+"exemplo, quando alguns argumentos são gerados aleatoriamente)"
+
+#: ../ui/gurlchecker.glade.h:66
+msgid ""
+"Check this option to be prompted for Basic Authentication when a page "
+"request it"
+msgstr ""
+"Ligue esta opção para que lhe seja pedida Autenticação Básica quando uma "
+"página o pede"
+
+#: ../ui/gurlchecker.glade.h:67
+msgid "Check this option to check FTP links"
+msgstr "Ligue esta opção para verificar links de FTP"
+
+#: ../ui/gurlchecker.glade.h:68
+msgid "Check this option to check MX of e-mails domains"
+msgstr "Ligue esta opção para verificar o MX de domínios de e-mails"
+
+#: ../ui/gurlchecker.glade.h:69
+msgid "Check this option to check for e-mails syntax"
+msgstr "Ligue esta opção para verificar a sintaxe de e-mails"
+
+#: ../ui/gurlchecker.glade.h:70
+msgid "Check this option to check secure URLs too"
+msgstr "Ligue esta opção para verificar também os URLs seguros"
+
+#: ../ui/gurlchecker.glade.h:71
+msgid "Check this option to enable CSS validation"
+msgstr "Ligue esta opção para activar a validação CSS"
+
+#: ../ui/gurlchecker.glade.h:72
+msgid "Check this option to enable HTML validation"
+msgstr "Ligue esta opção para activar a validação HTML"
+
+#: ../ui/gurlchecker.glade.h:73
+msgid "Check this option to enable W3C validation"
+msgstr "Ligue esta opção para activar a validação W3C"
+
+#: ../ui/gurlchecker.glade.h:74
+msgid "Check this option to enable detection of uncommon files extensions"
+msgstr ""
+"Ligue esta opção para activar a detecção de extensões de ficheiros não comuns"
+
+#: ../ui/gurlchecker.glade.h:75
+msgid "Check this option to enable security checks"
+msgstr "Ligue esta opção para activar verificações de segurança"
+
+#: ../ui/gurlchecker.glade.h:76
+msgid "Check this option to enable virus scan of pages content"
+msgstr ""
+"Ligue esta opção para activar a sondagem de vírus no conteúdo das páginas"
+
+#: ../ui/gurlchecker.glade.h:77
+msgid "Check this option to export links label"
+msgstr "Ligue esta opção para exportar a etiqueta dos links"
+
+#: ../ui/gurlchecker.glade.h:78
+msgid "Check this option to export links labels"
+msgstr "Ligue esta opção para exportar as etiquetas dos links"
+
+#: ../ui/gurlchecker.glade.h:79
+msgid "Check this option to export only external links"
+msgstr "Ligue esta opção para exportar apenas os links externos"
+
+#: ../ui/gurlchecker.glade.h:80
+msgid ""
+"Check this option to ignore servers that do not respond after more than n "
+"tries"
+msgstr ""
+"Ligue esta opção para ignorar os servidores que não respondem após mais de n "
+"tentativas"
+
+#: ../ui/gurlchecker.glade.h:81
+msgid ""
+"Check this option to retreive content of documents other than HTML pages and "
+"images: PDF, tarballs..."
+msgstr ""
+"Ligue esta opção para obter o conteúdo de documentos que não sejam páginas "
+"HTML e imagens: PDF, tarballs..."
+
+#: ../ui/gurlchecker.glade.h:82
+msgid "Check this option to retreive images content for local preview"
+msgstr "Ligue esta opção para obter o conteúdo de imagens para antevisão local"
+
+#: ../ui/gurlchecker.glade.h:83
+msgid "Check this option to scan only one page"
+msgstr "Ligue esta opção para sondar apenas uma página"
+
+#: ../ui/gurlchecker.glade.h:84
+msgid "Choose a location"
+msgstr "Escolher uma localização"
+
+#: ../ui/gurlchecker.glade.h:85
+msgid "Clear export history"
+msgstr "Limpar histórico de exportações"
+
+#: ../ui/gurlchecker.glade.h:86
+msgid "Clear project history"
+msgstr "Limpar histórico do projecto"
+
+#: ../ui/gurlchecker.glade.h:87
+msgid "Clear search history"
+msgstr "Limpar histórico de buscas"
+
+#: ../ui/gurlchecker.glade.h:88
+msgid "Collapse all the list"
+msgstr "Recolher a lista toda"
+
+#: ../ui/gurlchecker.glade.h:89
+msgid "Consider as error"
+msgstr "Considerar como erro"
+
+#: ../ui/gurlchecker.glade.h:90
+msgid "Consider that the code is not W3C compliant if it contains:"
+msgstr "Considerar que o código não é compatível com W3C se conter:"
+
+#: ../ui/gurlchecker.glade.h:91
+msgid "Cookie"
+msgstr "Cookie"
+
+#: ../ui/gurlchecker.glade.h:92
+msgid "Cookies"
+msgstr "Cookies"
+
+#: ../ui/gurlchecker.glade.h:93
+msgid "DEBUG mode"
+msgstr "Modo de DEPURAÇÃO"
+
+#: ../ui/gurlchecker.glade.h:94
+msgid "Debug"
+msgstr "Depuração"
+
+#: ../ui/gurlchecker.glade.h:95
+msgid "Delete project"
+msgstr "Apagar projecto"
+
+#: ../ui/gurlchecker.glade.h:96
+msgid "Description:"
+msgstr "Descrição:"
+
+#: ../ui/gurlchecker.glade.h:97
+msgid "Directories"
+msgstr "Directórios"
+
+#: ../ui/gurlchecker.glade.h:98
+msgid "Display tooltips"
+msgstr "Mostrar dicas"
+
+#: ../ui/gurlchecker.glade.h:99
+msgid "Do not accept any cookies"
+msgstr "Não aceitar nenhuns cookies"
+
+#: ../ui/gurlchecker.glade.h:100
+msgid "Do not display this dialog anymore"
+msgstr "Não mostrar mais este diálogo"
+
+#: ../ui/gurlchecker.glade.h:101
+msgid "Do not retrieve page content (speed up the check)"
+msgstr "Não obter o conteúdo da página (acelera a verificação)"
+
+#: ../ui/gurlchecker.glade.h:102
+msgid "Document"
+msgstr "Documento"
+
+#: ../ui/gurlchecker.glade.h:103
+msgid ""
+"Document extensions to ignore, separated by comma.\n"
+"Ex.: asp,aspx,exe,pif"
+msgstr ""
+"Extensões de documentos a ignorar, separadas por vírgulas.\n"
+"Ex.: asp,aspx,exe,pif"
+
+#: ../ui/gurlchecker.glade.h:105
+msgid "Documents"
+msgstr "Documentos"
+
+#: ../ui/gurlchecker.glade.h:106
+msgid "Domains"
+msgstr "Domínios"
+
+#: ../ui/gurlchecker.glade.h:107
+msgid "Dump link properties while checking"
+msgstr "Deitar fora as propriedades do link na verificação"
+
+#: ../ui/gurlchecker.glade.h:108
+msgid "Dynamic values"
+msgstr "Valores dinâmicos"
+
+#: ../ui/gurlchecker.glade.h:110
+msgid "E-Mails"
+msgstr "E-Mails"
+
+#: ../ui/gurlchecker.glade.h:111
+msgid "E-Mails syntax"
+msgstr "Sintaxe de E-Mails"
+
+#: ../ui/gurlchecker.glade.h:112
+msgid "Enter a URL to check"
+msgstr "Insira um URL para verificar"
+
+#: ../ui/gurlchecker.glade.h:113
+msgid "Enter a local file path or URL to check"
+msgstr "Insira um caminho de ficheiro local ou URL para verificar"
+
+#: ../ui/gurlchecker.glade.h:114
+msgid "Errors"
+msgstr "Erros"
+
+#: ../ui/gurlchecker.glade.h:115
+msgid "Exclude images"
+msgstr "Excluir imagens"
+
+#: ../ui/gurlchecker.glade.h:116
+msgid "Expand all the list"
+msgstr "Expandir a lista toda"
+
+#: ../ui/gurlchecker.glade.h:117
+msgid "Export"
+msgstr "Exportar"
+
+#: ../ui/gurlchecker.glade.h:118
+msgid "Files"
+msgstr "Ficheiros"
+
+#: ../ui/gurlchecker.glade.h:119
+msgid "Filters"
+msgstr "Filtros"
+
+#: ../ui/gurlchecker.glade.h:120
+msgid ""
+"First part of the mime-type of files to check for virus, separated by "
+"comma.\n"
+"Ex.: application,audio,image,text,video,x-world"
+msgstr ""
+"Primeira parte do tipo mime dos ficheiros para verificar por vírus, "
+"separados por vírgulas.\n"
+"Ex.: application,audio,image,text,video,x-world"
+
+#: ../ui/gurlchecker.glade.h:122
+msgid "Frame"
+msgstr "Moldura"
+
+#: ../ui/gurlchecker.glade.h:123
+msgid "General"
+msgstr "Geral"
+
+#: ../ui/gurlchecker.glade.h:125
+msgid ""
+"HTML extensions to check, separated by comma.\n"
+"Ex.: php,html,htm,pl"
+msgstr ""
+"Extensões HTML para verificar, separadas por vírgulas.\n"
+"Ex.: php,html,htm,pl"
+
+#: ../ui/gurlchecker.glade.h:127
+msgid "History"
+msgstr "Histórico"
+
+#: ../ui/gurlchecker.glade.h:128
+msgid "IP address"
+msgstr "Endereço IP"
+
+#: ../ui/gurlchecker.glade.h:129
+msgid "Ignore URLs arguments"
+msgstr "Ignorar argumentos do URL"
+
+#: ../ui/gurlchecker.glade.h:130
+msgid "Ignore this item"
+msgstr "Ignorar este item"
+
+#: ../ui/gurlchecker.glade.h:132
+msgid ""
+"Image extensions to ignore, separated by comma.\n"
+"Ex.: gif,png"
+msgstr ""
+"Extensões de imagens a ignorar, separadas por vírgulas.\n"
+"Ex.: gif,png"
+
+#: ../ui/gurlchecker.glade.h:134
+msgid "Image preview"
+msgstr "Antevisão da imagem"
+
+#: ../ui/gurlchecker.glade.h:135
+msgid "Images"
+msgstr "Imagens"
+
+#: ../ui/gurlchecker.glade.h:136
+msgid "Labels export"
+msgstr "Exportação de etiquetas"
+
+#: ../ui/gurlchecker.glade.h:137
+msgid "Link update"
+msgstr "Actualização do link"
+
+#: ../ui/gurlchecker.glade.h:138
+msgid "Links"
+msgstr "Links"
+
+#: ../ui/gurlchecker.glade.h:139
+msgid "Links name"
+msgstr "Nome dos links"
+
+#: ../ui/gurlchecker.glade.h:140
+msgid "Local file"
+msgstr "Ficheiro local"
+
+#: ../ui/gurlchecker.glade.h:141
+msgid "Location:"
+msgstr "Localização:"
+
+#: ../ui/gurlchecker.glade.h:142
+msgid "Login : "
+msgstr "Login : "
+
+#: ../ui/gurlchecker.glade.h:143
+msgid "META tags content"
+msgstr "Conteúdo de META etiquetas"
+
+#: ../ui/gurlchecker.glade.h:145
+msgid "Max depth of levels to check:"
+msgstr "Profundidade máxima de níveis a verificar:"
+
+#: ../ui/gurlchecker.glade.h:146
+msgid "Network"
+msgstr "Rede"
+
+#: ../ui/gurlchecker.glade.h:147
+msgid "New"
+msgstr "Novo"
+
+#: ../ui/gurlchecker.glade.h:148
+msgid "New bookmarks project"
+msgstr "Novo projecto de favoritos"
+
+#: ../ui/gurlchecker.glade.h:149
+msgid "New instance"
+msgstr "Nova instância"
+
+#: ../ui/gurlchecker.glade.h:150
+msgid "New local file project"
+msgstr "Novo projecto de ficheiro local"
+
+#: ../ui/gurlchecker.glade.h:151
+msgid "New project"
+msgstr "Novo projecto"
+
+#: ../ui/gurlchecker.glade.h:152
+msgid "New web project"
+msgstr "Novo projecto web"
+
+#: ../ui/gurlchecker.glade.h:153
+msgid "Numbering"
+msgstr "A numerar"
+
+#: ../ui/gurlchecker.glade.h:154
+msgid "Only check local links"
+msgstr "Verificar apenas os links locais"
+
+#: ../ui/gurlchecker.glade.h:155
+msgid "Only check this directory and its subdirectories"
+msgstr "Verificar apenas este directório e os seus sub-directórios"
+
+#: ../ui/gurlchecker.glade.h:156
+msgid "Only external links"
+msgstr "Apenas links externos"
+
+#: ../ui/gurlchecker.glade.h:157
+msgid "Open"
+msgstr "Abrir"
+
+#: ../ui/gurlchecker.glade.h:158
+msgid "Open a project"
+msgstr "Abrir um projecto"
+
+#: ../ui/gurlchecker.glade.h:159
+msgid "Open project"
+msgstr "Abrir projecto"
+
+#: ../ui/gurlchecker.glade.h:160
+msgid "Page content"
+msgstr "Conteúdo da página"
+
+#: ../ui/gurlchecker.glade.h:161
+msgid "Page information"
+msgstr "Informação da página"
+
+#: ../ui/gurlchecker.glade.h:162
+msgid "Page properties"
+msgstr "Propriedades da página"
+
+#: ../ui/gurlchecker.glade.h:163
+msgid "Parent update"
+msgstr "Actualização do pai"
+
+#: ../ui/gurlchecker.glade.h:164
+msgid "Password : "
+msgstr "Palavra-passe : "
+
+#: ../ui/gurlchecker.glade.h:165
+msgid "Personal data"
+msgstr "Dados pessoais"
+
+#: ../ui/gurlchecker.glade.h:166
+msgid "Project properties"
+msgstr "Propriedades do projecto"
+
+#: ../ui/gurlchecker.glade.h:167
+msgid "Prompt for authentication"
+msgstr "Pedir autenticação"
+
+#: ../ui/gurlchecker.glade.h:168
+msgid "Protocols"
+msgstr "Protocolos"
+
+#: ../ui/gurlchecker.glade.h:169
+msgid "Refuse"
+msgstr "Recusar"
+
+#: ../ui/gurlchecker.glade.h:170
+msgid "Remove all 404 links"
+msgstr "Remover todos os links 404"
+
+#: ../ui/gurlchecker.glade.h:171
+msgid "Report export"
+msgstr "Exportação do relatório"
+
+#: ../ui/gurlchecker.glade.h:172
+msgid "Retrieve content of non HTML files"
+msgstr "Obter conteúdo de ficheiros não HTML"
+
+#: ../ui/gurlchecker.glade.h:173
+msgid "Retrieve images content"
+msgstr "Obter conteúdo de imagens"
+
+#: ../ui/gurlchecker.glade.h:174
+msgid "Save"
+msgstr "Gravar"
+
+#: ../ui/gurlchecker.glade.h:175
+msgid "Save bookmarks"
+msgstr "Gravar favoritos"
+
+#: ../ui/gurlchecker.glade.h:176
+msgid "Save report in..."
+msgstr "Gravar relatório em..."
+
+#: ../ui/gurlchecker.glade.h:177
+msgid "Search in progress..."
+msgstr "Procura em progresso..."
+
+#: ../ui/gurlchecker.glade.h:178
+msgid "Search..."
+msgstr "Procura..."
+
+#: ../ui/gurlchecker.glade.h:179
+msgid "Security"
+msgstr "Segurança"
+
+#: ../ui/gurlchecker.glade.h:180
+msgid "Security alerts"
+msgstr "Alertas de segurança"
+
+#: ../ui/gurlchecker.glade.h:181
+msgid "Similar link locations"
+msgstr "Localizações de links semelhantes"
+
+#: ../ui/gurlchecker.glade.h:182
+msgid "Status code"
+msgstr "Código do estado"
+
+#: ../ui/gurlchecker.glade.h:183
+msgid "Stylesheet"
+msgstr "Folha de estilo"
+
+#: ../ui/gurlchecker.glade.h:185
+msgid "This option will only be active for <i>Web site</i> projects."
+msgstr "Esta opção apenas irá estar activa para projectos de <i>sítio Web</i>."
+
+#: ../ui/gurlchecker.glade.h:186
+msgid "Those choices will override [Filters/Documents]."
+msgstr "Essas escolhas irão sobrepor-se a [Filtros/Documentos]."
+
+#: ../ui/gurlchecker.glade.h:187
+msgid ""
+"Time to wait between two checks, \n"
+"in second:"
+msgstr ""
+"Tempo a esperar entre duas verificações, \n"
+"em segundos:"
+
+#: ../ui/gurlchecker.glade.h:189
+msgid "Timeout in seconds:"
+msgstr "Tempo limite em segundos:"
+
+#: ../ui/gurlchecker.glade.h:190
+msgid "Timeout:"
+msgstr "Tempo limite:"
+
+#: ../ui/gurlchecker.glade.h:192
+msgid "Title:"
+msgstr "Título:"
+
+#: ../ui/gurlchecker.glade.h:193
+msgid "Uncheck this option to check external links too"
+msgstr "Desligue esta opção para também verificar links externos"
+
+#: ../ui/gurlchecker.glade.h:194
+msgid "Uncheck this option to check external pages too"
+msgstr "Desligue esta opção para também verificar páginas externas"
+
+#: ../ui/gurlchecker.glade.h:195
+msgid "Update all children for this link"
+msgstr "Actualizar todos os filhos para este link"
+
+#: ../ui/gurlchecker.glade.h:196
+msgid "Update all links..."
+msgstr "Actualizar todos os links..."
+
+#: ../ui/gurlchecker.glade.h:197
+msgid "Update main page..."
+msgstr "Actualizar página principal..."
+
+#: ../ui/gurlchecker.glade.h:198
+msgid "Update page containing this link"
+msgstr "Actualizar página que contém este link"
+
+#: ../ui/gurlchecker.glade.h:199
+msgid "Update this link"
+msgstr "Actualizar este link"
+
+#: ../ui/gurlchecker.glade.h:200
+msgid ""
+"Updating report's counters\n"
+"\n"
+"<b>Please wait...</b>"
+msgstr ""
+"A actualizar contadores do relatório\n"
+"\n"
+"<b>Espere por favor...</b>"
+
+#: ../ui/gurlchecker.glade.h:204
+msgid "Use passive mode"
+msgstr "Usar modo passivo"
+
+#: ../ui/gurlchecker.glade.h:205
+msgid "View all link locations"
+msgstr "Ver todas as localizações de links"
+
+#: ../ui/gurlchecker.glade.h:206
+msgid "View bad extensions"
+msgstr "Ver extensões más"
+
+#: ../ui/gurlchecker.glade.h:207
+msgid "View online"
+msgstr "Ver online"
+
+#: ../ui/gurlchecker.glade.h:208
+msgid "View parent page online"
+msgstr "Ver página pai online"
+
+#: ../ui/gurlchecker.glade.h:210
+msgid "Viruses"
+msgstr "Vírus"
+
+#: ../ui/gurlchecker.glade.h:211
+msgid "W3C alerts"
+msgstr "Alertas do W3C"
+
+#: ../ui/gurlchecker.glade.h:212
+msgid "W3C validation"
+msgstr "Validação do W3C"
+
+#: ../ui/gurlchecker.glade.h:213
+msgid "Wait"
+msgstr "Espere"
+
+#: ../ui/gurlchecker.glade.h:214
+msgid "Warnings"
+msgstr "Avisos"
+
+#: ../ui/gurlchecker.glade.h:215
+msgid "Web site"
+msgstr "Sítio Web"
+
+#: ../ui/gurlchecker.glade.h:216
+msgid "When a cookie is added"
+msgstr "Quando um cookie é adicionado"
+
+#: ../ui/gurlchecker.glade.h:217
+msgid "When a cookie is deleted"
+msgstr "Quando um cookie é apagado"
+
+#: ../ui/gurlchecker.glade.h:218
+msgid "When a cookie is updated"
+msgstr "Quando um cookie é actualizado"
+
+#: ../ui/gurlchecker.glade.h:219
+msgid "Will remove any bookmark pointing to non existent page"
+msgstr "Irá remover qualquer favorito que aponte para uma página não existente"
+
+#: ../ui/gurlchecker.glade.h:220
+msgid "With SSL (HTTPS)"
+msgstr "Com SSL (HTTPS)"
+
+#: ../ui/gurlchecker.glade.h:221
+msgid "_Display"
+msgstr "_Mostrar"
+
+#: ../ui/gurlchecker.glade.h:222
+msgid "_Edit"
+msgstr "_Editar"
+
+#: ../ui/gurlchecker.glade.h:223
+msgid "_File"
+msgstr "_Ficheiro"
+
+#: ../ui/gurlchecker.glade.h:224
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: ../ui/gurlchecker.glade.h:225
+msgid "_Project"
+msgstr "_Projecto"
+
+#: ../ui/gurlchecker.glade.h:226
+msgid "attemps"
+msgstr "tentativas"
+
+#: ../ui/gurlchecker.glade.h:227
+msgid "gURLChecker Preferences"
+msgstr "Preferências do gURLChecker"
+
+#: ../ui/gurlchecker.glade.h:228
+msgid "gURLChecker use the libclamav library to scan files for viruses"
+msgstr ""
+"O gURLChecker usa a biblioteca libclamav para sondar ficheiros por vírus"
+
+#: ../ui/gurlchecker.glade.h:229
+msgid "gURLChecker use the libcroco library to validate CSS2 stylesheets"
+msgstr ""
+"O gURLChecker usa a biblioteca libcroco para validar as folhas de estilo CSS2"
+
+#: ../ui/gurlchecker.glade.h:230
+msgid "gURLChecker use the libtidy library to validate HTML pages"
+msgstr "O gURLChecker usa a biblioteca libtidy para validar páginas HTML"
+
+#: ../ui/gurlchecker.glade.h:231
+msgid "second(s), between  checks."
+msgstr "segundo(s), entre verificações."
+
+#: ../ui/gurlchecker.glade.h:232
+msgid "second(s)."
+msgstr "segundo(s)."

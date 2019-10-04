@@ -1,0 +1,2379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.8.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 08:53+0100\n"
+"PO-Revision-Date: 2005-05-19 20:09+0100\n"
+"Last-Translator: Stanislav Valášek <valasek@fastmail.fm>\n"
+"Language-Team: Slovak <sk-i18n@linux.sk>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Slovak\n"
+"X-Poedit-Country: SLOVAKIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/cookies.c:239
+msgid "The following cookie will be <b>deleted</b>"
+msgstr "Nasledujúci koláčik bude <b>vymazaný</b>"
+
+#: ../src/cookies.c:259
+msgid "The following cookie will be <b>updated</b>"
+msgstr "Nasledujúci koláčik bude <b>aktualizovaný</b>"
+
+#: ../src/cookies.c:290
+msgid "The following cookie will be <b>added</b>"
+msgstr "Nasledujúci koláčik bude <b>pridaný</b>"
+
+#: ../src/uccroco.c:49
+#, c-format
+msgid "%u - Error after: %s\n"
+msgstr ""
+
+#: ../src/uccroco.c:52
+#, c-format
+msgid "%u - Unknown error...\n"
+msgstr ""
+
+#: ../src/application.c:112 ../src/search.c:133
+msgid "Id"
+msgstr "Id"
+
+#: ../src/application.c:118
+msgid "Type"
+msgstr "Typ"
+
+#: ../src/application.c:123 ../src/application.c:309 ../src/application.c:1737
+#: ../src/application.c:1804 ../src/application.c:1867 ../src/search.c:141
+msgid "URL"
+msgstr "URL"
+
+#: ../src/application.c:288
+#, fuzzy
+msgid "Custom action"
+msgstr "Vyber súbor so záložkami"
+
+#: ../src/application.c:300 ../src/application.c:1667
+#: ../src/application.c:1743
+msgid "Label"
+msgstr "Označenie"
+
+#: ../src/application.c:318
+msgid "Date"
+msgstr "Dátum"
+
+#: ../src/application.c:523 ../src/application.c:1507
+msgid "Name"
+msgstr "Názov"
+
+#: ../src/application.c:529
+msgid "Content"
+msgstr "Obsah"
+
+#: ../src/application.c:805 ../src/application.c:869
+msgid "At the end of this session"
+msgstr "Na konci tohto sedenia"
+
+#: ../src/application.c:906
+#, c-format
+msgid "Enter login and password for %s at %s"
+msgstr "Zadajte login a heslo pre %s na %s"
+
+#: ../src/application.c:1020 ../src/application.c:1024
+msgid "W3C CSS validation result (libcroco)"
+msgstr ""
+
+#: ../src/application.c:1025
+msgid "This is a valid stylesheet."
+msgstr ""
+
+#: ../src/application.c:1029
+msgid ""
+"A problem occured while using Croco library.\n"
+"<i>Please check your configuration or your libcroco version</i>.\n"
+"\n"
+msgstr ""
+
+#: ../src/application.c:1048
+msgid "W3C HTML validation result (libtidy)"
+msgstr ""
+
+#: ../src/application.c:1052
+msgid ""
+"A problem occured while using Tidy library.\n"
+"<i>Please check your configuration or your libtidy version</i>.\n"
+"\n"
+msgstr ""
+
+#: ../src/application.c:1289
+msgid "Found Bad extensions.\n"
+msgstr ""
+
+#: ../src/application.c:1291
+msgid "Found Virus: "
+msgstr ""
+
+#: ../src/application.c:1302 ../src/application.c:1557
+#: ../src/application.c:1559
+msgid "No referrer"
+msgstr "Žiadny odkaz (referrer)"
+
+#: ../src/application.c:1536
+msgid "Missing URL"
+msgstr "Chýbajúce URL"
+
+#: ../src/application.c:1567 ../src/application.c:1599
+#: ../src/application.c:1609
+#, fuzzy
+msgid "Not specified"
+msgstr "Nešpecifikované"
+
+#: ../src/application.c:1577
+#, fuzzy
+msgid "Unknown"
+msgstr "Neznáme"
+
+#: ../src/application.c:1582
+msgid "(gURLChecker internals)"
+msgstr "(gURLChecker interne)"
+
+#: ../src/application.c:1592
+msgid "Disk Cache"
+msgstr "Disková vyrovnávacia pamäť"
+
+#: ../src/application.c:1592
+#, fuzzy
+msgid "Not cached"
+msgstr "Nie z vyrovnávacej pamäte"
+
+#: ../src/application.c:1661 ../src/check.c:406 ../ui/gurlchecker.glade.h:109
+#, fuzzy
+msgid "E-Mail"
+msgstr "Email"
+
+#: ../src/application.c:1776 ../src/application.c:1839
+#: ../src/application.c:1934 ../src/application.c:1978
+#: ../src/application.c:3428 ../src/application.c:3479 ../src/callbacks.c:554
+#: ../src/callbacks.c:568 ../src/callbacks.c:590 ../src/callbacks.c:818
+#: ../src/callbacks.c:864 ../src/callbacks.c:877 ../src/callbacks.c:1028
+#: ../src/check.c:1302 ../src/project.c:548
+#, fuzzy
+msgid "Please, select a item."
+msgstr "Prosím, najskôr vyberte položku"
+
+#: ../src/application.c:1906
+#, fuzzy
+msgid ""
+"Cannot start your web browser\n"
+"The following error occured:\n"
+msgstr "Nemôžem spustiť Váš webový prehliadač, nastala nasledujúca chyba:"
+
+#: ../src/application.c:1956 ../src/application.c:1988
+#, fuzzy
+msgid ""
+"Either the corresponding file is empty or does not exist in the cache "
+"directory!"
+msgstr ""
+"Zodpovedajúci súbor je prázdny alebo neexistuje vo vyrovnávacej pamäti "
+"adresára"
+
+#: ../src/application.c:1986 ../ui/gurlchecker.glade.h:209
+msgid "View source"
+msgstr "Zobraziť zdroj"
+
+#: ../src/application.c:2029
+msgid "Redirect"
+msgstr ""
+
+#: ../src/application.c:2030
+#, fuzzy
+msgid "Edit"
+msgstr "_Uprav"
+
+#: ../src/application.c:2031
+msgid "Create target"
+msgstr ""
+
+#: ../src/application.c:2096
+msgid "Host unreachable"
+msgstr "Hostiteľ nedosiahnuteľný"
+
+#: ../src/application.c:2097
+msgid ""
+"The remote host does not respond at all...\n"
+"Perhaps you would change the timeout in gURLChecker preferences, or perhaps "
+"it is really down.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Vzdialený hostiteľ vôbec neodpovedal...\n"
+"Môžete skúsiť zmeniť časový limit v gURLChecker nastaveniach, alebo je možno "
+"skutočne nedosiahnuteľný.\n"
+"\n"
+"Skúste ho skontrolovať neskôr."
+
+#: ../src/application.c:2106
+msgid "FILE:// protocol"
+msgstr "FILE:// protokol"
+
+#: ../src/application.c:2107
+msgid ""
+"File protocol detected.\n"
+"You have asked me to warn you when I find the \"FILE://\" protocol in a link."
+msgstr ""
+"Protokol súboru nájdený.\n"
+"Nastavili ste varovania, ak bude v odkaze nájdený  protokol \"FILE://\"."
+
+#: ../src/application.c:2115 ../src/application.c:2174
+msgid "Page available"
+msgstr "Stráka dostupná"
+
+#: ../src/application.c:2116 ../src/application.c:2175
+#: ../src/application.c:2192 ../src/application.c:2200
+msgid ""
+"No problem with this page.\n"
+"Server is up and document can be loaded without any problem."
+msgstr ""
+"S touto stránkou neboli žiadne problémy.\n"
+"Server beží a dokument môže byť nahraný bez problémov."
+
+#: ../src/application.c:2123 ../src/application.c:2240
+msgid "Page not found"
+msgstr "Stránka nebola nájdená"
+
+#: ../src/application.c:2123 ../src/application.c:2240
+#, fuzzy
+msgid "The page does not exist on the server."
+msgstr "Stránka už na serveri neexistuje"
+
+#: ../src/application.c:2129
+#, fuzzy
+msgid "Bad E-Mail link"
+msgstr "Nesprávny email odkaz"
+
+#: ../src/application.c:2130
+#, fuzzy
+msgid "The E-Mail specified in the link is not well formatted."
+msgstr "Emailová adresa uvedená v odkaze nie je správne formátovaná"
+
+#: ../src/application.c:2136
+msgid "Problem with MX"
+msgstr "Problém s MX"
+
+#: ../src/application.c:2137
+#, fuzzy
+msgid ""
+"The MX of the domain specified for this E-Mail is not valid or the domain "
+"itself is not valid."
+msgstr ""
+"MX domény pre túto email adresu nie je platná, alebo nie je platná samotná "
+"doména."
+
+#: ../src/application.c:2144
+#, fuzzy
+msgid "E-Mail link ok"
+msgstr "Email odkaz ok"
+
+#: ../src/application.c:2144
+#, fuzzy
+msgid "No problem with this E-Mail."
+msgstr "Žiadny problém s touto email adresou"
+
+#: ../src/application.c:2150
+msgid "Item ignored"
+msgstr "Položka ignorovaná"
+
+#: ../src/application.c:2151
+msgid "You chose to ignore this item while gURLChecker was checking it."
+msgstr "Vybrali ste ignorovanie tejto položky počas jej kontrolovania"
+
+#: ../src/application.c:2158
+msgid "Malformed link"
+msgstr "Zle poskladaný odkaz"
+
+#: ../src/application.c:2159
+msgid ""
+"The HTML link is malformed.\n"
+"Perhaps HREF value is missing?"
+msgstr ""
+"HTML odkaz je nesprávne poskladaný.\n"
+"Snáď chýba hodnota HREF?"
+
+#: ../src/application.c:2165
+msgid "No valid information"
+msgstr "Žiadne platné informácie"
+
+#: ../src/application.c:2166
+msgid ""
+"gURLChecker can't interpret the status code sent by the remote host.\n"
+"Please, report the value of the \"Status\" header field to the author of "
+"gURLChecker."
+msgstr ""
+"gURLChecker nedokáže interpretovať status kód vrátený vzdialeným "
+"hostiteľom.\n"
+"Prosím, oznámte hodnotu poľa \"Status\" autorovi gURLChecker."
+
+#: ../src/application.c:2182
+msgid "Page moved permanently"
+msgstr "Stránka je permanentne presunutá"
+
+#: ../src/application.c:2183
+msgid ""
+"No real problem with this page.\n"
+"The requested resource just has been assigned a new permanent URI."
+msgstr ""
+"S touto stránkou neboli žiadne problémy.\n"
+"Požadovaný zdroj bol priradený novému stálemu URI."
+
+#: ../src/application.c:2191
+msgid "Page moved Temporarily"
+msgstr "Stránka dočasne presunutá"
+
+#: ../src/application.c:2199
+msgid "The response to the request can be found under a different URI"
+msgstr ""
+
+#: ../src/application.c:2207
+msgid "Restricted access"
+msgstr "Obmedzený prístup"
+
+#: ../src/application.c:2208
+msgid "This page need authentication to be viewed."
+msgstr "Na zobrazenie tejto stránky sa potrebujete autorizovať"
+
+#: ../src/application.c:2214
+msgid "Access forbidden"
+msgstr "Prístup zakázaný"
+
+#: ../src/application.c:2215 ../src/application.c:2263
+msgid ""
+"The remote host has refused to serve us the page.\n"
+"Given the way gURLChecker process links, this error should not occured.\n"
+"\n"
+"Please report this bug to the gURLChecker Team."
+msgstr ""
+
+#: ../src/application.c:2224
+msgid "Page available, but with no content"
+msgstr "Stránka je dostupná, ale bez obsahu"
+
+#: ../src/application.c:2225
+#, fuzzy
+msgid ""
+"No problem with this page, but it has no content at all...\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"S touto stránkou neboli žiadne problémy, ale nemá žiadny obsah...\n"
+"\n"
+"Skúste ju skontrolovať neskôr."
+
+#: ../src/application.c:2232
+msgid "Malformed URL"
+msgstr "Nesprávny formát URL"
+
+#: ../src/application.c:2233
+msgid ""
+"The request could not be understood by the server due to malformed syntax."
+msgstr "Server nepochopil požiadavku z dôvodu nesprávnej syntaxe."
+
+#: ../src/application.c:2246
+msgid "Method not allowed"
+msgstr "Metóda nie je dovolená"
+
+#: ../src/application.c:2247
+msgid ""
+"The remote host has refused to serve us the page.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Vzdialený hostiteľ nám zamietol poskytnutie stránky.\n"
+"\n"
+"Skúste ju skontrolovať neskôr."
+
+#: ../src/application.c:2254
+msgid "Internal server error"
+msgstr "Interná chyba servera"
+
+#: ../src/application.c:2255
+msgid ""
+"The page contain bad code, or the server is misconfigured.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Stránka obsahuje nesprávny kód, alebo je rozkonfigurovaný server.\n"
+"\n"
+"Skúste ju skontrolovať neskôr."
+
+#: ../src/application.c:2262
+msgid "Method not supported"
+msgstr "Metóda nie je podporovaná"
+
+#: ../src/application.c:2272
+#, fuzzy
+msgid "Bad Gateway"
+msgstr "Nesprávna Brána (gateway)"
+
+#: ../src/application.c:2273
+msgid ""
+"The server, while acting as a gateway or proxy, received an invalid response "
+"from the upstream server it accessed in attempting to fulfill the request.\n"
+"\n"
+"Try to check this page later."
+msgstr ""
+"Server, chovajúci sa ako brána – gateway alebo proxy, obdržal neplatnú "
+"odpoveď od hlavného servera, ku ktorému pristupoval keď sa snažil splniť "
+"požiadavku.\n"
+"\n"
+"Skúste skontrolovať túto stránku neskôr."
+
+#: ../src/application.c:2282
+msgid "Service unavailable"
+msgstr "Služba nedostupná"
+
+#: ../src/application.c:2283
+msgid ""
+"The server is currently unable to handle the request due to a temporary "
+"overloading or maintenance of the server. It is also possible that you are "
+"using a proxy that can not join the given host.\n"
+"\n"
+"Try to check it later, or change your proxy settings."
+msgstr ""
+"Server aktuálne nie je schopný vybaviť požiadavku, z dôvodu dočasného "
+"preťaženia ale údržby na serveri. Je tiež možné, že používate proxy, ktorá "
+"sa nemôže pripojiť na daného hostiteľa.\n"
+"\n"
+"Skúste neskôr, alebo zmeňte nastavenia proxy."
+
+#: ../src/application.c:2293
+msgid "Request not completed"
+msgstr "Požiadavka nebola splnená"
+
+#: ../src/application.c:2294
+msgid ""
+"The server, while acting as a gateway or proxy, did not receive a timely "
+"response from the upstream server specified by the URI (e.g. HTTP, FTP, "
+"LDAP) or some other auxiliary server (e.g. DNS) it needed to access in "
+"attempting to complete the request."
+msgstr ""
+"Server, chovajúci sa ako brána – gateway alebo proxy, neobdržal  odpoveď od "
+"hlavného servera, špecifikovaného pomocou URI (napr.. HTTP, FTP, LDAP) alebo "
+"niektorého pomocného servera (napr.. DNS), ktorý potreboval na prístup pri "
+"plnení požiadavku."
+
+#: ../src/application.c:2304
+msgid "Access forbidden or too many connections"
+msgstr "Prístup zakázaný, alebo príliš veľa spojení"
+
+#: ../src/application.c:2306
+msgid ""
+"This server do not accept anonymous users, or the maximum number of allowed "
+"clients are already connected.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Tento server neakceptuje anonymných užívateľov, alebo už je pripojený "
+"maximálny počet povolených klientov.\n"
+"\n"
+"Skúste vykonať kontrolu neskôr."
+
+#: ../src/application.c:2314
+msgid "Receiving timout requesting the page"
+msgstr "Počas vyžiadania stránky vypršal časový limit"
+
+#: ../src/application.c:2315
+msgid ""
+"Perhaps you would change the timeout in gURLChecker preferences. Perhaps the "
+"remote host is too busy for the moment to responde to gURLChecker request, "
+"or perhaps the remote host does not exist at all.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Pravdepodobne by ste mali zmeniť časový limit v nastaveniach gURLChecker. "
+"Možno je vzdialený hostiteľ aktuálne príliš zaťažený aby odpovedal na "
+"požiadavku z gURLChecker, prípadne vzdialený hostiteľ vôbec neesistuje.\n"
+"\n"
+"Skúste vykonať kontrolu neskôr."
+
+#: ../src/application.c:2371
+msgid "Cannot start new instance of gURLChecker; the following error occured:"
+msgstr "Nemôžem spustiť novú inštanciu gURLChecker; nastala nasledujúca chyba:"
+
+#: ../src/application.c:2698
+#, c-format
+msgid ""
+"A problem occured while initializing Clamav library :\n"
+"<b><i>%s</i></b>\n"
+"<i>Please check your configuration or your libclamav version</i>.\n"
+"\n"
+"<b>Virii will not be detected</b>."
+msgstr ""
+
+#: ../src/application.c:2726
+msgid ""
+"A problem occured while initializing Croco library.\n"
+"<i>Please check your configuration or your libcroco version</i>.\n"
+"\n"
+"<b>CSS stylesheets will not be validated</b>."
+msgstr ""
+
+#: ../src/application.c:2743
+msgid ""
+"A problem occured while initializing Tidy library.\n"
+"<i>Please check your configuration or your libtidy version</i>.\n"
+"\n"
+"<b>HTML pages will not be validated</b>."
+msgstr ""
+
+#: ../src/application.c:3003 ../src/web_site.c:270 ../src/bookmarks.c:544
+#: ../ui/gurlchecker.glade.h:59
+msgid "Check in progress..."
+msgstr "Prebieha kontrola..."
+
+#: ../src/application.c:3067
+msgid ""
+"Emmanuel Saracco\n"
+"\n"
+"Contributors:\n"
+"Stephane Loeuillet"
+msgstr ""
+
+#: ../src/application.c:3074
+msgid "Manpage:"
+msgstr "Man stránka:"
+
+#: ../src/application.c:3078
+msgid "Code:"
+msgstr "Kód:"
+
+#: ../src/application.c:3083
+#, fuzzy
+msgid ""
+"Takeshi Aihana, Japanese\n"
+"Alexander Hunziker, German\n"
+"Florent Jugla, Esperanto\n"
+"Daniel Pecos, Spanish\n"
+"Gunner Poulsen, Danish\n"
+"Emmanuel Saracco, French\n"
+"Angelo Theodorou, Italian\n"
+msgstr ""
+"Takeshi Aihana <aihana@gnome.gr.jp>, Japončina\n"
+"Alexander Hunziker <alex.hunziker@rega-sense.ch>, Nemčina\n"
+"Florent Jugla <juglaf@wanadoo.fr>, Esperanto\n"
+"Daniel Pecos <dani@netpecos.org>, Španielčina\n"
+"Gunner Poulsen <gp@lyngbjerggaardskolen.dk>, Dánština\n"
+"Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>, Francúžtina\n"
+"Angelo Theodorou <angeloth@tin.it>, Taliančina\n"
+"Stanislav Valášek <valasek@fastmail.fm>, Slovenčina\n"
+
+#: ../src/application.c:3103
+msgid ""
+"gURLChecker is a graphical web links checker.\n"
+"It can work on a whole site, a single local page or a browser bookmarks file"
+msgstr ""
+"gURLChecker je grafický program na kontrolu web odkazov.\n"
+"Môže kontrolovať celú web stránku, samotnú lokálnu stránku alebo súbor so "
+"záložkami z webového prehliadača"
+
+#: ../src/application.c:3327
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, Google Chrome, or Firefox "
+"database file"
+msgstr "Vyberte súbor so záložkami na kontrolu"
+
+#: ../src/application.c:3332
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, or a Firefox database file"
+msgstr "Vyberte súbor so záložkami na kontrolu"
+
+#: ../src/application.c:3337
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, or a Google Chrome file"
+msgstr "Vyberte súbor so záložkami na kontrolu"
+
+#: ../src/application.c:3342
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be in XBEL or Opera format"
+msgstr "Vyberte súbor so záložkami na kontrolu"
+
+#: ../src/application.c:3359
+msgid "New domain to reject"
+msgstr "Nová doména na zamietnutie"
+
+#: ../src/application.c:3360
+msgid "Add a domain to reject"
+msgstr "Pridanie domény na zamietnutie"
+
+#: ../src/application.c:3372
+#, fuzzy
+msgid "This domain name is not valid."
+msgstr "Doména tohto emailu nie je platná."
+
+#: ../src/application.c:3441
+msgid "New directory to reject"
+msgstr "Nový adresár na zamietnutie"
+
+#: ../src/application.c:3442
+msgid "Add a directory to reject"
+msgstr "Pridanie adresára na zamietnutie"
+
+#: ../src/application.c:3543
+#, fuzzy
+msgid "Please, enter a string to search."
+msgstr "Prosím zadajte textový reťazec, krotý má byť nájdený."
+
+#: ../src/application.c:3566
+#, fuzzy
+msgid "Please, check that there is no mismatch in your URL and try again."
+msgstr "Prosím skontrolujte, či ste zadali URL správne a skúste znovu"
+
+#: ../src/application.c:3593
+msgid "Sorry, but this version of gurlchecker have no SSL support"
+msgstr ""
+
+#: ../src/application.c:3672 ../src/project.c:441
+#, fuzzy
+msgid "[<b>Local file</b>] Page information"
+msgstr "Informácie o stránke"
+
+#: ../src/application.c:3675 ../src/project.c:444
+#, fuzzy
+msgid "[<b>Web site</b>] Page information"
+msgstr "Informácie o stránke"
+
+#: ../src/application.c:3730
+msgid "Please choose a bookmarks file to check."
+msgstr "Prosím vyberte súbor so záložkami, ktorý má byť skontrolovaný"
+
+#: ../src/application.c:3785
+msgid ""
+"A problem occured when retrieving remote bookmarks file.\n"
+"<i>Try to pump up the timeout delay</i>."
+msgstr ""
+
+#: ../src/application.c:3799
+#, fuzzy
+msgid ""
+"Either the file is not correct or your don't have appropriate rights on it.\n"
+"<b>Please choose a valid bookmarks file</b>."
+msgstr ""
+"Súbor, ktorý ste zadali nie je správny alebo naň nemáte práva. Prosím "
+"vyberte platný súbor so záložkami."
+
+#: ../src/application.c:3815
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b>, <b>Google "
+"Chrome</b>, and <b>Firefox</b> database file</i>."
+msgstr ""
+"Formát vybraného súboru nie je správny.\n"
+"Aktuálne, gURLChecker vie spracovať iba XBEL formát."
+
+#: ../src/application.c:3822
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b> "
+"and <b>Firefox</b> database file</i>."
+msgstr ""
+"Formát vybraného súboru nie je správny.\n"
+"Aktuálne, gURLChecker vie spracovať iba XBEL formát."
+
+#: ../src/application.c:3829
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b> "
+"and <b>Google Chrome</b> file</i>."
+msgstr ""
+"Formát vybraného súboru nie je správny.\n"
+"Aktuálne, gURLChecker vie spracovať iba XBEL formát."
+
+#: ../src/application.c:3835
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b> and <b>Opera</"
+"b> file</i>."
+msgstr ""
+"Formát vybraného súboru nie je správny.\n"
+"Aktuálne, gURLChecker vie spracovať iba XBEL formát."
+
+#: ../src/application.c:3852
+#, fuzzy
+msgid "[<b>Remote bookmarks</b>] Page information"
+msgstr "Informácie o stránke"
+
+#: ../src/application.c:3855
+#, fuzzy
+msgid "[<b>Local bookmarks</b>] Page information"
+msgstr "Informácie o stránke"
+
+#: ../src/application.c:4071 ../src/check.c:1556
+msgid "Cleaning..."
+msgstr "Čistím..."
+
+#: ../src/callbacks.c:774
+msgid ""
+"All bookmarks referring to not found page will be removed.\n"
+"<b>Do you want to continue</b>?"
+msgstr ""
+
+#: ../src/callbacks.c:803
+msgid ""
+"Selected link will be removed.\n"
+"<b>Do you want to continue</b>?"
+msgstr ""
+
+#: ../src/callbacks.c:900 ../src/callbacks.c:918
+#, fuzzy
+msgid "Please, select a project."
+msgstr "Prosím vyberte projekt, ktorý má byť otvorený"
+
+#: ../src/callbacks.c:913 ../src/callbacks.c:1013
+msgid "Are you sure you want to delete this project?"
+msgstr "Ste istý, že tento projekt chcete vymazať?"
+
+#: ../src/check.c:400
+msgid "Hypertext Link"
+msgstr "Hypertextový Odkaz"
+
+#: ../src/check.c:402
+msgid "Local Hypertext Link"
+msgstr "Lokálny Hypertextový odkaz"
+
+#: ../src/check.c:404
+msgid "Local Image"
+msgstr "Lokálny obrázok"
+
+#: ../src/check.c:408 ../ui/gurlchecker.glade.h:131
+msgid "Image"
+msgstr "Obrázok"
+
+#: ../src/check.c:410
+#, fuzzy
+msgid "Frame link"
+msgstr "Rámový odkaz"
+
+#: ../src/check.c:412
+msgid "StyleSheet link"
+msgstr "Odkaz na kaskádové štýly"
+
+#: ../src/check.c:414
+msgid "Unknown Type"
+msgstr "Neznámy typ"
+
+#: ../src/check.c:867
+msgid "Retrieving source..."
+msgstr "Získavam zdroj..."
+
+#: ../src/check.c:998
+msgid "Continue"
+msgstr "Pokračovať"
+
+#: ../src/check.c:1004 ../ui/gurlchecker.glade.h:184
+msgid "Suspend"
+msgstr "Pozastaviť"
+
+#: ../src/check.c:1045
+msgid "Checking file (FTP)..."
+msgstr "Kontrolujem súbor (FTP)..."
+
+#: ../src/check.c:1056
+msgid "Retrieving header..."
+msgstr "Získavam hlavičku..."
+
+#: ../src/check.c:1228
+msgid "Item already checked..."
+msgstr "Položka už bola skontrolovaná..."
+
+#: ../src/check.c:1316
+#, fuzzy, c-format
+msgid "MX host %s for this domain is alive and listen on port 25."
+msgstr "MX hostiteľ %s špecifikovanej domény beží a počúva na porte 25."
+
+#: ../src/check.c:1322
+#, fuzzy
+msgid "MX host does not respond or the E-Mail's domain is not valid."
+msgstr "MX hosťiteľ neodpovedá, alebo doména pre tento email nie je platná."
+
+#: ../src/check.c:1328
+#, fuzzy
+msgid "The E-Mail's domain is not valid."
+msgstr "Doména tohto emailu nie je platná."
+
+#: ../src/check.c:1767
+msgid "<b>SECURITY</b>: Checking for virii..."
+msgstr ""
+
+#: ../src/check.c:1797
+msgid "<b>W3C</b>: Validate CSS stylesheet..."
+msgstr ""
+
+#: ../src/check.c:1829
+msgid "<b>W3C</b>: Validate HTML page..."
+msgstr ""
+
+#: ../src/check.c:1917
+#, c-format
+msgid "<b>SECURITY</b>: Checking for bad extensions [<b>%s</b>]..."
+msgstr ""
+
+#: ../src/check.c:2006
+#, c-format
+msgid "Sleeping %u second(s)..."
+msgstr "Spím %u sekúnd..."
+
+#: ../src/check.c:2119
+#, fuzzy
+msgid "Checking E-Mail..."
+msgstr "Kontrolujem email..."
+
+#: ../src/check.c:2185
+msgid "Checking local file..."
+msgstr "Kontrolujem lokálny súbor..."
+
+#: ../src/check.c:2288 ../ui/gurlchecker.glade.h:203
+msgid "Updating report..."
+msgstr "Aktualizujem správu..."
+
+#: ../src/check.c:2594 ../src/web_site.c:175
+msgid "Searching..."
+msgstr "Hľadanie..."
+
+#: ../src/web_site.c:267
+msgid "Updating link..."
+msgstr "Aktualizujem odkaz..."
+
+#: ../src/web_site.c:683
+msgid "Updating branch..."
+msgstr "Aktualizujem vetvu..."
+
+#: ../src/web_site.c:733
+msgid "Updating all project..."
+msgstr "Aktualizujem všetky projekty..."
+
+#: ../src/web_site.c:814
+#, c-format
+msgid "Checking %s..."
+msgstr "Kontrolujem %s..."
+
+#: ../src/web_site.c:829
+msgid "MAIN PAGE"
+msgstr "HLAVNÁ STRÁNKA"
+
+#: ../src/web_site.c:848
+msgid ""
+"Access to the specified project URL is restricted.\n"
+"Check has been cancelled"
+msgstr ""
+"Prístup k URL špecifikovanému v projekte je obmedzený.\n"
+"Kontrola bola zrušená"
+
+#: ../src/web_site.c:908
+msgid ""
+"The specified project URL does not respond.\n"
+"Check has been cancelled."
+msgstr ""
+"URL špecifikované v projekte neodpovedá.\n"
+"Kontrola bola zrušená."
+
+#: ../src/bookmarks.c:305
+msgid "Should remote bookmarks be saved on your machine?"
+msgstr ""
+
+#: ../src/bookmarks.c:311
+#, fuzzy
+msgid "Save bookmarks file"
+msgstr "Uložiť _záložky"
+
+#: ../src/bookmarks.c:312
+msgid "Input filename"
+msgstr ""
+
+#: ../src/bookmarks.c:320
+#, fuzzy
+msgid ""
+"The filename is not in a correct format.\n"
+"<b>Nothing has been done</b>."
+msgstr ""
+"Pri ukladaní súboru so záložkami nastala chyba.\n"
+"Nič sa neuložilo."
+
+#: ../src/bookmarks.c:344
+#, fuzzy
+msgid ""
+"Bookmarks changes will be saved.\n"
+"<i>Your old bookmarks file will be renamed with \".uc\" extension</i>.\n"
+"<b>Do you want to save</b>?"
+msgstr ""
+"Zmeny v záložkách budú uložené.\n"
+"Vaše původné záložky budú premenované s  PRÍPONOU \".uc\".\n"
+"\n"
+"Chcete ich uložiť?"
+
+#: ../src/bookmarks.c:379
+#, fuzzy
+msgid ""
+"A error occured.\n"
+"<b>Nothing has been done</b>."
+msgstr ""
+"Pri ukladaní súboru so záložkami nastala chyba.\n"
+"Nič sa neuložilo."
+
+#: ../src/bookmarks.c:391
+#, fuzzy
+msgid ""
+"Bookmarks changes will be applied.\n"
+"<i>We recommand you to manually backup your Firefox database before applying "
+"changes!</i>\n"
+"<b>Do you want to apply</b>?"
+msgstr ""
+"Zmeny v záložkách budú uložené.\n"
+"Vaše původné záložky budú premenované s  PRÍPONOU \".uc\".\n"
+"\n"
+"Chcete ich uložiť?"
+
+#: ../src/bookmarks.c:1058
+#, fuzzy
+msgid ""
+"Either the given XML file is not well formed or its encoding can not be "
+"found...\n"
+"<i>If you are checking a remote bookmarks file, try to pump up the timeout "
+"delay</i>.\n"
+"<b>Check has been aborted</b>."
+msgstr ""
+"Vstupný XML súbor nie je validný - well formed, alebo nebolo nájdené jeho "
+"kódovanie..\n"
+"Kontrola bola zrušená."
+
+#: ../src/bookmarks.c:1073
+msgid "The given XML file is empty.\n"
+msgstr "Vstupný XML súbor je prázdny.\n"
+
+#: ../src/main.c:126
+msgid "Wrote by Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>."
+msgstr "Autor: Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>."
+
+#: ../src/main.c:127
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO "
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr ""
+"Toto je slobodný softvér; podmienky kopírovania nájtete v zdrojových kódoch. "
+"Nie je poskytnutá ŽIADNA záruka; dokonca ani PREDAJNOSŤ alebo VHODNOSŤ PRE "
+"KONKRĚTNY ÚČEL."
+
+#: ../src/main.c:136
+#, c-format
+msgid ""
+"Usage: %s [OPTION] [URL]\n"
+"A graphic web link checker.\n"
+"\n"
+"  -h, --help          display this help\n"
+"  -V, --version       display %s version\n"
+"  -u, --http-user     user for basic authentication\n"
+"  -p, --http-passwd   password for basic authentication\n"
+"  -A, --no-urls-args   ignore URLs arguments\n"
+"\n"
+"Report bugs to <esaracco@users.labs.libre-entreprise.org>\n"
+msgstr ""
+"Použitie: %s [OPTION] [URL]\n"
+"Grafický kontrolór na webové odkazy.\n"
+"\n"
+"  -h, --help          zobraz pomoc\n"
+"  -V, --version       zobraz %s verziu\n"
+"  -u, --http-user     užívateľ pre základnú autorizáciu\n"
+"  -p, --http-passwd   heslo na základnú autorizáciu\n"
+"  -A, --no-urls-args   ignorovať URL argumenty\n"
+"\n"
+"Chyby hláste na <esaracco@users.labs.libre-entreprise.org>\n"
+
+#: ../src/report.c:244
+#, fuzzy
+msgid "Cannot execute xsltproc; the following error occured:"
+msgstr "Nemôžem spustiť Váš webový prehliadač, nastala nasledujúca chyba:"
+
+#: ../src/report.c:472
+#, c-format
+msgid "<i><b>Checked links</b></i>: %d"
+msgstr "<i><b>Skontrolovaných odkazov</b></i>: %d"
+
+#: ../src/report.c:475
+#, c-format
+msgid "<i><b>Checked links</b></i>: %d / %d"
+msgstr "<i><b>Skontrolovaných odkazov</b></i>: %d / %d"
+
+#: ../src/report.c:484 ../ui/gurlchecker.glade.h:124
+msgid "Good links"
+msgstr "Správne odkazy"
+
+#: ../src/report.c:488 ../ui/gurlchecker.glade.h:44
+msgid "Bad links"
+msgstr "Nesprávne odkazy"
+
+#: ../src/report.c:493 ../ui/gurlchecker.glade.h:144
+msgid "Malformed links"
+msgstr "Zle formátované odkazy"
+
+#: ../src/report.c:499
+msgid "Ignored links"
+msgstr "Ignorované odkazy"
+
+#: ../src/report.c:504 ../ui/gurlchecker.glade.h:191
+msgid "Timeouts"
+msgstr "Prekročený časový limit"
+
+#: ../src/report.c:562
+#, c-format
+msgid "<i><b>Elapsed time</b></i>: %02d:%02d:%02d"
+msgstr "<i><b>Uplynulý čas</b></i>: %02d:%02d:%02d"
+
+#: ../src/utils.c:1671
+#, fuzzy, c-format
+msgid "%lu bytes"
+msgstr "%u bajtov"
+
+#: ../src/utils.c:1673
+#, fuzzy, c-format
+msgid "%.2f KB (%lu bytes)"
+msgstr "%.2f KB (%u bajtov)"
+
+#: ../src/utils.c:1676
+#, fuzzy, c-format
+msgid "%.2f MB (%lu bytes)"
+msgstr "%.2f MB (%u bajtov)"
+
+#: ../src/html_parser.c:84
+msgid "Parsing HTML code..."
+msgstr "Parsujem HTML kód..."
+
+#: ../src/html_parser.c:129
+msgid "Parsing CSS code..."
+msgstr "Parsujem CSS kód..."
+
+#: ../src/search.c:522
+#, c-format
+msgid "<b>%u</b> item(s) found"
+msgstr "<b>%u</b> položiek nájdených"
+
+#: ../src/search.c:528
+msgid "Search ended"
+msgstr "Vyhľadávanie ukončené"
+
+#. status bar message
+#: ../src/project.c:361
+#, c-format
+msgid "Loading [%s] project..."
+msgstr "Nahrávam [%s] projekt..."
+
+#: ../src/project.c:562
+#, c-format
+msgid ""
+"<i>Created on</i> %s\n"
+"<i>Updated on</i> %s"
+msgstr ""
+"<i>Vytvorený</i> %s\n"
+"<i>Aktualizovaný</i> %s"
+
+#: ../src/project.c:609
+msgid "Please, enter a title for the current project."
+msgstr "Prosím, zadajte názov aktuálneho projektu."
+
+#: ../src/project.c:1391
+#, fuzzy
+msgid "Save the current project ?"
+msgstr "Uložiť aktuálny projekt"
+
+#: ../src/project.c:1400
+msgid "Saving project..."
+msgstr "Ukladám projekt..."
+
+#: ../src/tooltips.c:214
+#, c-format
+msgid ""
+"<b>Status</b>: %s\n"
+"<b>Location</b>: %s\n"
+"<b>Parent location</b>: %s\n"
+"<b>Last modified</b>: %s"
+msgstr ""
+"<b>Stav</b>: %s\n"
+"<b>Umiestnenie</b>: %s\n"
+"<b>Rodičovské umiestnenie</b>: %s\n"
+"<b>Posledná aktualizácia</b>: %s"
+
+#: ../gurlchecker.desktop.in.h:1
+msgid "Graphical Web Links checker"
+msgstr "Grafický Web Kontrolór Web Odkazov"
+
+#: ../gurlchecker.desktop.in.h:2
+msgid "gurlchecker"
+msgstr "gurlchecker"
+
+#: ../src/getopt.c:689
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: možnosť `%s' nie je jednoznačná\n"
+
+#: ../src/getopt.c:715
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: voľba `--%s' nepovoľuje argument\n"
+
+#: ../src/getopt.c:721
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: voľba `%c%s' nepovoľuje argument\n"
+
+#: ../src/getopt.c:740 ../src/getopt.c:919
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: voľba `%s' vyžaduje argument\n"
+
+#: ../src/getopt.c:771
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: nerozoznaná voľba `--%s'\n"
+
+#: ../src/getopt.c:777
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: nerozoznaná voľba `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../src/getopt.c:803
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: nesprávna voľba -- %c\n"
+
+#: ../src/getopt.c:805
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: nesprávna voľba -- %c\n"
+
+#: ../src/getopt.c:836 ../src/getopt.c:969
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: voľba vyžaduje argument -- %c\n"
+
+#: ../src/getopt.c:886
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: voľba `-W %s' nie je jednoznačná\n"
+
+#: ../src/getopt.c:904
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: voľba `-W %s' nepovoľuje argument\n"
+
+#: ../ui/gurlchecker.glade.h:1
+msgid "\n"
+msgstr "\n"
+
+#: ../ui/gurlchecker.glade.h:3
+msgid "    "
+msgstr "    "
+
+#: ../ui/gurlchecker.glade.h:4
+#, fuzzy
+msgid "<b>CSS Extensions to check</b>"
+msgstr "Prosím zadajte textový reťazec, krotý má byť nájdený."
+
+#: ../ui/gurlchecker.glade.h:5
+msgid "<b>Content management</b>"
+msgstr "<b>Manažment obsahu</b>"
+
+#: ../ui/gurlchecker.glade.h:6
+#, fuzzy
+msgid "<b>Documents to ignore</b>"
+msgstr "<b>Dokumenty na zamietnutie</b>"
+
+#: ../ui/gurlchecker.glade.h:7
+msgid "<b>Expires :</b>"
+msgstr "<b>Vyprší :</b>"
+
+#: ../ui/gurlchecker.glade.h:8
+#, fuzzy
+msgid "<b>Extensions to search for</b>"
+msgstr "Prosím zadajte textový reťazec, krotý má byť nájdený."
+
+#: ../ui/gurlchecker.glade.h:9
+#, fuzzy
+msgid "<b>Files to check</b>"
+msgstr "<b>Dokumenty na zamietnutie</b>"
+
+#: ../ui/gurlchecker.glade.h:10
+#, fuzzy
+msgid "<b>HTML extensions to check</b>"
+msgstr "Prosím zadajte textový reťazec, krotý má byť nájdený."
+
+#: ../ui/gurlchecker.glade.h:11
+#, fuzzy
+msgid "<b>Images to ignore</b>"
+msgstr "<b>Obrázky na zamietnutie</b>"
+
+#: ../ui/gurlchecker.glade.h:12
+msgid "<b>Location :</b>"
+msgstr "<b>Umiestnenie :</b>"
+
+#: ../ui/gurlchecker.glade.h:13
+msgid "<b>Location:</b>"
+msgstr "<b>Umiestnenie:</b>"
+
+#: ../ui/gurlchecker.glade.h:14
+msgid "<b>Meta Tags</b>"
+msgstr "<b>Meta Tagy</b>"
+
+#: ../ui/gurlchecker.glade.h:15
+msgid "<b>Modified :</b>"
+msgstr "<b>Modifikovaný :</b>"
+
+#: ../ui/gurlchecker.glade.h:16
+msgid "<b>Name :</b>"
+msgstr "<b>Názov :</b>"
+
+#: ../ui/gurlchecker.glade.h:17
+#, fuzzy
+msgid "<b>Options</b>"
+msgstr "<b>Umiestnenie:</b>"
+
+#: ../ui/gurlchecker.glade.h:18
+#, fuzzy
+msgid "<b>Page:</b>"
+msgstr "<b>Názov :</b>"
+
+#: ../ui/gurlchecker.glade.h:19
+msgid "<b>Path :</b>"
+msgstr "<b>Cesta :</b>"
+
+#: ../ui/gurlchecker.glade.h:20
+msgid "<b>Properties</b>"
+msgstr "<b>Vlastnosti</b>"
+
+#: ../ui/gurlchecker.glade.h:21
+msgid "<b>Referrer :</b>"
+msgstr "<b>Referrer :</b>"
+
+#: ../ui/gurlchecker.glade.h:22
+#, fuzzy
+msgid "<b>Security:</b>"
+msgstr "<b>Typ serveru :</b>"
+
+#: ../ui/gurlchecker.glade.h:23
+msgid "<b>Server type :</b>"
+msgstr "<b>Typ serveru :</b>"
+
+#: ../ui/gurlchecker.glade.h:24
+#, fuzzy
+msgid "<b>Server:</b>"
+msgstr "<b>Typ serveru :</b>"
+
+#: ../ui/gurlchecker.glade.h:25
+msgid "<b>Size :</b>"
+msgstr "<b>Veľkosť :</b>"
+
+#: ../ui/gurlchecker.glade.h:26
+msgid "<b>Source :</b>"
+msgstr "<b>Zdroj :</b>"
+
+#: ../ui/gurlchecker.glade.h:27
+msgid "<b>Status :</b>"
+msgstr "<b>Stav :</b>"
+
+#: ../ui/gurlchecker.glade.h:28
+msgid "<b>Type :</b>"
+msgstr "<b>Typ :</b>"
+
+#: ../ui/gurlchecker.glade.h:29
+msgid "<b>Value :</b>"
+msgstr "<b>Hodnota :</b>"
+
+#: ../ui/gurlchecker.glade.h:30
+#, fuzzy
+msgid "<b>Warnings</b>"
+msgstr "Varovania"
+
+#: ../ui/gurlchecker.glade.h:31
+#, fuzzy
+msgid "<i>You can edit cookie's properties before accepting it:</i>"
+msgstr "<i>Môžete upravovať vlastnosti koláčikov pred ich akceptovaním.</i>"
+
+#: ../ui/gurlchecker.glade.h:32
+msgid "Accept"
+msgstr "Akceptovať"
+
+#: ../ui/gurlchecker.glade.h:33
+msgid "Accept all cookies"
+msgstr "Akceptovať všetky koláčiky"
+
+#: ../ui/gurlchecker.glade.h:34
+msgid "Activate"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:35
+msgid "Activate W3C validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:36
+msgid "Activate security checks"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:37
+msgid "Advanced options"
+msgstr "Pokročilé nastavenia"
+
+#: ../ui/gurlchecker.glade.h:38
+msgid "After that time, unsuccessful connection intent will be aborted"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:39
+msgid "All the links"
+msgstr "Všetky odkazy"
+
+#: ../ui/gurlchecker.glade.h:40
+msgid "Authentication"
+msgstr "Autorizácia"
+
+#: ../ui/gurlchecker.glade.h:41
+msgid ""
+"Bad extensions to search for, separated by comma.\n"
+"Ex.: bak,bad,sav,~,ok,-,old,orig,false,::$data"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:43
+msgid "Bad extentions on server"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:45
+msgid "Block a host in timeout after"
+msgstr "Blokovať hostiteľa po vypršaní časového limitu po"
+
+#: ../ui/gurlchecker.glade.h:46
+msgid "Bookmarks file"
+msgstr "Súbor so záložkami"
+
+#: ../ui/gurlchecker.glade.h:47
+msgid "Branch update"
+msgstr "Aktualizácia vetvy"
+
+#: ../ui/gurlchecker.glade.h:48
+#, fuzzy
+msgid "By protocol"
+msgstr "Protokol"
+
+#: ../ui/gurlchecker.glade.h:49
+#, fuzzy
+msgid "By status"
+msgstr "Stav"
+
+#: ../ui/gurlchecker.glade.h:50
+msgid "By type"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:51
+msgid ""
+"CSS extensions to check, separated by comma.\n"
+"Ex.: css"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:53
+#, fuzzy
+msgid "CSV export"
+msgstr "Kontrolná správa"
+
+#: ../ui/gurlchecker.glade.h:54
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: ../ui/gurlchecker.glade.h:55
+msgid "Cancel check"
+msgstr "Zrušiť kontrolu"
+
+#: ../ui/gurlchecker.glade.h:56
+msgid "Case sensitive"
+msgstr "Rozlišovať veľkosť písmen"
+
+#: ../ui/gurlchecker.glade.h:57
+msgid "Check"
+msgstr "Kontrola"
+
+#: ../ui/gurlchecker.glade.h:58
+msgid "Check MX"
+msgstr "Kontolovať MX"
+
+#: ../ui/gurlchecker.glade.h:60
+msgid "Check report"
+msgstr "Kontrolná správa"
+
+#: ../ui/gurlchecker.glade.h:61
+#, fuzzy
+msgid "Check this option for links numbering"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:62
+#, fuzzy
+msgid "Check this option if you are not interested in bookmarks pages content"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:63
+#, fuzzy
+msgid ""
+"Check this option if you want to limit check to the given directory and its "
+"subdirectories on the given Web site"
+msgstr ""
+"Označte túto voľbu, ak nechcete kontrolovať stránky v iných umiestneniach, "
+"než aké je špecifikované projektovým URL."
+
+#: ../ui/gurlchecker.glade.h:64
+#, fuzzy
+msgid ""
+"Check this option to avoid possible infinite scan (when some arguments are "
+"randomly generated, for example)"
+msgstr ""
+"Označte túto voľbu, ak sa chcete vyhnúť nepríjemným nekonečným cyklom "
+"(napríklad keď sú niektoré argumenty náhodne generované)"
+
+#: ../ui/gurlchecker.glade.h:65
+#, fuzzy
+msgid ""
+"Check this option to avoid some nasty infinite loops (when some arguments "
+"are randomly generated, for example)"
+msgstr ""
+"Označte túto voľbu, ak sa chcete vyhnúť nepríjemným nekonečným cyklom "
+"(napríklad keď sú niektoré argumenty náhodne generované)"
+
+#: ../ui/gurlchecker.glade.h:66
+#, fuzzy
+msgid ""
+"Check this option to be prompted for Basic Authentication when a page "
+"request it"
+msgstr ""
+"Ak je označené: vyzve na Základnú Autorizáciu, keď i ju stránka vyžiada."
+
+#: ../ui/gurlchecker.glade.h:67
+#, fuzzy
+msgid "Check this option to check FTP links"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:68
+#, fuzzy
+msgid "Check this option to check MX of e-mails domains"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:69
+#, fuzzy
+msgid "Check this option to check for e-mails syntax"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:70
+#, fuzzy
+msgid "Check this option to check secure URLs too"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:71
+msgid "Check this option to enable CSS validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:72
+msgid "Check this option to enable HTML validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:73
+msgid "Check this option to enable W3C validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:74
+msgid "Check this option to enable detection of uncommon files extensions"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:75
+msgid "Check this option to enable security checks"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:76
+#, fuzzy
+msgid "Check this option to enable virus scan of pages content"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:77
+#, fuzzy
+msgid "Check this option to export links label"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:78
+#, fuzzy
+msgid "Check this option to export links labels"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:79
+#, fuzzy
+msgid "Check this option to export only external links"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:80
+msgid ""
+"Check this option to ignore servers that do not respond after more than n "
+"tries"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:81
+msgid ""
+"Check this option to retreive content of documents other than HTML pages and "
+"images: PDF, tarballs..."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:82
+#, fuzzy
+msgid "Check this option to retreive images content for local preview"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:83
+#, fuzzy
+msgid "Check this option to scan only one page"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:84
+#, fuzzy
+msgid "Choose a location"
+msgstr "Vyber súbor so záložkami"
+
+#: ../ui/gurlchecker.glade.h:85
+#, fuzzy
+msgid "Clear export history"
+msgstr "Vyčisti históriu projektu"
+
+#: ../ui/gurlchecker.glade.h:86
+msgid "Clear project history"
+msgstr "Vyčisti históriu projektu"
+
+#: ../ui/gurlchecker.glade.h:87
+msgid "Clear search history"
+msgstr "Vyčisti históriu hľadania"
+
+#: ../ui/gurlchecker.glade.h:88
+msgid "Collapse all the list"
+msgstr "Zbaľ celý zoznam"
+
+#: ../ui/gurlchecker.glade.h:89
+msgid "Consider as error"
+msgstr "Považuj za chybu"
+
+#: ../ui/gurlchecker.glade.h:90
+msgid "Consider that the code is not W3C compliant if it contains:"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:91
+msgid "Cookie"
+msgstr "Koláčik"
+
+#: ../ui/gurlchecker.glade.h:92
+#, fuzzy
+msgid "Cookies"
+msgstr "Koláčik"
+
+#: ../ui/gurlchecker.glade.h:93
+msgid "DEBUG mode"
+msgstr "DEBUG mód"
+
+#: ../ui/gurlchecker.glade.h:94
+msgid "Debug"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:95
+#, fuzzy
+msgid "Delete project"
+msgstr "_Vymazať projekt"
+
+#: ../ui/gurlchecker.glade.h:96
+msgid "Description:"
+msgstr "Popis:"
+
+#: ../ui/gurlchecker.glade.h:97
+msgid "Directories"
+msgstr "Adresáre"
+
+#: ../ui/gurlchecker.glade.h:98
+msgid "Display tooltips"
+msgstr "Zobraz tooltipy"
+
+#: ../ui/gurlchecker.glade.h:99
+msgid "Do not accept any cookies"
+msgstr "Neakceptuj žiadne koláčiky"
+
+#: ../ui/gurlchecker.glade.h:100
+msgid "Do not display this dialog anymore"
+msgstr "Viac tento dialóg nezobrazuj"
+
+#: ../ui/gurlchecker.glade.h:101
+msgid "Do not retrieve page content (speed up the check)"
+msgstr "Nenačítavaj obsah stránok (zrýchli kontrolu)"
+
+#: ../ui/gurlchecker.glade.h:102
+msgid "Document"
+msgstr "Dokument"
+
+#: ../ui/gurlchecker.glade.h:103
+msgid ""
+"Document extensions to ignore, separated by comma.\n"
+"Ex.: asp,aspx,exe,pif"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:105
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: ../ui/gurlchecker.glade.h:106
+msgid "Domains"
+msgstr "Domény"
+
+#: ../ui/gurlchecker.glade.h:107
+msgid "Dump link properties while checking"
+msgstr "V prebehu kontroly ukladaj vlastnosti odkazu"
+
+#: ../ui/gurlchecker.glade.h:108
+msgid "Dynamic values"
+msgstr "Dynamické hodnoty"
+
+#: ../ui/gurlchecker.glade.h:110
+#, fuzzy
+msgid "E-Mails"
+msgstr "Email"
+
+#: ../ui/gurlchecker.glade.h:111
+#, fuzzy
+msgid "E-Mails syntax"
+msgstr "Email syntax"
+
+#: ../ui/gurlchecker.glade.h:112
+msgid "Enter a URL to check"
+msgstr "Zadaj URL na kontrolu"
+
+#: ../ui/gurlchecker.glade.h:113
+#, fuzzy
+msgid "Enter a local file path or URL to check"
+msgstr "Zadaj súbor na kontrolu"
+
+#: ../ui/gurlchecker.glade.h:114
+msgid "Errors"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:115
+msgid "Exclude images"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:116
+msgid "Expand all the list"
+msgstr "Rozbaľ celý zoznam"
+
+#: ../ui/gurlchecker.glade.h:117
+#, fuzzy
+msgid "Export"
+msgstr "<b>Vyprší :</b>"
+
+#: ../ui/gurlchecker.glade.h:118
+#, fuzzy
+msgid "Files"
+msgstr "Filtre"
+
+#: ../ui/gurlchecker.glade.h:119
+msgid "Filters"
+msgstr "Filtre"
+
+#: ../ui/gurlchecker.glade.h:120
+msgid ""
+"First part of the mime-type of files to check for virus, separated by "
+"comma.\n"
+"Ex.: application,audio,image,text,video,x-world"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:122
+msgid "Frame"
+msgstr "Rám"
+
+#: ../ui/gurlchecker.glade.h:123
+msgid "General"
+msgstr "Všeobecné"
+
+#: ../ui/gurlchecker.glade.h:125
+msgid ""
+"HTML extensions to check, separated by comma.\n"
+"Ex.: php,html,htm,pl"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:127
+#, fuzzy
+msgid "History"
+msgstr "<b>História</b>"
+
+#: ../ui/gurlchecker.glade.h:128
+#, fuzzy
+msgid "IP address"
+msgstr "Email adresa"
+
+#: ../ui/gurlchecker.glade.h:129
+msgid "Ignore URLs arguments"
+msgstr "Ignoruj URLs argumenty"
+
+#: ../ui/gurlchecker.glade.h:130
+msgid "Ignore this item"
+msgstr "Ignoruj túto položku"
+
+#: ../ui/gurlchecker.glade.h:132
+msgid ""
+"Image extensions to ignore, separated by comma.\n"
+"Ex.: gif,png"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:134
+msgid "Image preview"
+msgstr "Náhľad obrázku"
+
+#: ../ui/gurlchecker.glade.h:135
+msgid "Images"
+msgstr "Obrázky"
+
+#: ../ui/gurlchecker.glade.h:136
+msgid "Labels export"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:137
+msgid "Link update"
+msgstr "Aktualizácia odkazu"
+
+#: ../ui/gurlchecker.glade.h:138
+msgid "Links"
+msgstr "Odkazy"
+
+#: ../ui/gurlchecker.glade.h:139
+msgid "Links name"
+msgstr "Meno odkazu"
+
+#: ../ui/gurlchecker.glade.h:140
+msgid "Local file"
+msgstr "Lokálny súbor"
+
+#: ../ui/gurlchecker.glade.h:141
+msgid "Location:"
+msgstr "Umiestnenie:"
+
+#: ../ui/gurlchecker.glade.h:142
+msgid "Login : "
+msgstr "Login : "
+
+#: ../ui/gurlchecker.glade.h:143
+msgid "META tags content"
+msgstr "Obsah META tagov"
+
+#: ../ui/gurlchecker.glade.h:145
+msgid "Max depth of levels to check:"
+msgstr "Maximálna hĺbka úrovene kontroly:"
+
+#: ../ui/gurlchecker.glade.h:146
+#, fuzzy
+msgid "Network"
+msgstr "<b>Sieť</b>"
+
+#: ../ui/gurlchecker.glade.h:147
+msgid "New"
+msgstr "Nový"
+
+#: ../ui/gurlchecker.glade.h:148
+msgid "New bookmarks project"
+msgstr "Nový záložkový projekt"
+
+#: ../ui/gurlchecker.glade.h:149
+msgid "New instance"
+msgstr "Nová inštancia"
+
+#: ../ui/gurlchecker.glade.h:150
+msgid "New local file project"
+msgstr "Nový projekt lokálny súbor"
+
+#: ../ui/gurlchecker.glade.h:151
+msgid "New project"
+msgstr "Nový projekt"
+
+#: ../ui/gurlchecker.glade.h:152
+msgid "New web project"
+msgstr "Nový webový projekt "
+
+#: ../ui/gurlchecker.glade.h:153
+msgid "Numbering"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:154
+msgid "Only check local links"
+msgstr "Kontroluj iba lokálne odkazy"
+
+#: ../ui/gurlchecker.glade.h:155
+msgid "Only check this directory and its subdirectories"
+msgstr "Kontroluj iba adresáre a podadresáre"
+
+#: ../ui/gurlchecker.glade.h:156
+#, fuzzy
+msgid "Only external links"
+msgstr "Kontroluj iba lokálne odkazy"
+
+#: ../ui/gurlchecker.glade.h:157
+msgid "Open"
+msgstr "Otvoriť"
+
+#: ../ui/gurlchecker.glade.h:158
+msgid "Open a project"
+msgstr "Otvoriť projekt"
+
+#: ../ui/gurlchecker.glade.h:159
+msgid "Open project"
+msgstr "Otvoriť projekt"
+
+#: ../ui/gurlchecker.glade.h:160
+#, fuzzy
+msgid "Page content"
+msgstr "Obsah stránky"
+
+#: ../ui/gurlchecker.glade.h:161
+msgid "Page information"
+msgstr "Informácie o stránke"
+
+#: ../ui/gurlchecker.glade.h:162
+msgid "Page properties"
+msgstr "Vlastnosti stránky"
+
+#: ../ui/gurlchecker.glade.h:163
+msgid "Parent update"
+msgstr "Aktualizácia rodiča"
+
+#: ../ui/gurlchecker.glade.h:164
+msgid "Password : "
+msgstr "Heslo : "
+
+#: ../ui/gurlchecker.glade.h:165
+#, fuzzy
+msgid "Personal data"
+msgstr "Osobné údaje"
+
+#: ../ui/gurlchecker.glade.h:166
+msgid "Project properties"
+msgstr "Vlastnosti projektu"
+
+#: ../ui/gurlchecker.glade.h:167
+msgid "Prompt for authentication"
+msgstr "Vyzvať na autorizáciu"
+
+#: ../ui/gurlchecker.glade.h:168
+msgid "Protocols"
+msgstr "Protokoly"
+
+#: ../ui/gurlchecker.glade.h:169
+msgid "Refuse"
+msgstr "Zamietnuť"
+
+#: ../ui/gurlchecker.glade.h:170
+#, fuzzy
+msgid "Remove all 404 links"
+msgstr "Aktualizovať všetky odkazy"
+
+#: ../ui/gurlchecker.glade.h:171
+msgid "Report export"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:172
+msgid "Retrieve content of non HTML files"
+msgstr "Načítavaj obsah ne-HTML súborov"
+
+#: ../ui/gurlchecker.glade.h:173
+msgid "Retrieve images content"
+msgstr "Načítavaj obsah obrázkov"
+
+#: ../ui/gurlchecker.glade.h:174
+msgid "Save"
+msgstr "Uložiť"
+
+#: ../ui/gurlchecker.glade.h:175
+#, fuzzy
+msgid "Save bookmarks"
+msgstr "Uložiť _záložky"
+
+#: ../ui/gurlchecker.glade.h:176
+#, fuzzy
+msgid "Save report in..."
+msgstr "Aktualizujem správu..."
+
+#: ../ui/gurlchecker.glade.h:177
+msgid "Search in progress..."
+msgstr "Prebieha hľadanie..."
+
+#: ../ui/gurlchecker.glade.h:178
+msgid "Search..."
+msgstr "Nájsť"
+
+#: ../ui/gurlchecker.glade.h:179
+msgid "Security"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:180
+msgid "Security alerts"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:181
+msgid "Similar link locations"
+msgstr "Umiestnenie podobných odkazov"
+
+#: ../ui/gurlchecker.glade.h:182
+#, fuzzy
+msgid "Status code"
+msgstr "Stav"
+
+#: ../ui/gurlchecker.glade.h:183
+msgid "Stylesheet"
+msgstr "Kaskádové štýly"
+
+#: ../ui/gurlchecker.glade.h:185
+msgid "This option will only be active for <i>Web site</i> projects."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:186
+msgid "Those choices will override [Filters/Documents]."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:187
+msgid ""
+"Time to wait between two checks, \n"
+"in second:"
+msgstr ""
+"Čas na čakanie, medzi dvoma kontrolami, \n"
+"v sekundách:"
+
+#: ../ui/gurlchecker.glade.h:189
+msgid "Timeout in seconds:"
+msgstr "Časový limit v sekundách:"
+
+#: ../ui/gurlchecker.glade.h:190
+msgid "Timeout:"
+msgstr "Časový limit:"
+
+#: ../ui/gurlchecker.glade.h:192
+msgid "Title:"
+msgstr "Nadpis:"
+
+#: ../ui/gurlchecker.glade.h:193
+#, fuzzy
+msgid "Uncheck this option to check external links too"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:194
+#, fuzzy
+msgid "Uncheck this option to check external pages too"
+msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#: ../ui/gurlchecker.glade.h:195
+#, fuzzy
+msgid "Update all children for this link"
+msgstr "Aktualizovať všetkých potomkov pre tento odkaz"
+
+#: ../ui/gurlchecker.glade.h:196
+#, fuzzy
+msgid "Update all links..."
+msgstr "Aktualizujem odkaz..."
+
+#: ../ui/gurlchecker.glade.h:197
+msgid "Update main page..."
+msgstr "Aktualizovať hlavnú stránku..."
+
+#: ../ui/gurlchecker.glade.h:198
+msgid "Update page containing this link"
+msgstr "Aktualizovať stránku obsahujúcu tento odkaz"
+
+#: ../ui/gurlchecker.glade.h:199
+msgid "Update this link"
+msgstr "Aktualizovať tento odkaz"
+
+#: ../ui/gurlchecker.glade.h:200
+msgid ""
+"Updating report's counters\n"
+"\n"
+"<b>Please wait...</b>"
+msgstr ""
+"Aktualizujem počítadlá v správe\n"
+"\n"
+"<b>Prosím čakajte...</b>"
+
+#: ../ui/gurlchecker.glade.h:204
+msgid "Use passive mode"
+msgstr "Použiť pasívny mód"
+
+#: ../ui/gurlchecker.glade.h:205
+#, fuzzy
+msgid "View all link locations"
+msgstr "Zobraziť všetky umiestnenia tohto odkazu"
+
+#: ../ui/gurlchecker.glade.h:206
+msgid "View bad extensions"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:207
+msgid "View online"
+msgstr "Zobraziť online"
+
+#: ../ui/gurlchecker.glade.h:208
+msgid "View parent page online"
+msgstr "Zobraziť rodičovskú stránku online"
+
+#: ../ui/gurlchecker.glade.h:210
+msgid "Viruses"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:211
+msgid "W3C alerts"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:212
+#, fuzzy
+msgid "W3C validation"
+msgstr "Žiadne platné informácie"
+
+#: ../ui/gurlchecker.glade.h:213
+msgid "Wait"
+msgstr "Zastav"
+
+#: ../ui/gurlchecker.glade.h:214
+#, fuzzy
+msgid "Warnings"
+msgstr "Varovania"
+
+#: ../ui/gurlchecker.glade.h:215
+msgid "Web site"
+msgstr "Webová stránka"
+
+#: ../ui/gurlchecker.glade.h:216
+#, fuzzy
+msgid "When a cookie is added"
+msgstr "Keď je koláčik pridaný"
+
+#: ../ui/gurlchecker.glade.h:217
+msgid "When a cookie is deleted"
+msgstr "Keď je koláčik vymazaný"
+
+#: ../ui/gurlchecker.glade.h:218
+msgid "When a cookie is updated"
+msgstr "Keď je koláčik aktualizovaný"
+
+#: ../ui/gurlchecker.glade.h:219
+msgid "Will remove any bookmark pointing to non existent page"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:220
+msgid "With SSL (HTTPS)"
+msgstr "s SSL (HTTPS)"
+
+#: ../ui/gurlchecker.glade.h:221
+msgid "_Display"
+msgstr "_Zobraz"
+
+#: ../ui/gurlchecker.glade.h:222
+msgid "_Edit"
+msgstr "_Uprav"
+
+#: ../ui/gurlchecker.glade.h:223
+#, fuzzy
+msgid "_File"
+msgstr "Filtre"
+
+#: ../ui/gurlchecker.glade.h:224
+msgid "_Help"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:225
+msgid "_Project"
+msgstr "_Projekt"
+
+#: ../ui/gurlchecker.glade.h:226
+msgid "attemps"
+msgstr "pokusoch"
+
+#: ../ui/gurlchecker.glade.h:227
+msgid "gURLChecker Preferences"
+msgstr "gURLChecker Nastavenia"
+
+#: ../ui/gurlchecker.glade.h:228
+msgid "gURLChecker use the libclamav library to scan files for viruses"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:229
+msgid "gURLChecker use the libcroco library to validate CSS2 stylesheets"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:230
+msgid "gURLChecker use the libtidy library to validate HTML pages"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:231
+msgid "second(s), between  checks."
+msgstr "sekúnd, medzi kontrolami."
+
+#: ../ui/gurlchecker.glade.h:232
+msgid "second(s)."
+msgstr "sekúnd"
+
+#, fuzzy
+#~ msgid ""
+#~ "Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>\n"
+#~ "\n"
+#~ "Contributors:\n"
+#~ "Stephane Loeuillet <leroutier@users.labs.libre-entreprise.org>"
+#~ msgstr ""
+#~ "Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>, hlavný "
+#~ "vývojár\n"
+#~ "Stephane Loeuillet <leroutier@users.labs.libre-entreprise.org>, spolu-"
+#~ "vývojár\n"
+#~ "\n"
+#~ "Grafika:\n"
+#~ "Jan Henrik Helmers <jh@helmers.org>\n"
+#~ "Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>"
+
+#, fuzzy
+#~ msgid ""
+#~ "You can select a local or remote bookmarks file.\n"
+#~ "As this version of gurlchecker have no sqlite3 support, the file have to "
+#~ "be in XBEL format"
+#~ msgstr "Vyberte súbor so záložkami na kontrolu"
+
+#, fuzzy
+#~ msgid ""
+#~ "gURLChecker has cancelled the check because you do not have enough space "
+#~ "on your working directory partition.\n"
+#~ "<i>gURLChecker has taken a security margin to estimate free space</i>."
+#~ msgstr ""
+#~ "gURLChecker zrušil kontrolu, pretože nemáte dostatok miesta vo vašom "
+#~ "pracovnom adresári.\n"
+#~ "\n"
+#~ "Na odhad voľného miesta gURLChecker započítal aj bezpečnostnú rezervu."
+
+#, fuzzy
+#~ msgid "Flash option: check it to check only one page"
+#~ msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#, fuzzy
+#~ msgid "Only check given directory and its subdirectories"
+#~ msgstr "Kontroluj iba adresáre a podadresáre"
+
+#, fuzzy
+#~ msgid "Please, check URL syntax and try again."
+#~ msgstr "Prosím skontrolujte, či ste zadali URL správne a skúste znovu"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "HTTPS"
+#~ msgstr "HTTPS"
+
+#~ msgid "Choose a bookmarks file"
+#~ msgstr "Vyber súbor so záložkami"
+
+#, fuzzy
+#~ msgid "Choose a export path"
+#~ msgstr "Vyber súbor so záložkami"
+
+#, fuzzy
+#~ msgid "Check this options to check external pages too"
+#~ msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#, fuzzy
+#~ msgid "Save links in..."
+#~ msgstr "Aktualizujem správu..."
+
+#~ msgid "Delete"
+#~ msgstr "Vymazať"
+
+#~ msgid "Save _project"
+#~ msgstr "Uložiť _projekt"
+
+#, fuzzy
+#~ msgid "gtk-preferences"
+#~ msgstr "gURLChecker Nastavenia"
+
+#, fuzzy
+#~ msgid "gtk-properties"
+#~ msgstr "Vlastnosti stránky"
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this option to check links that point on another host that the one "
+#~ "specified in the project URL"
+#~ msgstr ""
+#~ "Označte túto voľbu, ak nechcete kontrolovať odkazy, ktoré ukazujú na "
+#~ "iného  ako špecifikovanéího hostiteľa v projektovom URL."
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this option to check only one page and don't be interested on pages "
+#~ "content"
+#~ msgstr ""
+#~ "Označte túto voľbu, ak chcete kontrolovať iba jednu stránku a neaujíma "
+#~ "Vás obsah stránok."
+
+#, fuzzy
+#~ msgid ""
+#~ "Check this options to check pages under other repositories thant the one "
+#~ "specified for the project URL"
+#~ msgstr ""
+#~ "Označte túto voľbu, ak nechcete kontrolovať stránky v iných "
+#~ "umiestneniach, než aké je špecifikované projektovým URL."
+
+#, fuzzy
+#~ msgid "Check this option is you want to export links labels"
+#~ msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#, fuzzy
+#~ msgid "Check this option to numbered lines in the export"
+#~ msgstr "Označte túto voľbu, ak Vás nezaujíma obsah stránok záložiek"
+
+#, fuzzy
+#~ msgid ""
+#~ "The expiration date for this cookie was incorrect. It has been refused."
+#~ msgstr ""
+#~ "Dátum expirácie pre tento koláčik bol neplatný. Koláčik bol v gurlchecker "
+#~ "zamietnutý ."
+
+#, fuzzy
+#~ msgid "Actions"
+#~ msgstr "Umiestnenie:"
+
+#, fuzzy
+#~ msgid "Updates"
+#~ msgstr "Aktualizovať tento odkaz"
+
+#, fuzzy
+#~ msgid "link"
+#~ msgstr "Odkazy"
+
+#, fuzzy
+#~ msgid "Parent"
+#~ msgstr "Aktualizácia rodiča"
+
+#, fuzzy
+#~ msgid "Branch"
+#~ msgstr "Aktualizácia vetvy"
+
+#, fuzzy
+#~ msgid "All this link locations"
+#~ msgstr "Zobraziť všetky umiestnenia tohto odkazu"
+
+#, fuzzy
+#~ msgid "This page online"
+#~ msgstr "Zobraziť rodičovskú stránku online"
+
+#, fuzzy
+#~ msgid "Parent page online"
+#~ msgstr "Zobraziť rodičovskú stránku online"
+
+#, fuzzy
+#~ msgid "Page source"
+#~ msgstr "Zobraziť zdroj"
+
+#~ msgid ""
+#~ "The remote host has refused to serve us the page.\n"
+#~ "Some web servers do not allow HEAD method on particular files... and "
+#~ "gURLChecker need to send HEAD method :-(\n"
+#~ "\n"
+#~ "Try to check it later, or filter this domain in the settings."
+#~ msgstr ""
+#~ "Vzdialený hostiteľ nám zakázal pridelenie stránky.\n"
+#~ "Niektoré web serveri neumožňujú HEAD metódu na konkrétne súbory... a "
+#~ "gURLChecker potrebuje poslať HEAD metódu :-(\n"
+#~ "\n"
+#~ "Skúste ho skontrolovať neskôr, alebo odfiltrujte túto doménu v "
+#~ "nastaveniach."
+
+#~ msgid ""
+#~ "Some web servers do not allow HEAD method on particular files... and "
+#~ "gURLChecker need to send HEAD method :-(\n"
+#~ "\n"
+#~ "Try to check it later, or filter this domain in the settings."
+#~ msgstr ""
+#~ "Niektoré web servery nepovoľujú HEAD metódu na konkrétne súbory... a "
+#~ "gURLChecker potrebuje poslať HEAD metódu :-(\n"
+#~ "\n"
+#~ "Skúste kontrolu neskôr, alebo odfiltrujte túto doménu v nastaveniach."
+
+#, fuzzy
+#~ msgid "gURLChecker project page"
+#~ msgstr "gurlchecker projektová stránka"
+
+#, fuzzy
+#~ msgid "Pages relations"
+#~ msgstr "Informácie o stránke"
+
+#~ msgid "      "
+#~ msgstr "      "
+
+#, fuzzy
+#~ msgid "Show warnings"
+#~ msgstr "Varovania"
+
+#~ msgid "<b>FILE</b>"
+#~ msgstr "<b>FILE</b>"
+
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>FTP</b>"
+
+#~ msgid "<b>HTTP</b>"
+#~ msgstr "<b>HTTP</b>"
+
+#~ msgid "<b>MAILTO</b>"
+#~ msgstr "<b>MAILTO</b>"
+
+#~ msgid "Please, enter a domain name."
+#~ msgstr "Prosím zadajte názov domény"
+
+#~ msgid "Please, enter a directory name."
+#~ msgstr "Prosím zadajte názov adresára"
+
+#~ msgid "The domain you entered seems not to be valid."
+#~ msgstr "Doména, ktorú ste zadali nie je pravdepodobne platná"
+
+#~ msgid "Please, select a project to delete."
+#~ msgstr "Prosím vyberte projekt na vymazanie"
+
+#~ msgid "Check email MX"
+#~ msgstr "Kontrolovať email MX"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Emails"
+#~ msgstr "Emaily"
+
+#, fuzzy
+#~ msgid "Check E-Mail MX"
+#~ msgstr "Kontrolovať email MX"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autorizácia</b>"
+
+#~ msgid "<b>Check</b>"
+#~ msgstr "<b>Kontrola</b>"
+
+#~ msgid "<b>Cookies</b>"
+#~ msgstr "<b>Koláčiky</b>"
+
+#~ msgid "<b>Debug</b>"
+#~ msgstr "<b>Ladenie</b>"

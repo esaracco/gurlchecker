@@ -1,0 +1,73 @@
+<!-- ##### SECTION Title ##### -->
+web_site
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage specific check on web sites.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_web_site_get_links_real ##### -->
+<para>
+
+</para>
+
+@url: 
+@host: 
+@depth: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_web_site_refresh_parent ##### -->
+<para>
+
+</para>
+
+@id: 
+
+
+<!-- ##### FUNCTION uc_web_site_refresh_all ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_web_site_refresh_branch ##### -->
+<para>
+
+</para>
+
+@id: 
+
+
+<!-- ##### FUNCTION uc_web_site_refresh_link ##### -->
+<para>
+
+</para>
+
+@id: 
+
+
+<!-- ##### FUNCTION uc_web_site_begin_check ##### -->
+<para>
+
+</para>
+
+@void: 
+
+

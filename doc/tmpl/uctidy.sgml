@@ -1,0 +1,57 @@
+<!-- ##### SECTION Title ##### -->
+uctidy
+
+<!-- ##### SECTION Short_Description ##### -->
+To work with libtidy.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT UCTidy ##### -->
+<para>
+
+</para>
+
+@errbuf: 
+@tdoc: 
+
+<!-- ##### FUNCTION uc_uctidy_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_uctidy_validate ##### -->
+<para>
+
+</para>
+
+@tidy: 
+@buffer: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_uctidy_free ##### -->
+<para>
+
+</para>
+
+@tidy: 
+
+

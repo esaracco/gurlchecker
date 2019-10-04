@@ -1,0 +1,583 @@
+<!-- ##### SECTION Title ##### -->
+application
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage some general application work.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT UCURLsUserActions ##### -->
+<para>
+
+</para>
+
+@id: 
+@label: 
+
+<!-- ##### FUNCTION uc_application_main_tree_apply_filters ##### -->
+<para>
+
+</para>
+
+@wname: 
+
+
+<!-- ##### FUNCTION uc_application_reset_menu_protocols ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_reset_menu_status ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_reset_menu_types ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_get_urls_user_action ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_get_urls_user_action_by_value ##### -->
+<para>
+
+</para>
+
+@value: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_urls_user_actions_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_cookie_warning_dialog_show ##### -->
+<para>
+
+</para>
+
+@server: 
+@page: 
+@label: 
+@name: 
+@value: 
+@path: 
+@expires: 
+@action: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_w3c_validate ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_buffer_show ##### -->
+<para>
+
+</para>
+
+@title: 
+@message: 
+
+
+<!-- ##### FUNCTION uc_application_build_projects_treeview ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_input_dialog ##### -->
+<para>
+
+</para>
+
+@title: 
+@text: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_input_file_dialog ##### -->
+<para>
+
+</para>
+
+@title: 
+@text: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_view_bad_extensions_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_set_status_bar ##### -->
+<para>
+
+</para>
+
+@progress: 
+@msg: 
+
+
+<!-- ##### FUNCTION uc_application_open_project_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_project_information_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_progress_dialog_set_modal ##### -->
+<para>
+
+</para>
+
+@modal: 
+
+
+<!-- ##### FUNCTION uc_application_treeview_get_selected_iter ##### -->
+<para>
+
+</para>
+
+@tv: 
+@iter: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_build_url_treeview ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_main_tree_display_all ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_main_tree_collapse_all ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_main_tree_expand_all ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_main_tree_display_branch ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_application_display_search_message ##### -->
+<para>
+
+</para>
+
+@label_pos: 
+@message: 
+
+
+<!-- ##### FUNCTION uc_application_dialog_yes_no_show ##### -->
+<para>
+
+</para>
+
+@message: 
+@msg_type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_search_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_new_search_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_add_filter_directory_add ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_add_filter_domain_add ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_add_filter_domain_remove ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_add_filter_directory_remove ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_add_filter_directory_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_page_information_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_display_state_message ##### -->
+<para>
+
+</para>
+
+@label_pos: 
+@message: 
+
+
+<!-- ##### FUNCTION uc_application_display_informations ##### -->
+<para>
+
+</para>
+
+@treeview: 
+
+
+<!-- ##### FUNCTION uc_application_treeview_activate_popup ##### -->
+<para>
+
+</para>
+
+@event: 
+
+
+<!-- ##### FUNCTION uc_application_view_similar_links_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_new_instance_launch ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_launch_web_browser ##### -->
+<para>
+
+</para>
+
+@url: 
+
+
+<!-- ##### FUNCTION uc_application_menu_set_sensitive_all ##### -->
+<para>
+
+</para>
+
+@name: 
+@val: 
+
+
+<!-- ##### FUNCTION uc_application_proxy_frame_control_sensitive ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_make_paths ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_remove_paths ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_view_source_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_view_image_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_dialog_show ##### -->
+<para>
+
+</para>
+
+@message: 
+@msg_type: 
+
+
+<!-- ##### FUNCTION uc_application_globals_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_init ##### -->
+<para>
+
+</para>
+
+@url: 
+@auth_user: 
+@auth_password: 
+@no_urls_args: 
+
+
+<!-- ##### FUNCTION uc_application_quit ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_draw_main_frames ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_search_get_data ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_get_bookmarks_project_data ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_new_web_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_new_local_file_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_new_bookmarks_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_open_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_about_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_progress_dialog_show ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### FUNCTION uc_application_settings_dialog_show ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_settings_get_data ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_status_code_properties_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_application_get_status_code_properties ##### -->
+<para>
+
+</para>
+
+@status_code: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_project_get_data ##### -->
+<para>
+
+</para>
+
+@type: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_auth_dialog_show ##### -->
+<para>
+
+</para>
+
+@title: 
+@host: 
+@Returns: 
+
+

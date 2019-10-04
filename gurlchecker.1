@@ -1,0 +1,93 @@
+'\" t
+.\"     Title: gurlchecker
+.\"    Author: Daniel Pecos Martinez
+.\" Generator: DocBook XSL Stylesheets v1.75.2 <http://docbook.sf.net/>
+.\"      Date: Apr 8, 2009
+.\"    Manual: http://labs.libre-entreprise.org/docman/view.php/7/13/FAQ.txt
+.\"    Source: http://gurlchecker.labs.libre-entreprise.org @VERSION@
+.\"  Language: English
+.\"
+.TH "GURLCHECKER" "1" "Apr 8, 2009" "http://gurlchecker\&.labs\&.li" "http://labs\&.libre\-entrepris"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+gurlchecker \- A graphical web link checker that works on a whole site, a single local page or a browser bookmarks file\&.
+.SH "SYNOPSIS"
+.HP \w'\fBgurlchecker\fR\ 'u
+\fBgurlchecker\fR [\fB\-h|\-\-help\fR] [\fB\-v|\-\-version\fR] [\fB\-u|\-\-http\-user\fR\ \fIuser\fR] [\fB\-p|\-\-http\-passwd\fR\ \fIpassword\fR] [\fB\-A|\-\-no\-urls\-args\fR] [\fIURL\fR]
+.SH "DESCRIPTION"
+.PP
+This manual page documents the
+\fBgurlchecker\fR
+command\&.
+.PP
+
+\fBgurlchecker\fR
+is a graphical web link checker\&. It searches URLs in a whole site, a single local page or a browser bookmarks page, checking them, one by one, in order to know their validity\&. Furthermore, it can manage entire projects\&.
+.SH "OPTIONS"
+.PP
+This program follows the usual GNU command line syntax, with long options starting with two dashes (`\-\*(Aq)\&. A summary of options is included below\&.
+.PP
+\fB\-h\fR, \fB\-\-help\fR
+.RS 4
+Show summary of options\&.
+.RE
+.PP
+\fB\-v\fR, \fB\-\-version\fR
+.RS 4
+Show version of program\&.
+.RE
+.PP
+\fB\-u\fR, \fB\-\-http\-user\fR
+.RS 4
+User name for HTTP Basic Authentication\&.
+.RE
+.PP
+\fB\-p\fR, \fB\-\-http\-passwd\fR
+.RS 4
+Password for HTTP Basic Authentication\&.
+.RE
+.PP
+\fB\-A\fR, \fB\-\-no\-urls\-args\fR
+.RS 4
+Ignore URLs arguments\&.
+.sp
+With this option gurlchecker will systematically remove arguments on URLs\&. It is useful to avoid nasty infinite loops when arguments are randomly generated, for example\&.
+.RE
+.SH "AUTHORS"
+.PP
+This manual page was written by Daniel Pecos Martinez <dani@netpecos\&.org> and Emmanuel Saracco <esaracco@users\&.labs\&.libre\-entreprise\&.org> for the Debian system (but may be used by others)\&. Permission is granted to copy, distribute and/or modify this document under the terms of the
+GNU
+Free Documentation License, Version 1\&.1 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front\-Cover Texts and no Back\-Cover Texts\&.
+.SH "AUTHORS"
+.PP
+\fBDaniel Pecos Martinez\fR
+.RS 4
+Author.
+.RE
+.PP
+\fBEmmanuel Saracco\fR
+.RS 4
+Author.
+.RE
+.SH "COPYRIGHT"
+.br
+Copyright \(co 2003-2005 Daniel Pecos Martinez, Emmanuel Saracco
+.br

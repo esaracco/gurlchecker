@@ -1,0 +1,869 @@
+<!-- ##### SECTION Title ##### -->
+general
+
+<!-- ##### SECTION Short_Description ##### -->
+General header used by all gURLChecker files.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_application_get_urls_user_action ##### -->
+<para>
+
+</para>
+
+@key: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_get_urls_user_action_by_value ##### -->
+<para>
+
+</para>
+
+@value: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_application_urls_user_actions_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### MACRO UC_DISPLAY_PROTO_IS ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_DISPLAY_PROTO_IS_NONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DISPLAY_PROTO_SET ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_DISPLAY_PROTO_SET_NONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DISPLAY_PROTO_UNSET ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_DISPLAY_SET_ALL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DISPLAY_STATUS_IS ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_DISPLAY_STATUS_IS_NONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DISPLAY_STATUS_SET ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_DISPLAY_STATUS_SET_NONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DISPLAY_STATUS_UNSET ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_DISPLAY_TYPE_IS ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_DISPLAY_TYPE_IS_NONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DISPLAY_TYPE_SET ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_DISPLAY_TYPE_SET_NONE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DISPLAY_TYPE_UNSET ##### -->
+<para>
+
+</para>
+
+@flag: 
+
+
+<!-- ##### MACRO UC_BUFFER_DATETIME_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_SYSTEM_NAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_VERSION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_UPDATE_UI ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_GLADE_XML_FILENAME ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STYLESHEETS_DIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_PIXMAPS_DIR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DIALOG_SETTINGS_DOCUMENT_TYPES_MAX_COLS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_BUTTON_MAX_DISPLAY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_MESSAGE_LABEL_FIRST ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_MESSAGE_LABEL_SECOND ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_MESSAGE_LABEL_THIRD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_INTERNALS_LIMIT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_BAD_METHOD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_PAGE_OK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_NO_DATA ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_MOVED_PERMANENTLY ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_REDIRECTED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_REDIRECTED_SEE_OTHER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_RESTRICTED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_PAGE_NOT_FOUND ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_TIMEOUT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_FTP_MAX_CLIENTS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_UNKNOWN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_IGNORED_LINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_MALFORMED_LINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_FILE_PROTO_ERROR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_BAD_EMAIL_LINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_BAD_EMAIL_LINK_MX ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_GOOD_EMAIL_LINK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_FTP_OK ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_STATUS_CODE_FTP_BAD ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_SET_COOKIE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_IGNORED_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_BAD_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_GOOD_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_TIMEOUT_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_MALFORMED_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_HOST_UNREACHABLE_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_NO_DATA_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_RESTRICTED_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_FILE_ERROR_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_BAD_EMAIL_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_GOOD_EMAIL_LINK_BGCOLOR ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_PROTOCOLS_ACCEPTED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_PROTOCOLS_ACCEPTED_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_PROTOCOLS_GET_ACCEPTED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_SPLIT_DELIMITER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DEFAULT_SECURITY_BAD_EXTENSIONS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DEFAULT_SECURITY_VIRII_EXTENSIONS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DEFAULT_W3C_HTML_EXTENSIONS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DEFAULT_W3C_CSS_EXTENSIONS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_LABEL_DISPLAY_MAX_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_DEFAULT_WEB_BROWSER_PATH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO WSENS ##### -->
+<para>
+
+</para>
+
+@name: 
+@value: 
+
+
+<!-- ##### MACRO UC_GET_WIDGET ##### -->
+<para>
+
+</para>
+
+@name: 
+@window: 
+@widget: 
+
+
+<!-- ##### MACRO UC_SET_WIDGET ##### -->
+<para>
+
+</para>
+
+@name: 
+@window: 
+@widget: 
+
+
+<!-- ##### MACRO WGET ##### -->
+<para>
+
+</para>
+
+@name: 
+
+
+<!-- ##### MACRO UC_BUFFER_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_BUFFER_DATE_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_HEADER_STATUS_CODE_LEN ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_HEADER_STATUS_CODE_FIRST_POS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_PROTOCOL_FTP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_PROTOCOL_HTTP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_PROTOCOL_HTTPS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_PROTOCOL_MAILTO ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_PROTOCOL_FILE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CONTENT_TYPE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CONTENT_TYPE_FTP ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CONTENT_LENGTH ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_LAST_MODIFIED ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CONTENT_TYPE_HTML ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CONTENT_TYPE_CSS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_HEADER_STATUS ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CONTENT_LOCATION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_LOCATION ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_SERVER ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_URL_DEFAULT_PORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_URL_DEFAULT_SSL_PORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_URL_DEFAULT_FTP_PORT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_SOCKET_OPEN_FORCE_ARGS_USE ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_SOCKET_OPEN_DEFAULT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_TOOLTIPS_DELAY_DEFAULT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_WAIT_DEFAULT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_CHECK_TIMEOUT_DEFAULT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_MAX_DEPTH_LEVEL ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_TIMEOUTS_BLOCKED_DEFAULT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### MACRO UC_USER_AGENT ##### -->
+<para>
+
+</para>
+
+
+
+<!-- ##### STRUCT UCStatusCode ##### -->
+<para>
+
+</para>
+
+@color: 
+@message: 
+@description: 
+@icon_file: 
+
+<!-- ##### STRUCT UCHTMLTag ##### -->
+<para>
+
+</para>
+
+@depth: 
+@label: 
+@value: 
+@type: 
+
+<!-- ##### STRUCT UCLinkProperties ##### -->
+<para>
+
+</para>
+
+@uid: 
+@treeview_path: 
+@parent: 
+@current_path: 
+@iter: 
+@tag: 
+@link_type: 
+@link_icon: 
+@status_icon: 
+@user_action: 
+@link_value: 
+@url: 
+@normalized_url: 
+@label: 
+@ip_addr: 
+@protocol: 
+@h_name: 
+@port: 
+@path: 
+@args: 
+@domain: 
+@header: 
+@header_size: 
+@depth_level: 
+@is_parsable: 
+@is_downloadable: 
+@checked: 
+@xml_node: 
+@json_array: 
+@bookmark_folder_id: 
+@bookmark_id: 
+@to_delete: 
+@metas: 
+@emails: 
+@all_links: 
+@childs: 
+@similar_links_parents: 
+@bad_extensions: 
+@virii: 
+@virname: 
+@w3c_valid: 
+@tags: 
+
+<!-- ##### MACRO UC_WWW_AUTHENTICATE ##### -->
+<para>
+
+</para>
+
+
+

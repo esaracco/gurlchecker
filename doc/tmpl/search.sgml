@@ -1,0 +1,71 @@
+<!-- ##### SECTION Title ##### -->
+search
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage search on checked links content.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_search_get_exit ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_search_set_exit ##### -->
+<para>
+
+</para>
+
+@val: 
+
+
+<!-- ##### FUNCTION uc_search_main_select ##### -->
+<para>
+
+</para>
+
+@selection: 
+
+
+<!-- ##### FUNCTION uc_search_check_verification ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_search_free ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_search_begin ##### -->
+<para>
+
+</para>
+
+@void: 
+
+

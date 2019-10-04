@@ -1,0 +1,479 @@
+dnl Process this file with autoconf to produce a configure script.
+AC_PREREQ(2.54)
+
+AC_INIT(configure.in)
+AM_INIT_AUTOMAKE(gurlchecker, 0.13.1svn2013021800)
+AM_CONFIG_HEADER(config.h)
+AC_CONFIG_MACRO_DIR([m4])
+
+AM_MAINTAINER_MODE
+
+AC_ISC_POSIX
+AC_PROG_CC
+AC_STDC_HEADERS
+AM_DISABLE_STATIC
+AM_PROG_LIBTOOL
+AC_CHECK_HEADER([resolv.h],,)
+
+AM_PATH_GLIB_2_0
+
+GNOME_COMPILE_WARNINGS
+
+dnl i18n stuff and gettext stuff
+AC_PROG_INTLTOOL([0.30])
+
+PKG_PROG_PKG_CONFIG
+
+GETTEXT_PACKAGE=gurlchecker
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE",[Define gettext package])
+ALL_LINGUAS="da de eo es fr it ja sk pt vi cs"
+AM_GLIB_GNU_GETTEXT
+
+pkg_modules="gnutls > 2.2.0 gtk+-2.0 >= 2.6 libgnomeui-2.0 libglade-2.0 libxml-2.0 > 2.6 gnet-2.0"
+
+AC_MSG_NOTICE([*****************************************])
+
+##################################################
+# gtk-doc
+##################################################
+
+AC_ARG_ENABLE([html-dir],
+	AC_HELP_STRING(
+    [--with-html-dir=@<:@=PATH@:>@],
+    [use PATH to install docs @<:@default=${datadir}/gtk-doc/html@:>@]
+  ),
+  [
+   case "x$enableval" in
+     x | xno | xyes)
+       HTML_DIR='${datadir}/gtk-doc/html'
+     ;;
+     *)
+       HTML_DIR="$enableval"
+     ;;
+   esac
+  ],
+  [HTML_DIR='${datadir}/gtk-doc/html']
+)
+AC_SUBST(HTML_DIR)
+
+PKG_CHECK_MODULES(GTK_DOC, gtk-doc > 1.1, HAVE_GTK_DOC="yes", HAVE_GTK_DOC="no")
+AM_CONDITIONAL(HAVE_GTK_DOC, test "x$HAVE_GTK_DOC" = "xyes")
+
+dnl Let people disable the gtk-doc stuff.
+AC_ARG_ENABLE([gtk-doc],
+	AC_HELP_STRING(
+    [--enable-gtk-doc],
+    [use gtk-doc to build documentation @<:@default=no@:>@]
+  ),
+  [enable_gtk_doc="$enableval"],
+  [enable_gtk_doc=auto]
+)
+
+if test x$enable_gtk_doc = xyes -a x$HAVE_GTK_DOC != xyes; then
+  echo "Please install the gtk-doc package."
+  exit -1
+fi
+
+if test x$enable_gtk_doc = xauto -o x$enable_gtk_doc = xyes ; then
+  enable_gtk_doc=$HAVE_GTK_DOC
+fi
+
+AM_CONDITIONAL(ENABLE_GTK_DOC, test x$enable_gtk_doc = xyes)
+
+################################################
+# json-glib
+################################################
+
+JSON_LIBS=''
+JSON_FLAGS=''
+JSON_CFLAGS=''
+AC_MSG_CHECKING([whether to use JSON library (Google Chrome bookmarks management)])
+if test "x$enable_json" != "xno"; then
+  AC_ARG_WITH(
+  	[json],
+    AC_HELP_STRING(
+      [--with-json@<:@=DIR@:>@],
+      [use JSON library located in directory DIR (if supplied) for Firefox bookmarks management @<:@default=yes (if present)@:>@]
+    ),
+    [
+     if test "x$withval" = "xno"; then
+       AC_MSG_RESULT([not requested])
+       want_json=no
+     elif test "x$withval" = "xyes" -o -d "$withval"; then
+       want_json=yes
+       if test -d "$withval"; then
+         want_json_path=$withval
+       fi
+     else
+       AC_MSG_RESULT([no])
+       AC_MSG_WARN([The specified path for json-glib does not exist.])
+       want_json=no
+     fi
+    ],
+    [want_json=yes]
+  )
+else
+  AC_MSG_RESULT([not requested])
+  want_json=no
+fi
+if test "x$want_json" != "xno"; then
+  AC_MSG_RESULT([requested])
+  PKG_CHECK_MODULES([JSON],
+    [json-glib-1.0 >= 0.8],
+    [
+     want_json=yes
+     JSON_FLAGS="-DENABLE_JSON $JSON_CFLAGS"
+     LDFLAGS="$LDFLAGS $want_json_path"
+    ],
+    [
+     want_json=no
+     AC_MSG_RESULT([libjson-glib-1.0 not found])
+     AC_MSG_WARN([You requested libjson-glib support, but it doesn't seem to be installed.])
+    ]
+  )
+else
+  AC_MSG_WARN([You are building without libjson-glib support. gurlchecker will not be able to manage Firefox bookmarks...])
+fi
+AC_SUBST(JSON_LIBS)
+AC_SUBST(JSON_FLAGS)
+
+
+################################################
+# libsqlite3
+################################################
+
+SQLITE3_LIBS=''
+SQLITE3_FLAGS=''
+SQLITE3_CFLAGS=''
+AC_MSG_CHECKING([whether to use SQLITE3 library (Firefox bookmarks management)])
+if test "x$enable_sqlite3" != "xno"; then
+  AC_ARG_WITH(
+  	[sqlite3],
+    AC_HELP_STRING(
+      [--with-sqlite3@<:@=DIR@:>@],
+      [use SQLITE3 library located in directory DIR (if supplied) for Firefox bookmarks management @<:@default=yes (if present)@:>@]
+    ),
+    [
+     if test "x$withval" = "xno"; then
+       AC_MSG_RESULT([not requested])
+       want_sqlite3=no
+     elif test "x$withval" = "xyes" -o -d "$withval"; then
+       want_sqlite3=yes
+       if test -d "$withval"; then
+         want_sqlite3_path=$withval
+       fi
+     else
+       AC_MSG_RESULT([no])
+       AC_MSG_WARN([The specified path for libsqlite3 does not exist.])
+       want_sqlite3=no
+     fi
+    ],
+    [want_sqlite3=yes]
+  )
+else
+  AC_MSG_RESULT([not requested])
+  want_sqlite3=no
+fi
+if test "x$want_sqlite3" != "xno"; then
+  AC_MSG_RESULT([requested])
+  PKG_CHECK_MODULES([SQLITE3],
+    [sqlite3 >= 3.6],
+    [
+     want_sqlite3=yes
+     SQLITE3_FLAGS="-DENABLE_SQLITE3 $SQLITE3_CFLAGS"
+     LDFLAGS="$LDFLAGS $want_sqlite3_path"
+    ],
+    [
+     want_sqlite3=no
+     AC_MSG_RESULT([libsqlite3 not found])
+     AC_MSG_WARN([You requested libsqlite3 support, but it doesn't seem to be installed.])
+    ]
+  )
+else
+  AC_MSG_WARN([You are building without libsqlite3 support. gurlchecker will not be able to manage Firefox bookmarks...])
+fi
+AC_SUBST(SQLITE3_LIBS)
+AC_SUBST(SQLITE3_FLAGS)
+
+################################################
+# libcroco
+################################################
+
+CROCO_LIBS=''
+CROCO_FLAGS=''
+CROCO_CFLAGS=''
+AC_MSG_CHECKING([whether to use CROCO library (CSS2 w3c validation)])
+if test "x$enable_croco" != "xno"; then
+  AC_ARG_WITH(
+  	[croco],
+    AC_HELP_STRING(
+      [--with-croco@<:@=DIR@:>@],
+      [use CROCO library located in directory DIR (if supplied) for CSS2 validation @<:@default=yes (if present)@:>@]
+    ),
+    [
+     if test "x$withval" = "xno"; then
+       AC_MSG_RESULT([not requested])
+       want_croco=no
+     elif test "x$withval" = "xyes" -o -d "$withval"; then
+       want_croco=yes
+       if test -d "$withval"; then
+         want_croco_path=$withval
+       fi
+     else
+       AC_MSG_RESULT([no])
+       AC_MSG_WARN([The specified path for libcroco does not exist.])
+       want_croco=no
+     fi
+    ],
+    [want_croco=yes]
+  )
+else
+  AC_MSG_RESULT([not requested])
+  want_croco=no
+fi
+if test "x$want_croco" != "xno"; then
+  AC_MSG_RESULT([requested])
+  PKG_CHECK_MODULES([CROCO],
+    [libcroco-0.6 >= 0.6.0],
+    [
+     want_croco=yes
+     CROCO_FLAGS="-DENABLE_CROCO $CROCO_CFLAGS"
+     LDFLAGS="$LDFLAGS $want_croco_path"
+    ],
+    [
+     want_croco=no
+     AC_MSG_RESULT([libcroco not found])
+     AC_MSG_WARN([You requested libcroco support, but it doesn't seem to be installed.])
+    ]
+  )
+else
+  AC_MSG_WARN([You are building without libcroco support. gurlchecker will not be able to do CSS validation...])
+fi
+AC_SUBST(CROCO_LIBS)
+AC_SUBST(CROCO_FLAGS)
+
+################################################
+# libtidy
+################################################
+
+TIDY_LIBS=''
+TIDY_FLAGS=''
+AC_MSG_CHECKING([whether to use TIDY library (HTML w3c validation)])
+if test "x$enable_tidy" != "xno"; then
+  AC_ARG_WITH(
+  	[tidy],
+    AC_HELP_STRING(
+      [--with-tidy@<:@=DIR@:>@],
+      [use TIDY library located in directory DIR (if supplied) for HTML w3c validation @<:@default=yes (if present)@:>@]
+    ),
+    [
+     if test "x$withval" = "xno"; then
+       AC_MSG_RESULT([not requested])
+       want_tidy=no
+     elif test "x$withval" = "xyes" -o -d "$withval"; then
+       want_tidy=yes
+       if test -d "$withval"; then
+         want_tidy_path=$withval
+       fi
+     else
+       AC_MSG_RESULT([no])
+       AC_MSG_WARN([The specified path for libtidy does not exist.])
+       want_tidy=no
+     fi
+    ],
+    [want_tidy=yes]
+  )
+else
+  AC_MSG_RESULT([not requested])
+  want_tidy=no
+fi
+if test "x$want_tidy" != "xno"; then
+  AC_MSG_RESULT([requested])
+	AC_CHECK_LIB(
+	  [tidy],
+	  [tidyCreate],
+	  [
+	   AC_CHECK_HEADERS(
+	     [tidy.h tidy/tidy.h],
+	     [
+	      want_tidy=yes
+	      TIDY_FLAGS="$TIDY_FLAGS -DHAVE_TIDY_H_IN_SUBDIR -DENABLE_TIDY"
+        TIDY_LIBS="-ltidy"
+        LDFLAGS="$LDFLAGS $want_tidy_path"
+	     ],
+       [want_tidy=no]
+	   )
+	  ],
+	  [
+	   want_tidy=no
+	   AC_MSG_WARN([You requested libtidy support, but it doesn't seem to be installed.])
+	  ]
+	)
+else
+  AC_MSG_WARN([You are building without libtidy support. gurlchecker will not be able to do HTML validation...])
+fi
+AC_SUBST(TIDY_LIBS)
+AC_SUBST(TIDY_FLAGS)
+
+################################################
+# libclamav
+################################################
+
+CLAMAV_LIBS=''
+CLAMAV_FLAGS=''
+AC_MSG_CHECKING([whether to use CLAMAV library (virii scan)])
+if test "x$enable_clamav" != "xno"; then
+  AC_ARG_WITH(
+  	[clamav],
+    AC_HELP_STRING(
+      [--with-clamav@<:@=DIR@:>@],
+      [use CLAMAV library located in directory DIR (if supplied) for virii scan @<:@default=yes (if present)@:>@]
+    ),
+    [
+     if test "x$withval" = "xno"; then
+       AC_MSG_RESULT([not requested])
+       want_clamav=no
+     elif test "x$withval" = "xyes" -o -d "$withval"; then
+       want_clamav=yes
+       if test -d "$withval"; then
+         want_clamav_path=$withval
+       fi
+     else
+       AC_MSG_RESULT([no])
+       AC_MSG_WARN([The specified path for libtidy does not exist.])
+       want_clamav=no
+     fi
+    ],
+    [want_clamav=yes]
+  )
+else
+  AC_MSG_RESULT([not requested])
+  want_clamav=no
+fi
+if test "x$want_clamav" != "xno"; then
+  AC_MSG_RESULT([requested])
+	AC_CHECK_LIB(
+	  [clamav],
+	  [cl_init],
+	  [
+	   AC_CHECK_HEADER(
+	     [clamav.h],
+	     [
+	      want_clamav=yes
+	      CLAMAV_FLAGS="$CLAMAV_FLAGS -DENABLE_CLAMAV"
+        CLAMAV_LIBS="-lclamav"
+        LDFLAGS="$LDFLAGS $want_clamav_path"
+	     ],
+       [want_clamav=no]
+	   )
+	  ],
+	  [
+	   want_clamav=no
+	   AC_MSG_WARN([You requested libclamav support, but it doesn't seem to be installed.])
+	  ]
+	)
+else
+  AC_MSG_WARN([You are building without libclamav support. gurlchecker will not be able to do virii scan...])
+fi
+AC_SUBST(CLAMAV_LIBS)
+AC_SUBST(CLAMAV_FLAGS)
+
+################################################
+# SSL stuff
+################################################
+
+GNUTLS_LIBS=''
+GNUTLS_FLAGS=''
+AC_MSG_CHECKING([whether to use GNUTLS library (HTTPS check)])
+if test "x$enable_gnutls" != "xno"; then
+  AC_ARG_WITH(
+  	[gnutls],
+    AC_HELP_STRING(
+      [--with-gnutls@<:@=DIR@:>@],
+      [use GNUTLS library located in directory DIR (if supplied) for HTTPS check @<:@default=yes (if present)@:>@]
+    ),
+    [
+     if test "x$withval" = "xno"; then
+       AC_MSG_RESULT([not requested])
+       want_gnutls=no
+     elif test "x$withval" = "xyes" -o -d "$withval"; then
+       want_gnutls=yes
+       if test -d "$withval"; then
+         want_gnutls_path=$withval
+       fi
+     else
+       AC_MSG_RESULT([no])
+       AC_MSG_WARN([The specified path for libgnutls does not exist.])
+       want_gnutls=no
+     fi
+    ],
+    [want_gnutls=yes]
+  )
+else
+  AC_MSG_RESULT([not requested])
+  want_gnutls=no
+fi
+if test "x$want_gnutls" != "xno"; then
+  AC_MSG_RESULT([requested])
+	AC_CHECK_LIB(
+	  [gnutls],
+	  [gnutls_global_init],
+	  [
+	   AC_CHECK_HEADERS(
+	     [gnutls.h gnutls/gnutls.h],
+	     [
+	      want_gnutls=yes
+	      GNUTLS_FLAGS="$GNUTLS_FLAGS -DHAVE_GNUTLS_H_IN_SUBDIR -DENABLE_GNUTLS"
+        GNUTLS_LIBS="-lgnutls"
+        LDFLAGS="$LDFLAGS $want_gnutls_path"
+	     ],
+       [want_gnutls=no]
+	   )
+	  ],
+	  [
+	   want_gnutls=no
+	   AC_MSG_WARN([You requested libgnutls support, but it doesn't seem to be installed.])
+	  ]
+	)
+else
+  AC_MSG_WARN([You are building without libgnutls support. gurlchecker will not be able to do HTTPS check...])
+fi
+AC_SUBST(GNUTLS_LIBS)
+AC_SUBST(GNUTLS_FLAGS)
+
+
+echo "*****************************************"
+
+PKG_CHECK_MODULES(PACKAGE, [$pkg_modules])
+
+AC_OUTPUT([  
+  Makefile
+  doc/Makefile
+  po/Makefile.in 
+  ui/Makefile
+  src/Makefile
+  stylesheets/Makefile
+])
+
+echo "
+	====================================================================
+             gURLChecker $VERSION, graphical links checker for GNOME
+	====================================================================
+	
+	prefix					: ${prefix}
+	source code location			: ${srcdir}
+	data location				: ${datadir}
+	compiler				: ${CC}
+	cflags					: ${CFLAGS}
+	maintainer mode				: ${USE_MAINTAINER_MODE}
+	
+	Google Chrome bookmarks (libjson-glib)	: ${want_json}
+	Firefox bookmarks	(libsqlite3)	: ${want_sqlite3}
+	SSL layer		(libgnutls)	: ${want_gnutls}	
+	HTML validation 	(libtidy)	: ${want_tidy}
+	CSS2 validation 	(libcroco)	: ${want_croco}
+	Virii scan 		(libclamav)	: ${want_clamav}
+	
+	Generate GTK doc	(gtkdoc)	: ${enable_gtk_doc}
+"

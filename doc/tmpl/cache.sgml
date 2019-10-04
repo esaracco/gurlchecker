@@ -1,0 +1,51 @@
+<!-- ##### SECTION Title ##### -->
+cache
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage pages content files work.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_cache_change_id ##### -->
+<para>
+
+</para>
+
+@old: 
+@new: 
+
+
+<!-- ##### FUNCTION uc_cache_get_source ##### -->
+<para>
+
+</para>
+
+@id: 
+@length: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_cache_append_source ##### -->
+<para>
+
+</para>
+
+@id: 
+@src: 
+@length: 
+
+

@@ -1,0 +1,84 @@
+<!-- ##### SECTION Title ##### -->
+callbacks
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage callbacks for the UI.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION on_urls_list_cursor_changed ##### -->
+<para>
+
+</para>
+
+@selection: 
+@user_data: 
+
+
+<!-- ##### FUNCTION on_url_list_mouse_clicked ##### -->
+<para>
+
+</para>
+
+@widget: 
+@event: 
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION on_search_list_cursor_changed ##### -->
+<para>
+
+</para>
+
+@selection: 
+@user_data: 
+
+
+<!-- ##### FUNCTION on_main_treeview_motion_notify_event ##### -->
+<para>
+
+</para>
+
+@widget: 
+@event: 
+@data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION on_main_treeview_enter_notify_event ##### -->
+<para>
+
+</para>
+
+@widget: 
+@event: 
+@user_data: 
+@Returns: 
+
+
+<!-- ##### FUNCTION on_main_treeview_leave_notify_event ##### -->
+<para>
+
+</para>
+
+@widget: 
+@event: 
+@user_data: 
+@Returns: 
+
+

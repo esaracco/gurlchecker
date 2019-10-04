@@ -1,0 +1,150 @@
+<!-- ##### SECTION Title ##### -->
+tooltips
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage customized tooltips.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_tooltips_main_set_display ##### -->
+<para>
+
+</para>
+
+@value: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_get_display ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_tooltips_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_set_mouse_coord ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_get_current_id ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_set_current_id ##### -->
+<para>
+
+</para>
+
+@id: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_get_last_id ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_set_last_id ##### -->
+<para>
+
+</para>
+
+@id: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_get_mouse_coord ##### -->
+<para>
+
+</para>
+
+@x: 
+@y: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_set_frozen ##### -->
+<para>
+
+</para>
+
+@value: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_get_frozen ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_destroy ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_get_active ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_tooltips_main_set_active ##### -->
+<para>
+
+</para>
+
+@value: 
+
+
+<!-- ##### FUNCTION uc_tooltips_get_frozen ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+

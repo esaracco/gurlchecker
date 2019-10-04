@@ -1,0 +1,22 @@
+# List of source files containing translatable strings.
+
+src/cookies.c
+src/uccroco.c
+src/connection.c
+src/application.c
+src/callbacks.c
+src/check.c
+src/web_site.c
+src/bookmarks.c
+src/cookies.c
+src/main.c
+src/report.c
+src/url.c
+src/utils.c
+src/html_parser.c
+src/search.c
+src/project.c
+src/tooltips.c
+gurlchecker.desktop.in
+src/getopt.c
+ui/gurlchecker.glade

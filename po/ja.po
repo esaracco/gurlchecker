@@ -1,0 +1,2325 @@
+# gurlchecker ja.po.
+# Copyright (C) 2002, 2003 Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>.
+# This file is distributed under the same license as the gURLChecker package.
+#
+# Takeshi AIHANA <aihana@gnome.gr.jp>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 08:53+0100\n"
+"PO-Revision-Date: 2003-11-09 11:21+0900\n"
+"Last-Translator: Takeshi AIHANA <aihana@gnome.gr.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/cookies.c:239
+msgid "The following cookie will be <b>deleted</b>"
+msgstr ""
+
+#: ../src/cookies.c:259
+msgid "The following cookie will be <b>updated</b>"
+msgstr ""
+
+#: ../src/cookies.c:290
+msgid "The following cookie will be <b>added</b>"
+msgstr ""
+
+#: ../src/uccroco.c:49
+#, c-format
+msgid "%u - Error after: %s\n"
+msgstr ""
+
+#: ../src/uccroco.c:52
+#, c-format
+msgid "%u - Unknown error...\n"
+msgstr ""
+
+#: ../src/application.c:112 ../src/search.c:133
+msgid "Id"
+msgstr "ID"
+
+#: ../src/application.c:118
+msgid "Type"
+msgstr "種類"
+
+#: ../src/application.c:123 ../src/application.c:309 ../src/application.c:1737
+#: ../src/application.c:1804 ../src/application.c:1867 ../src/search.c:141
+msgid "URL"
+msgstr "URL"
+
+#: ../src/application.c:288
+#, fuzzy
+msgid "Custom action"
+msgstr "ブックマーク・ファイルの選択"
+
+#: ../src/application.c:300 ../src/application.c:1667
+#: ../src/application.c:1743
+msgid "Label"
+msgstr "ラベル"
+
+#: ../src/application.c:318
+#, fuzzy
+msgid "Date"
+msgstr "削除"
+
+#: ../src/application.c:523 ../src/application.c:1507
+msgid "Name"
+msgstr "名前"
+
+#: ../src/application.c:529
+msgid "Content"
+msgstr "内容"
+
+#: ../src/application.c:805 ../src/application.c:869
+msgid "At the end of this session"
+msgstr ""
+
+#: ../src/application.c:906
+#, c-format
+msgid "Enter login and password for %s at %s"
+msgstr ""
+
+#: ../src/application.c:1020 ../src/application.c:1024
+msgid "W3C CSS validation result (libcroco)"
+msgstr ""
+
+#: ../src/application.c:1025
+msgid "This is a valid stylesheet."
+msgstr ""
+
+#: ../src/application.c:1029
+msgid ""
+"A problem occured while using Croco library.\n"
+"<i>Please check your configuration or your libcroco version</i>.\n"
+"\n"
+msgstr ""
+
+#: ../src/application.c:1048
+msgid "W3C HTML validation result (libtidy)"
+msgstr ""
+
+#: ../src/application.c:1052
+msgid ""
+"A problem occured while using Tidy library.\n"
+"<i>Please check your configuration or your libtidy version</i>.\n"
+"\n"
+msgstr ""
+
+#: ../src/application.c:1289
+msgid "Found Bad extensions.\n"
+msgstr ""
+
+#: ../src/application.c:1291
+msgid "Found Virus: "
+msgstr ""
+
+#: ../src/application.c:1302 ../src/application.c:1557
+#: ../src/application.c:1559
+msgid "No referrer"
+msgstr ""
+
+#: ../src/application.c:1536
+msgid "Missing URL"
+msgstr ""
+
+#: ../src/application.c:1567 ../src/application.c:1599
+#: ../src/application.c:1609
+msgid "Not specified"
+msgstr ""
+
+#: ../src/application.c:1577
+msgid "Unknown"
+msgstr ""
+
+#: ../src/application.c:1582
+#, fuzzy
+msgid "(gURLChecker internals)"
+msgstr "gURLChecker の設定"
+
+#: ../src/application.c:1592
+msgid "Disk Cache"
+msgstr ""
+
+#: ../src/application.c:1592
+msgid "Not cached"
+msgstr ""
+
+#: ../src/application.c:1661 ../src/check.c:406 ../ui/gurlchecker.glade.h:109
+#, fuzzy
+msgid "E-Mail"
+msgstr "E-メール"
+
+#: ../src/application.c:1776 ../src/application.c:1839
+#: ../src/application.c:1934 ../src/application.c:1978
+#: ../src/application.c:3428 ../src/application.c:3479 ../src/callbacks.c:554
+#: ../src/callbacks.c:568 ../src/callbacks.c:590 ../src/callbacks.c:818
+#: ../src/callbacks.c:864 ../src/callbacks.c:877 ../src/callbacks.c:1028
+#: ../src/check.c:1302 ../src/project.c:548
+#, fuzzy
+msgid "Please, select a item."
+msgstr "まず最初にアイテムを選択して下さい。"
+
+#: ../src/application.c:1906
+#, fuzzy
+msgid ""
+"Cannot start your web browser\n"
+"The following error occured:\n"
+msgstr "お使いのウェブ・ブラウザを起動できません。次のエラーが発生しました:"
+
+#: ../src/application.c:1956 ../src/application.c:1988
+#, fuzzy
+msgid ""
+"Either the corresponding file is empty or does not exist in the cache "
+"directory!"
+msgstr ""
+"一致するファイルが空か、\n"
+"あるいはキャッシュ・フォルダに存在しません！"
+
+#: ../src/application.c:1986 ../ui/gurlchecker.glade.h:209
+msgid "View source"
+msgstr "ソースの表示"
+
+#: ../src/application.c:2029
+msgid "Redirect"
+msgstr ""
+
+#: ../src/application.c:2030
+#, fuzzy
+msgid "Edit"
+msgstr "編集(_E)"
+
+#: ../src/application.c:2031
+msgid "Create target"
+msgstr ""
+
+#: ../src/application.c:2096
+msgid "Host unreachable"
+msgstr "ホストが見つかりません"
+
+#: ../src/application.c:2097
+msgid ""
+"The remote host does not respond at all...\n"
+"Perhaps you would change the timeout in gURLChecker preferences, or perhaps "
+"it is really down.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"リモート・ホストから全く応答がありません...\n"
+"おそらく gURLChecker の設定にあるタイムアウト値を変更したか、あるいは本当に"
+"サーバがダウンしているようです。\n"
+"\n"
+"あとでチェックしてみて下さい。"
+
+#: ../src/application.c:2106
+msgid "FILE:// protocol"
+msgstr "FILE:// protocol"
+
+#: ../src/application.c:2107
+msgid ""
+"File protocol detected.\n"
+"You have asked me to warn you when I find the \"FILE://\" protocol in a link."
+msgstr ""
+"ファイル・プロトコルを検出しました。\n"
+"リンクの中に \"FILE://\" プロトコルを見つけたら警告するかどうかを問い合わせし"
+"ました。"
+
+#: ../src/application.c:2115 ../src/application.c:2174
+msgid "Page available"
+msgstr "ページは利用可能です"
+
+#: ../src/application.c:2116 ../src/application.c:2175
+#: ../src/application.c:2192 ../src/application.c:2200
+msgid ""
+"No problem with this page.\n"
+"Server is up and document can be loaded without any problem."
+msgstr ""
+"このページには問題はありません。\n"
+"サーバは起動されており、ドキュメントを問題なく読み込むことが可能です。"
+
+#: ../src/application.c:2123 ../src/application.c:2240
+msgid "Page not found"
+msgstr "ページが見つかりませんでした"
+
+#: ../src/application.c:2123 ../src/application.c:2240
+#, fuzzy
+msgid "The page does not exist on the server."
+msgstr "そのサーバにはもうページが存在しません。"
+
+#: ../src/application.c:2129
+#, fuzzy
+msgid "Bad E-Mail link"
+msgstr "おかしな E-メールのリンク"
+
+#: ../src/application.c:2130
+#, fuzzy
+msgid "The E-Mail specified in the link is not well formatted."
+msgstr ""
+"リンクの中で指定されている E-メールのアドレスが標準形式ではありません。"
+
+#: ../src/application.c:2136
+msgid "Problem with MX"
+msgstr "MX を利用する際の問題"
+
+#: ../src/application.c:2137
+#, fuzzy
+msgid ""
+"The MX of the domain specified for this E-Mail is not valid or the domain "
+"itself is not valid."
+msgstr ""
+"この E-メール・アドレスに指定されているドメインの MX が正しくないか、あるいは"
+"ドメイン自身が正しくありません。"
+
+#: ../src/application.c:2144
+#, fuzzy
+msgid "E-Mail link ok"
+msgstr "E-メールのリンクに問題ありません"
+
+#: ../src/application.c:2144
+#, fuzzy
+msgid "No problem with this E-Mail."
+msgstr "この E-メール・アドレスには問題がありません。"
+
+#: ../src/application.c:2150
+msgid "Item ignored"
+msgstr "アイテムは無視されました"
+
+#: ../src/application.c:2151
+msgid "You chose to ignore this item while gURLChecker was checking it."
+msgstr ""
+"gURLChecker がチェックしている間にこのアイテムを無視することを選択しました。"
+
+#: ../src/application.c:2158
+msgid "Malformed link"
+msgstr "おかしなリンクです。"
+
+#: ../src/application.c:2159
+#, fuzzy
+msgid ""
+"The HTML link is malformed.\n"
+"Perhaps HREF value is missing?"
+msgstr ""
+"HTML リンクが間違っています。\n"
+"\n"
+"SRC 属性が空か、あるいは存在しないか、関連リンクが正しくないかもしれません。"
+
+#: ../src/application.c:2165
+msgid "No valid information"
+msgstr "適切な情報ではありません"
+
+#: ../src/application.c:2166
+msgid ""
+"gURLChecker can't interpret the status code sent by the remote host.\n"
+"Please, report the value of the \"Status\" header field to the author of "
+"gURLChecker."
+msgstr ""
+"gURLChecker はリモート・ホストから送信されたステータス・コードを理解できませ"
+"ん。\n"
+"ヘッダにある \"ステータス\" の値を gURLChecker の作者に報告して下さい。"
+
+#: ../src/application.c:2182
+msgid "Page moved permanently"
+msgstr "ページは恒久的に別の場所に移動しました"
+
+#: ../src/application.c:2183
+msgid ""
+"No real problem with this page.\n"
+"The requested resource just has been assigned a new permanent URI."
+msgstr ""
+"このページに対する実際のエラーではありません。\n"
+"要求したリソースには新しい URL が割り当てられています。"
+
+#: ../src/application.c:2191
+#, fuzzy
+msgid "Page moved Temporarily"
+msgstr "ページは恒久的に別の場所に移動しました"
+
+#: ../src/application.c:2199
+msgid "The response to the request can be found under a different URI"
+msgstr ""
+
+#: ../src/application.c:2207
+msgid "Restricted access"
+msgstr "アクセスが制限されています"
+
+#: ../src/application.c:2208
+msgid "This page need authentication to be viewed."
+msgstr "このページを表示するには証明書が必要です。"
+
+#: ../src/application.c:2214
+msgid "Access forbidden"
+msgstr "アクセスが禁止されています"
+
+#: ../src/application.c:2215 ../src/application.c:2263
+msgid ""
+"The remote host has refused to serve us the page.\n"
+"Given the way gURLChecker process links, this error should not occured.\n"
+"\n"
+"Please report this bug to the gURLChecker Team."
+msgstr ""
+
+#: ../src/application.c:2224
+msgid "Page available, but with no content"
+msgstr "ページは利用可能ですが、ドキュメントがありません"
+
+#: ../src/application.c:2225
+#, fuzzy
+msgid ""
+"No problem with this page, but it has no content at all...\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"このページには問題はありませんが、まったく内容がありません...\n"
+"\n"
+"あとでチェックしてみて下さい。"
+
+#: ../src/application.c:2232
+msgid "Malformed URL"
+msgstr "おかしな URL です。"
+
+#: ../src/application.c:2233
+msgid ""
+"The request could not be understood by the server due to malformed syntax."
+msgstr ""
+"そのリクエストの文法が間違っているため、サーバで解釈することができませんでし"
+"た。"
+
+#: ../src/application.c:2246
+msgid "Method not allowed"
+msgstr "Method が許可されていません"
+
+#: ../src/application.c:2247
+msgid ""
+"The remote host has refused to serve us the page.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"リモート・ホストがこのページへのアクセスを拒否しました。\n"
+"\n"
+"あとでチェックしてみて下さい。"
+
+#: ../src/application.c:2254
+msgid "Internal server error"
+msgstr "サーバ内部のエラーです"
+
+#: ../src/application.c:2255
+msgid ""
+"The page contain bad code, or the server is misconfigured.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"ページにおかしなコードが含まれているか、あるいはサーバの設定が間違っていま"
+"す。\n"
+"\n"
+"あとでチェックしてみて下さい。"
+
+#: ../src/application.c:2262
+#, fuzzy
+msgid "Method not supported"
+msgstr "Method が許可されていません"
+
+#: ../src/application.c:2272
+msgid "Bad Gateway"
+msgstr ""
+
+#: ../src/application.c:2273
+#, fuzzy
+msgid ""
+"The server, while acting as a gateway or proxy, received an invalid response "
+"from the upstream server it accessed in attempting to fulfill the request.\n"
+"\n"
+"Try to check this page later."
+msgstr ""
+"ゲートウェイまたはプロキシとして動作するサーバが、URI (例: HTTP、FTP、LDAP)、"
+"またはリクエストを送信するためにアクセスが必要なその他の補助サーバ (例: DNS) "
+"で指定した上流サーバからの応答を一時的に受信しませんでした。"
+
+#: ../src/application.c:2282
+msgid "Service unavailable"
+msgstr "サービスが利用不可です"
+
+#: ../src/application.c:2283
+msgid ""
+"The server is currently unable to handle the request due to a temporary "
+"overloading or maintenance of the server. It is also possible that you are "
+"using a proxy that can not join the given host.\n"
+"\n"
+"Try to check it later, or change your proxy settings."
+msgstr ""
+"現在サーバは、一時的に負荷が高いか、あるいはメンテナンス中のためリクエストを"
+"ハンドルできません。指定したホストに直接接続せずにプロキシを利用することも可"
+"能です。\n"
+"\n"
+"あとでチェックするか、プロキシの設定を変更してみて下さい。"
+
+#: ../src/application.c:2293
+msgid "Request not completed"
+msgstr "リクエストが完了していません"
+
+#: ../src/application.c:2294
+#, fuzzy
+msgid ""
+"The server, while acting as a gateway or proxy, did not receive a timely "
+"response from the upstream server specified by the URI (e.g. HTTP, FTP, "
+"LDAP) or some other auxiliary server (e.g. DNS) it needed to access in "
+"attempting to complete the request."
+msgstr ""
+"ゲートウェイまたはプロキシとして動作するサーバが、URI (例: HTTP、FTP、LDAP)、"
+"またはリクエストを送信するためにアクセスが必要なその他の補助サーバ (例: DNS) "
+"で指定した上流サーバからの応答を一時的に受信しませんでした。"
+
+#: ../src/application.c:2304
+msgid "Access forbidden or too many connections"
+msgstr ""
+
+#: ../src/application.c:2306
+msgid ""
+"This server do not accept anonymous users, or the maximum number of allowed "
+"clients are already connected.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+
+#: ../src/application.c:2314
+msgid "Receiving timout requesting the page"
+msgstr "ページのリクエストがタイムアウトになりました"
+
+#: ../src/application.c:2315
+msgid ""
+"Perhaps you would change the timeout in gURLChecker preferences. Perhaps the "
+"remote host is too busy for the moment to responde to gURLChecker request, "
+"or perhaps the remote host does not exist at all.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"おそらく gURLChecker の設定にあるタイムアウト値を変更したか、リモート・ホスト"
+"が gURLChecker のリクエストに応答するのにとても時間がかかっているか、あるいは"
+"リモート・ホストが既に存在していないと思われます。\n"
+"\n"
+"あとでチェックしてみて下さい。"
+
+#: ../src/application.c:2371
+msgid "Cannot start new instance of gURLChecker; the following error occured:"
+msgstr ""
+"gURLChecker の新しいインスタンスを起動できません。次のエラーが発生しました:"
+
+#: ../src/application.c:2698
+#, c-format
+msgid ""
+"A problem occured while initializing Clamav library :\n"
+"<b><i>%s</i></b>\n"
+"<i>Please check your configuration or your libclamav version</i>.\n"
+"\n"
+"<b>Virii will not be detected</b>."
+msgstr ""
+
+#: ../src/application.c:2726
+msgid ""
+"A problem occured while initializing Croco library.\n"
+"<i>Please check your configuration or your libcroco version</i>.\n"
+"\n"
+"<b>CSS stylesheets will not be validated</b>."
+msgstr ""
+
+#: ../src/application.c:2743
+msgid ""
+"A problem occured while initializing Tidy library.\n"
+"<i>Please check your configuration or your libtidy version</i>.\n"
+"\n"
+"<b>HTML pages will not be validated</b>."
+msgstr ""
+
+#: ../src/application.c:3003 ../src/web_site.c:270 ../src/bookmarks.c:544
+#: ../ui/gurlchecker.glade.h:59
+msgid "Check in progress..."
+msgstr "チェックの状況..."
+
+#: ../src/application.c:3067
+msgid ""
+"Emmanuel Saracco\n"
+"\n"
+"Contributors:\n"
+"Stephane Loeuillet"
+msgstr ""
+
+#: ../src/application.c:3074
+msgid "Manpage:"
+msgstr ""
+
+#: ../src/application.c:3078
+msgid "Code:"
+msgstr ""
+
+#: ../src/application.c:3083
+#, fuzzy
+msgid ""
+"Takeshi Aihana, Japanese\n"
+"Alexander Hunziker, German\n"
+"Florent Jugla, Esperanto\n"
+"Daniel Pecos, Spanish\n"
+"Gunner Poulsen, Danish\n"
+"Emmanuel Saracco, French\n"
+"Angelo Theodorou, Italian\n"
+msgstr ""
+"Takeshi Aihana <aihana@gnome.gr.jp>, 日本語\n"
+"Alexander Hunziker <alex.hunziker@rega-sense.ch>, ドイツ語\n"
+"Florent Jugla <juglaf@wanadoo.fr>, エスペラント語\n"
+"Daniel Pecos <dani@netpecos.org>, スペイン語\n"
+"Gunner Poulsen <gp@lyngbjerggaardskolen.dk>, オランダ語\n"
+"Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>, フランス語\n"
+"\n"
+
+#: ../src/application.c:3103
+#, fuzzy
+msgid ""
+"gURLChecker is a graphical web links checker.\n"
+"It can work on a whole site, a single local page or a browser bookmarks file"
+msgstr ""
+"gURLChecker はウェブのリンクをチェックします。\n"
+"サイト全体、ローカルのページ、またはブラウザのブックマークファイルを利用する"
+"ことが可能です。"
+
+#: ../src/application.c:3327
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, Google Chrome, or Firefox "
+"database file"
+msgstr "チェックするブックマーク・ファイルを選択して下さい"
+
+#: ../src/application.c:3332
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, or a Firefox database file"
+msgstr "チェックするブックマーク・ファイルを選択して下さい"
+
+#: ../src/application.c:3337
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, or a Google Chrome file"
+msgstr "チェックするブックマーク・ファイルを選択して下さい"
+
+#: ../src/application.c:3342
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be in XBEL or Opera format"
+msgstr "チェックするブックマーク・ファイルを選択して下さい"
+
+#: ../src/application.c:3359
+msgid "New domain to reject"
+msgstr "無視する新しいドメイン"
+
+#: ../src/application.c:3360
+msgid "Add a domain to reject"
+msgstr "無視するドメインを追加して下さい"
+
+#: ../src/application.c:3372
+#, fuzzy
+msgid "This domain name is not valid."
+msgstr "この E-メールのドメインが不正です。"
+
+#: ../src/application.c:3441
+msgid "New directory to reject"
+msgstr "無視する新しいディレクトリ"
+
+#: ../src/application.c:3442
+msgid "Add a directory to reject"
+msgstr "無視するディレクトリを追加して下さい"
+
+#: ../src/application.c:3543
+#, fuzzy
+msgid "Please, enter a string to search."
+msgstr "検索する文字列を入力して下さい。"
+
+#: ../src/application.c:3566
+#, fuzzy
+msgid "Please, check that there is no mismatch in your URL and try again."
+msgstr "指定した URL が正しいか確認して再度トライして下さい。"
+
+#: ../src/application.c:3593
+msgid "Sorry, but this version of gurlchecker have no SSL support"
+msgstr ""
+
+#: ../src/application.c:3672 ../src/project.c:441
+#, fuzzy
+msgid "[<b>Local file</b>] Page information"
+msgstr "ページの情報"
+
+#: ../src/application.c:3675 ../src/project.c:444
+#, fuzzy
+msgid "[<b>Web site</b>] Page information"
+msgstr "ページの情報"
+
+#: ../src/application.c:3730
+msgid "Please choose a bookmarks file to check."
+msgstr "チェックするブックマーク・ファイルを選択して下さい。"
+
+#: ../src/application.c:3785
+msgid ""
+"A problem occured when retrieving remote bookmarks file.\n"
+"<i>Try to pump up the timeout delay</i>."
+msgstr ""
+
+#: ../src/application.c:3799
+#, fuzzy
+msgid ""
+"Either the file is not correct or your don't have appropriate rights on it.\n"
+"<b>Please choose a valid bookmarks file</b>."
+msgstr ""
+"指定したファイルが正しくないか、あるいはそのファイルに対する適切な権限があり"
+"ません。正しいブックマーク・ファイルを選択して下さい。"
+
+#: ../src/application.c:3815
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b>, <b>Google "
+"Chrome</b>, and <b>Firefox</b> database file</i>."
+msgstr ""
+"指定したファイルの書式が正しくありません。\n"
+"このバージョンの gURLChecker は XBEL フォーマットのみ対応しています。"
+
+#: ../src/application.c:3822
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b> "
+"and <b>Firefox</b> database file</i>."
+msgstr ""
+"指定したファイルの書式が正しくありません。\n"
+"このバージョンの gURLChecker は XBEL フォーマットのみ対応しています。"
+
+#: ../src/application.c:3829
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b> "
+"and <b>Google Chrome</b> file</i>."
+msgstr ""
+"指定したファイルの書式が正しくありません。\n"
+"このバージョンの gURLChecker は XBEL フォーマットのみ対応しています。"
+
+#: ../src/application.c:3835
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b> and <b>Opera</"
+"b> file</i>."
+msgstr ""
+"指定したファイルの書式が正しくありません。\n"
+"このバージョンの gURLChecker は XBEL フォーマットのみ対応しています。"
+
+#: ../src/application.c:3852
+#, fuzzy
+msgid "[<b>Remote bookmarks</b>] Page information"
+msgstr "ページの情報"
+
+#: ../src/application.c:3855
+#, fuzzy
+msgid "[<b>Local bookmarks</b>] Page information"
+msgstr "ページの情報"
+
+#: ../src/application.c:4071 ../src/check.c:1556
+#, fuzzy
+msgid "Cleaning..."
+msgstr "終了..."
+
+#: ../src/callbacks.c:774
+msgid ""
+"All bookmarks referring to not found page will be removed.\n"
+"<b>Do you want to continue</b>?"
+msgstr ""
+
+#: ../src/callbacks.c:803
+msgid ""
+"Selected link will be removed.\n"
+"<b>Do you want to continue</b>?"
+msgstr ""
+
+#: ../src/callbacks.c:900 ../src/callbacks.c:918
+#, fuzzy
+msgid "Please, select a project."
+msgstr "まず最初にアイテムを選択して下さい。"
+
+#: ../src/callbacks.c:913 ../src/callbacks.c:1013
+msgid "Are you sure you want to delete this project?"
+msgstr ""
+
+#: ../src/check.c:400
+msgid "Hypertext Link"
+msgstr ""
+
+#: ../src/check.c:402
+msgid "Local Hypertext Link"
+msgstr ""
+
+#: ../src/check.c:404
+#, fuzzy
+msgid "Local Image"
+msgstr "ローカル・ファイル"
+
+#: ../src/check.c:408 ../ui/gurlchecker.glade.h:131
+#, fuzzy
+msgid "Image"
+msgstr "画像"
+
+#: ../src/check.c:410
+#, fuzzy
+msgid "Frame link"
+msgstr "おかしなリンクです。"
+
+#: ../src/check.c:412
+msgid "StyleSheet link"
+msgstr ""
+
+#: ../src/check.c:414
+msgid "Unknown Type"
+msgstr ""
+
+#: ../src/check.c:867
+#, fuzzy
+msgid "Retrieving source..."
+msgstr "ヘッダの取得中..."
+
+#: ../src/check.c:998
+msgid "Continue"
+msgstr "続行"
+
+#: ../src/check.c:1004 ../ui/gurlchecker.glade.h:184
+msgid "Suspend"
+msgstr "一時停止"
+
+#: ../src/check.c:1045
+#, fuzzy
+msgid "Checking file (FTP)..."
+msgstr "ローカル・ファイルのチェック中..."
+
+#: ../src/check.c:1056
+msgid "Retrieving header..."
+msgstr "ヘッダの取得中..."
+
+#: ../src/check.c:1228
+msgid "Item already checked..."
+msgstr "アイテムは既に確認済みです..."
+
+#: ../src/check.c:1316
+#, fuzzy, c-format
+msgid "MX host %s for this domain is alive and listen on port 25."
+msgstr ""
+"指定したドメインに対する MX ホスト %s は存在しておりポート番号 25 で listen "
+"されています。"
+
+#: ../src/check.c:1322
+#, fuzzy
+msgid "MX host does not respond or the E-Mail's domain is not valid."
+msgstr ""
+"MX ホストが応答しないか、あるいはこの E-メールのドメインが正しくありません。"
+
+#: ../src/check.c:1328
+#, fuzzy
+msgid "The E-Mail's domain is not valid."
+msgstr "この E-メールのドメインが不正です。"
+
+#: ../src/check.c:1767
+msgid "<b>SECURITY</b>: Checking for virii..."
+msgstr ""
+
+#: ../src/check.c:1797
+msgid "<b>W3C</b>: Validate CSS stylesheet..."
+msgstr ""
+
+#: ../src/check.c:1829
+msgid "<b>W3C</b>: Validate HTML page..."
+msgstr ""
+
+#: ../src/check.c:1917
+#, c-format
+msgid "<b>SECURITY</b>: Checking for bad extensions [<b>%s</b>]..."
+msgstr ""
+
+#: ../src/check.c:2006
+#, c-format
+msgid "Sleeping %u second(s)..."
+msgstr "%u (秒間) スリープ中..."
+
+#: ../src/check.c:2119
+#, fuzzy
+msgid "Checking E-Mail..."
+msgstr "E-メールのチェック中..."
+
+#: ../src/check.c:2185
+msgid "Checking local file..."
+msgstr "ローカル・ファイルのチェック中..."
+
+#: ../src/check.c:2288 ../ui/gurlchecker.glade.h:203
+#, fuzzy
+msgid "Updating report..."
+msgstr "ヘッダの取得中..."
+
+#: ../src/check.c:2594 ../src/web_site.c:175
+msgid "Searching..."
+msgstr "検索..."
+
+#: ../src/web_site.c:267
+#, fuzzy
+msgid "Updating link..."
+msgstr "E-メールのチェック中..."
+
+#: ../src/web_site.c:683
+#, fuzzy
+msgid "Updating branch..."
+msgstr "ヘッダの取得中..."
+
+#: ../src/web_site.c:733
+#, fuzzy
+msgid "Updating all project..."
+msgstr "終了..."
+
+#: ../src/web_site.c:814
+#, c-format
+msgid "Checking %s..."
+msgstr "%s のチェック中..."
+
+#: ../src/web_site.c:829
+msgid "MAIN PAGE"
+msgstr ""
+
+#: ../src/web_site.c:848
+#, fuzzy
+msgid ""
+"Access to the specified project URL is restricted.\n"
+"Check has been cancelled"
+msgstr ""
+"指定したプロジェクトの URL から応答がありません。\n"
+"チェックをキャンセルします。"
+
+#: ../src/web_site.c:908
+#, fuzzy
+msgid ""
+"The specified project URL does not respond.\n"
+"Check has been cancelled."
+msgstr ""
+"指定したプロジェクトの URL から応答がありません。\n"
+"チェックをキャンセルします。"
+
+#: ../src/bookmarks.c:305
+msgid "Should remote bookmarks be saved on your machine?"
+msgstr ""
+
+#: ../src/bookmarks.c:311
+#, fuzzy
+msgid "Save bookmarks file"
+msgstr "ブックマークの保存"
+
+#: ../src/bookmarks.c:312
+msgid "Input filename"
+msgstr ""
+
+#: ../src/bookmarks.c:320
+#, fuzzy
+msgid ""
+"The filename is not in a correct format.\n"
+"<b>Nothing has been done</b>."
+msgstr ""
+"ブックマーク・ファイルを保存する際にエラーが発生しました。\n"
+"何も実行しません。"
+
+#: ../src/bookmarks.c:344
+#, fuzzy
+msgid ""
+"Bookmarks changes will be saved.\n"
+"<i>Your old bookmarks file will be renamed with \".uc\" extension</i>.\n"
+"<b>Do you want to save</b>?"
+msgstr ""
+"変更したブックマークを保存します。\n"
+"古いブックマーク・ファイルは拡張子 \".uc\" 付きに名前が変更されます。\n"
+"\n"
+"保存してもよろしいですか？"
+
+#: ../src/bookmarks.c:379
+#, fuzzy
+msgid ""
+"A error occured.\n"
+"<b>Nothing has been done</b>."
+msgstr ""
+"ブックマーク・ファイルを保存する際にエラーが発生しました。\n"
+"何も実行しません。"
+
+#: ../src/bookmarks.c:391
+#, fuzzy
+msgid ""
+"Bookmarks changes will be applied.\n"
+"<i>We recommand you to manually backup your Firefox database before applying "
+"changes!</i>\n"
+"<b>Do you want to apply</b>?"
+msgstr ""
+"変更したブックマークを保存します。\n"
+"古いブックマーク・ファイルは拡張子 \".uc\" 付きに名前が変更されます。\n"
+"\n"
+"保存してもよろしいですか？"
+
+#: ../src/bookmarks.c:1058
+#, fuzzy
+msgid ""
+"Either the given XML file is not well formed or its encoding can not be "
+"found...\n"
+"<i>If you are checking a remote bookmarks file, try to pump up the timeout "
+"delay</i>.\n"
+"<b>Check has been aborted</b>."
+msgstr ""
+"指定した XML ファイルがウェルフォームドではないか、またはそのエンコーディング"
+"を見つけることができません..\n"
+"チェックを中断します。"
+
+#: ../src/bookmarks.c:1073
+msgid "The given XML file is empty.\n"
+msgstr "指定した XML ファイルは空です。\n"
+
+#: ../src/main.c:126
+#, fuzzy
+msgid "Wrote by Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>."
+msgstr "作者: Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>"
+
+#: ../src/main.c:127
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO "
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr ""
+"これはフリーソフトウェアです。コピーする条件はソースを参照して下さい。商用利"
+"用または特別な目的に対しては完全無保証です。"
+
+#: ../src/main.c:136
+#, fuzzy, c-format
+msgid ""
+"Usage: %s [OPTION] [URL]\n"
+"A graphic web link checker.\n"
+"\n"
+"  -h, --help          display this help\n"
+"  -V, --version       display %s version\n"
+"  -u, --http-user     user for basic authentication\n"
+"  -p, --http-passwd   password for basic authentication\n"
+"  -A, --no-urls-args   ignore URLs arguments\n"
+"\n"
+"Report bugs to <esaracco@users.labs.libre-entreprise.org>\n"
+msgstr ""
+"用法: %s [オプション] [URL]\n"
+"GNOME 2 向けのウェブのリンク・チェッカーです。\n"
+"\n"
+"  -h, --help\tこのヘルプを表示する\n"
+"  -V, --version\t%s のバージョンを表示する\n"
+"\n"
+"バグ報告は <esaracco@nooos.fr> 迄お願いします\n"
+
+#: ../src/report.c:244
+#, fuzzy
+msgid "Cannot execute xsltproc; the following error occured:"
+msgstr "お使いのウェブ・ブラウザを起動できません。次のエラーが発生しました:"
+
+#: ../src/report.c:472
+#, c-format
+msgid "<i><b>Checked links</b></i>: %d"
+msgstr "<i><b>チェックしたリンクの総数</b></i>: %d"
+
+#: ../src/report.c:475
+#, c-format
+msgid "<i><b>Checked links</b></i>: %d / %d"
+msgstr "<i><b>チェックしたリンクの総数</b></i>: %d / %d"
+
+#: ../src/report.c:484 ../ui/gurlchecker.glade.h:124
+msgid "Good links"
+msgstr "Good なリンク"
+
+#: ../src/report.c:488 ../ui/gurlchecker.glade.h:44
+msgid "Bad links"
+msgstr "おかしなリンク"
+
+#: ../src/report.c:493 ../ui/gurlchecker.glade.h:144
+msgid "Malformed links"
+msgstr "おかしなリンク"
+
+#: ../src/report.c:499
+msgid "Ignored links"
+msgstr "無視したリンク"
+
+#: ../src/report.c:504 ../ui/gurlchecker.glade.h:191
+msgid "Timeouts"
+msgstr "タイムアウト"
+
+#: ../src/report.c:562
+#, c-format
+msgid "<i><b>Elapsed time</b></i>: %02d:%02d:%02d"
+msgstr "<i><b>経過時間</b></i>: %02d:%02d:%02d"
+
+#: ../src/utils.c:1671
+#, c-format
+msgid "%lu bytes"
+msgstr ""
+
+#: ../src/utils.c:1673
+#, c-format
+msgid "%.2f KB (%lu bytes)"
+msgstr ""
+
+#: ../src/utils.c:1676
+#, c-format
+msgid "%.2f MB (%lu bytes)"
+msgstr ""
+
+#: ../src/html_parser.c:84
+msgid "Parsing HTML code..."
+msgstr "HTML コードの解析中..."
+
+#: ../src/html_parser.c:129
+#, fuzzy
+msgid "Parsing CSS code..."
+msgstr "HTML コードの解析中..."
+
+#: ../src/search.c:522
+#, c-format
+msgid "<b>%u</b> item(s) found"
+msgstr "<b>%u</b> 個のアイテムが見つかりました"
+
+#: ../src/search.c:528
+msgid "Search ended"
+msgstr "検索終了"
+
+#. status bar message
+#: ../src/project.c:361
+#, fuzzy, c-format
+msgid "Loading [%s] project..."
+msgstr "終了..."
+
+#: ../src/project.c:562
+#, c-format
+msgid ""
+"<i>Created on</i> %s\n"
+"<i>Updated on</i> %s"
+msgstr ""
+
+#: ../src/project.c:609
+#, fuzzy
+msgid "Please, enter a title for the current project."
+msgstr "検索する文字列を入力して下さい。"
+
+#: ../src/project.c:1391
+#, fuzzy
+msgid "Save the current project ?"
+msgstr "新しいプロジェクト"
+
+#: ../src/project.c:1400
+#, fuzzy
+msgid "Saving project..."
+msgstr "終了..."
+
+#: ../src/tooltips.c:214
+#, c-format
+msgid ""
+"<b>Status</b>: %s\n"
+"<b>Location</b>: %s\n"
+"<b>Parent location</b>: %s\n"
+"<b>Last modified</b>: %s"
+msgstr ""
+
+#: ../gurlchecker.desktop.in.h:1
+msgid "Graphical Web Links checker"
+msgstr ""
+
+#: ../gurlchecker.desktop.in.h:2
+#, fuzzy
+msgid "gurlchecker"
+msgstr "gURLChecker"
+
+#: ../src/getopt.c:689
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr ""
+
+#: ../src/getopt.c:715
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../src/getopt.c:721
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../src/getopt.c:740 ../src/getopt.c:919
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr ""
+
+#: ../src/getopt.c:771
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr ""
+
+#: ../src/getopt.c:777
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr ""
+
+#. 1003.2 specifies the format of this message.
+#: ../src/getopt.c:803
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr ""
+
+#: ../src/getopt.c:805
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr ""
+
+#: ../src/getopt.c:836 ../src/getopt.c:969
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr ""
+
+#: ../src/getopt.c:886
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr ""
+
+#: ../src/getopt.c:904
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:1
+msgid "\n"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:3
+msgid "    "
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:4
+#, fuzzy
+msgid "<b>CSS Extensions to check</b>"
+msgstr "検索する文字列を入力して下さい。"
+
+#: ../ui/gurlchecker.glade.h:5
+#, fuzzy
+msgid "<b>Content management</b>"
+msgstr "コンテンツの管理"
+
+#: ../ui/gurlchecker.glade.h:6
+#, fuzzy
+msgid "<b>Documents to ignore</b>"
+msgstr "無視するドキュメント"
+
+#: ../ui/gurlchecker.glade.h:7
+#, fuzzy
+msgid "<b>Expires :</b>"
+msgstr "<b>META タグ</b>"
+
+#: ../ui/gurlchecker.glade.h:8
+#, fuzzy
+msgid "<b>Extensions to search for</b>"
+msgstr "検索する文字列を入力して下さい。"
+
+#: ../ui/gurlchecker.glade.h:9
+#, fuzzy
+msgid "<b>Files to check</b>"
+msgstr "無視するドキュメント"
+
+#: ../ui/gurlchecker.glade.h:10
+#, fuzzy
+msgid "<b>HTML extensions to check</b>"
+msgstr "検索する文字列を入力して下さい。"
+
+#: ../ui/gurlchecker.glade.h:11
+#, fuzzy
+msgid "<b>Images to ignore</b>"
+msgstr "無視する画像"
+
+#: ../ui/gurlchecker.glade.h:12
+#, fuzzy
+msgid "<b>Location :</b>"
+msgstr "ページの情報"
+
+#: ../ui/gurlchecker.glade.h:13
+#, fuzzy
+msgid "<b>Location:</b>"
+msgstr "ページの情報"
+
+#: ../ui/gurlchecker.glade.h:14
+#, fuzzy
+msgid "<b>Meta Tags</b>"
+msgstr "<b>ヘッダ</b>"
+
+#: ../ui/gurlchecker.glade.h:15
+#, fuzzy
+msgid "<b>Modified :</b>"
+msgstr "<b>ヘッダ</b>"
+
+#: ../ui/gurlchecker.glade.h:16
+#, fuzzy
+msgid "<b>Name :</b>"
+msgstr "<b>META タグ</b>"
+
+#: ../ui/gurlchecker.glade.h:17
+#, fuzzy
+msgid "<b>Options</b>"
+msgstr "ページの情報"
+
+#: ../ui/gurlchecker.glade.h:18
+#, fuzzy
+msgid "<b>Page:</b>"
+msgstr "<b>META タグ</b>"
+
+#: ../ui/gurlchecker.glade.h:19
+#, fuzzy
+msgid "<b>Path :</b>"
+msgstr "<b>ヘッダ</b>"
+
+#: ../ui/gurlchecker.glade.h:20
+#, fuzzy
+msgid "<b>Properties</b>"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:21
+#, fuzzy
+msgid "<b>Referrer :</b>"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:22
+#, fuzzy
+msgid "<b>Security:</b>"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:23
+#, fuzzy
+msgid "<b>Server type :</b>"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:24
+#, fuzzy
+msgid "<b>Server:</b>"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:25
+#, fuzzy
+msgid "<b>Size :</b>"
+msgstr "<b>ヘッダ</b>"
+
+#: ../ui/gurlchecker.glade.h:26
+#, fuzzy
+msgid "<b>Source :</b>"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:27
+#, fuzzy
+msgid "<b>Status :</b>"
+msgstr "<b>ヘッダ</b>"
+
+#: ../ui/gurlchecker.glade.h:28
+#, fuzzy
+msgid "<b>Type :</b>"
+msgstr "<b>META タグ</b>"
+
+#: ../ui/gurlchecker.glade.h:29
+#, fuzzy
+msgid "<b>Value :</b>"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:30
+#, fuzzy
+msgid "<b>Warnings</b>"
+msgstr "ページの情報"
+
+#: ../ui/gurlchecker.glade.h:31
+msgid "<i>You can edit cookie's properties before accepting it:</i>"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:32
+msgid "Accept"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:33
+msgid "Accept all cookies"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:34
+msgid "Activate"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:35
+msgid "Activate W3C validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:36
+msgid "Activate security checks"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:37
+msgid "Advanced options"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:38
+msgid "After that time, unsuccessful connection intent will be aborted"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:39
+msgid "All the links"
+msgstr "全てのリンク"
+
+#: ../ui/gurlchecker.glade.h:40
+msgid "Authentication"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:41
+msgid ""
+"Bad extensions to search for, separated by comma.\n"
+"Ex.: bak,bad,sav,~,ok,-,old,orig,false,::$data"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:43
+msgid "Bad extentions on server"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:45
+msgid "Block a host in timeout after"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:46
+msgid "Bookmarks file"
+msgstr "ブックマーク・ファイル"
+
+#: ../ui/gurlchecker.glade.h:47
+#, fuzzy
+msgid "Branch update"
+msgstr "親ページ:"
+
+#: ../ui/gurlchecker.glade.h:48
+#, fuzzy
+msgid "By protocol"
+msgstr "プロトコル"
+
+#: ../ui/gurlchecker.glade.h:49
+#, fuzzy
+msgid "By status"
+msgstr "状態"
+
+#: ../ui/gurlchecker.glade.h:50
+msgid "By type"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:51
+msgid ""
+"CSS extensions to check, separated by comma.\n"
+"Ex.: css"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:53
+#, fuzzy
+msgid "CSV export"
+msgstr "チェックした結果"
+
+#: ../ui/gurlchecker.glade.h:54
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../ui/gurlchecker.glade.h:55
+#, fuzzy
+msgid "Cancel check"
+msgstr "キャンセル"
+
+#: ../ui/gurlchecker.glade.h:56
+msgid "Case sensitive"
+msgstr "大小文字を無視する"
+
+#: ../ui/gurlchecker.glade.h:57
+msgid "Check"
+msgstr "チェックする"
+
+#: ../ui/gurlchecker.glade.h:58
+msgid "Check MX"
+msgstr "MX をチェックする"
+
+#: ../ui/gurlchecker.glade.h:60
+msgid "Check report"
+msgstr "チェックした結果"
+
+#: ../ui/gurlchecker.glade.h:61
+msgid "Check this option for links numbering"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:62
+msgid "Check this option if you are not interested in bookmarks pages content"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:63
+msgid ""
+"Check this option if you want to limit check to the given directory and its "
+"subdirectories on the given Web site"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:64
+msgid ""
+"Check this option to avoid possible infinite scan (when some arguments are "
+"randomly generated, for example)"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:65
+msgid ""
+"Check this option to avoid some nasty infinite loops (when some arguments "
+"are randomly generated, for example)"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:66
+msgid ""
+"Check this option to be prompted for Basic Authentication when a page "
+"request it"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:67
+msgid "Check this option to check FTP links"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:68
+msgid "Check this option to check MX of e-mails domains"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:69
+msgid "Check this option to check for e-mails syntax"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:70
+msgid "Check this option to check secure URLs too"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:71
+msgid "Check this option to enable CSS validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:72
+msgid "Check this option to enable HTML validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:73
+msgid "Check this option to enable W3C validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:74
+msgid "Check this option to enable detection of uncommon files extensions"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:75
+msgid "Check this option to enable security checks"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:76
+msgid "Check this option to enable virus scan of pages content"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:77
+msgid "Check this option to export links label"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:78
+msgid "Check this option to export links labels"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:79
+msgid "Check this option to export only external links"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:80
+msgid ""
+"Check this option to ignore servers that do not respond after more than n "
+"tries"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:81
+msgid ""
+"Check this option to retreive content of documents other than HTML pages and "
+"images: PDF, tarballs..."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:82
+msgid "Check this option to retreive images content for local preview"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:83
+msgid "Check this option to scan only one page"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:84
+#, fuzzy
+msgid "Choose a location"
+msgstr "ブックマーク・ファイルの選択"
+
+#: ../ui/gurlchecker.glade.h:85
+#, fuzzy
+msgid "Clear export history"
+msgstr "プロジェクトの履歴をクリアする"
+
+#: ../ui/gurlchecker.glade.h:86
+msgid "Clear project history"
+msgstr "プロジェクトの履歴をクリアする"
+
+#: ../ui/gurlchecker.glade.h:87
+msgid "Clear search history"
+msgstr "検索履歴をクリアする"
+
+#: ../ui/gurlchecker.glade.h:88
+msgid "Collapse all the list"
+msgstr "全リストを畳む"
+
+#: ../ui/gurlchecker.glade.h:89
+msgid "Consider as error"
+msgstr "エラーとして扱う"
+
+#: ../ui/gurlchecker.glade.h:90
+msgid "Consider that the code is not W3C compliant if it contains:"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:91
+#, fuzzy
+msgid "Cookie"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:92
+#, fuzzy
+msgid "Cookies"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:93
+msgid "DEBUG mode"
+msgstr "デバッグ・モードを有効にする"
+
+#: ../ui/gurlchecker.glade.h:94
+msgid "Debug"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:95
+#, fuzzy
+msgid "Delete project"
+msgstr "新しいプロジェクト"
+
+#: ../ui/gurlchecker.glade.h:96
+#, fuzzy
+msgid "Description:"
+msgstr "説明"
+
+#: ../ui/gurlchecker.glade.h:97
+msgid "Directories"
+msgstr "フォルダ"
+
+#: ../ui/gurlchecker.glade.h:98
+msgid "Display tooltips"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:99
+msgid "Do not accept any cookies"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:100
+msgid "Do not display this dialog anymore"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:101
+msgid "Do not retrieve page content (speed up the check)"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:102
+#, fuzzy
+msgid "Document"
+msgstr "ドキュメント"
+
+#: ../ui/gurlchecker.glade.h:103
+msgid ""
+"Document extensions to ignore, separated by comma.\n"
+"Ex.: asp,aspx,exe,pif"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:105
+msgid "Documents"
+msgstr "ドキュメント"
+
+#: ../ui/gurlchecker.glade.h:106
+msgid "Domains"
+msgstr "ドメイン"
+
+#: ../ui/gurlchecker.glade.h:107
+msgid "Dump link properties while checking"
+msgstr "チェック中にリンクのプロパティをダンプする"
+
+#: ../ui/gurlchecker.glade.h:108
+msgid "Dynamic values"
+msgstr "ダイナミック値"
+
+#: ../ui/gurlchecker.glade.h:110
+#, fuzzy
+msgid "E-Mails"
+msgstr "E-メール"
+
+#: ../ui/gurlchecker.glade.h:111
+#, fuzzy
+msgid "E-Mails syntax"
+msgstr "E-メールの書式をチェックする"
+
+#: ../ui/gurlchecker.glade.h:112
+msgid "Enter a URL to check"
+msgstr "チェックする URL を入力して下さい"
+
+#: ../ui/gurlchecker.glade.h:113
+#, fuzzy
+msgid "Enter a local file path or URL to check"
+msgstr "チェックする URL を入力して下さい"
+
+#: ../ui/gurlchecker.glade.h:114
+msgid "Errors"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:115
+msgid "Exclude images"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:116
+msgid "Expand all the list"
+msgstr "全リストを展開する"
+
+#: ../ui/gurlchecker.glade.h:117
+#, fuzzy
+msgid "Export"
+msgstr "<b>META タグ</b>"
+
+#: ../ui/gurlchecker.glade.h:118
+#, fuzzy
+msgid "Files"
+msgstr "フィルタ"
+
+#: ../ui/gurlchecker.glade.h:119
+msgid "Filters"
+msgstr "フィルタ"
+
+#: ../ui/gurlchecker.glade.h:120
+msgid ""
+"First part of the mime-type of files to check for virus, separated by "
+"comma.\n"
+"Ex.: application,audio,image,text,video,x-world"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:122
+#, fuzzy
+msgid "Frame"
+msgstr "おかしなリンクです。"
+
+#: ../ui/gurlchecker.glade.h:123
+msgid "General"
+msgstr "全般"
+
+#: ../ui/gurlchecker.glade.h:125
+msgid ""
+"HTML extensions to check, separated by comma.\n"
+"Ex.: php,html,htm,pl"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:127
+#, fuzzy
+msgid "History"
+msgstr "<b>META タグ</b>"
+
+#: ../ui/gurlchecker.glade.h:128
+#, fuzzy
+msgid "IP address"
+msgstr "E-メール"
+
+#: ../ui/gurlchecker.glade.h:129
+msgid "Ignore URLs arguments"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:130
+msgid "Ignore this item"
+msgstr "このアイテムを無視"
+
+#: ../ui/gurlchecker.glade.h:132
+msgid ""
+"Image extensions to ignore, separated by comma.\n"
+"Ex.: gif,png"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:134
+msgid "Image preview"
+msgstr "画像のプレビュー"
+
+#: ../ui/gurlchecker.glade.h:135
+msgid "Images"
+msgstr "画像"
+
+#: ../ui/gurlchecker.glade.h:136
+msgid "Labels export"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:137
+#, fuzzy
+msgid "Link update"
+msgstr "リンク名"
+
+#: ../ui/gurlchecker.glade.h:138
+msgid "Links"
+msgstr "リンク"
+
+#: ../ui/gurlchecker.glade.h:139
+msgid "Links name"
+msgstr "リンク名"
+
+#: ../ui/gurlchecker.glade.h:140
+msgid "Local file"
+msgstr "ローカル・ファイル"
+
+#: ../ui/gurlchecker.glade.h:141
+msgid "Location:"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:142
+msgid "Login : "
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:143
+msgid "META tags content"
+msgstr "META タグの内容"
+
+#: ../ui/gurlchecker.glade.h:145
+msgid "Max depth of levels to check:"
+msgstr "チェックするレベルの深さ(最大):"
+
+#: ../ui/gurlchecker.glade.h:146
+#, fuzzy
+msgid "Network"
+msgstr "<b>ヘッダ</b>"
+
+#: ../ui/gurlchecker.glade.h:147
+#, fuzzy
+msgid "New"
+msgstr "ネットワーク"
+
+#: ../ui/gurlchecker.glade.h:148
+msgid "New bookmarks project"
+msgstr "新しいブックマークのプロジェクト"
+
+#: ../ui/gurlchecker.glade.h:149
+msgid "New instance"
+msgstr "新規"
+
+#: ../ui/gurlchecker.glade.h:150
+#, fuzzy
+msgid "New local file project"
+msgstr "新しいウェブ・プロジェクト"
+
+#: ../ui/gurlchecker.glade.h:151
+msgid "New project"
+msgstr "新しいプロジェクト"
+
+#: ../ui/gurlchecker.glade.h:152
+msgid "New web project"
+msgstr "新しいウェブ・プロジェクト"
+
+#: ../ui/gurlchecker.glade.h:153
+msgid "Numbering"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:154
+msgid "Only check local links"
+msgstr "ローカル・リンクのみチェックする"
+
+#: ../ui/gurlchecker.glade.h:155
+msgid "Only check this directory and its subdirectories"
+msgstr "このフォルダとサブ・フォルダチェックする"
+
+#: ../ui/gurlchecker.glade.h:156
+#, fuzzy
+msgid "Only external links"
+msgstr "ローカル・リンクのみチェックする"
+
+#: ../ui/gurlchecker.glade.h:157
+msgid "Open"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:158
+#, fuzzy
+msgid "Open a project"
+msgstr "新しいプロジェクト"
+
+#: ../ui/gurlchecker.glade.h:159
+#, fuzzy
+msgid "Open project"
+msgstr "新しいプロジェクト"
+
+#: ../ui/gurlchecker.glade.h:160
+#, fuzzy
+msgid "Page content"
+msgstr "ページの内容"
+
+#: ../ui/gurlchecker.glade.h:161
+msgid "Page information"
+msgstr "ページの情報"
+
+#: ../ui/gurlchecker.glade.h:162
+msgid "Page properties"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:163
+#, fuzzy
+msgid "Parent update"
+msgstr "親ページ:"
+
+#: ../ui/gurlchecker.glade.h:164
+msgid "Password : "
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:165
+#, fuzzy
+msgid "Personal data"
+msgstr "個人データ"
+
+#: ../ui/gurlchecker.glade.h:166
+#, fuzzy
+msgid "Project properties"
+msgstr "ページのプロパティ"
+
+#: ../ui/gurlchecker.glade.h:167
+msgid "Prompt for authentication"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:168
+msgid "Protocols"
+msgstr "プロトコル"
+
+#: ../ui/gurlchecker.glade.h:169
+msgid "Refuse"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:170
+#, fuzzy
+msgid "Remove all 404 links"
+msgstr "E-メールのチェック中..."
+
+#: ../ui/gurlchecker.glade.h:171
+msgid "Report export"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:172
+msgid "Retrieve content of non HTML files"
+msgstr "HTML ではないファイルの内容を取得する"
+
+#: ../ui/gurlchecker.glade.h:173
+msgid "Retrieve images content"
+msgstr "画像を取得する"
+
+#: ../ui/gurlchecker.glade.h:174
+msgid "Save"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:175
+#, fuzzy
+msgid "Save bookmarks"
+msgstr "ブックマークの保存"
+
+#: ../ui/gurlchecker.glade.h:176
+#, fuzzy
+msgid "Save report in..."
+msgstr "ヘッダの取得中..."
+
+#: ../ui/gurlchecker.glade.h:177
+msgid "Search in progress..."
+msgstr "検索中..."
+
+#: ../ui/gurlchecker.glade.h:178
+msgid "Search..."
+msgstr "検索..."
+
+#: ../ui/gurlchecker.glade.h:179
+msgid "Security"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:180
+msgid "Security alerts"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:181
+msgid "Similar link locations"
+msgstr "類似したリンク先"
+
+#: ../ui/gurlchecker.glade.h:182
+#, fuzzy
+msgid "Status code"
+msgstr "状態"
+
+#: ../ui/gurlchecker.glade.h:183
+msgid "Stylesheet"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:185
+msgid "This option will only be active for <i>Web site</i> projects."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:186
+msgid "Those choices will override [Filters/Documents]."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:187
+msgid ""
+"Time to wait between two checks, \n"
+"in second:"
+msgstr ""
+"二点間のチェックの待機時間\n"
+"(秒単位):"
+
+#: ../ui/gurlchecker.glade.h:189
+msgid "Timeout in seconds:"
+msgstr "タイムアウト(秒):"
+
+#: ../ui/gurlchecker.glade.h:190
+#, fuzzy
+msgid "Timeout:"
+msgstr "タイムアウト"
+
+#: ../ui/gurlchecker.glade.h:192
+#, fuzzy
+msgid "Title:"
+msgstr "<b>META タグ</b>"
+
+#: ../ui/gurlchecker.glade.h:193
+msgid "Uncheck this option to check external links too"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:194
+msgid "Uncheck this option to check external pages too"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:195
+msgid "Update all children for this link"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:196
+#, fuzzy
+msgid "Update all links..."
+msgstr "E-メールのチェック中..."
+
+#: ../ui/gurlchecker.glade.h:197
+#, fuzzy
+msgid "Update main page..."
+msgstr "E-メールのチェック中..."
+
+#: ../ui/gurlchecker.glade.h:198
+msgid "Update page containing this link"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:199
+msgid "Update this link"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:200
+#, fuzzy
+msgid ""
+"Updating report's counters\n"
+"\n"
+"<b>Please wait...</b>"
+msgstr ""
+"チェックを終了しています。\n"
+"\n"
+"<b>少々、お待ち下さい...</b>"
+
+#: ../ui/gurlchecker.glade.h:204
+msgid "Use passive mode"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:205
+#, fuzzy
+msgid "View all link locations"
+msgstr "全てのリンク先を表示する"
+
+#: ../ui/gurlchecker.glade.h:206
+msgid "View bad extensions"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:207
+msgid "View online"
+msgstr "ソースの表示"
+
+#: ../ui/gurlchecker.glade.h:208
+msgid "View parent page online"
+msgstr "親ページのソースの表示"
+
+#: ../ui/gurlchecker.glade.h:210
+msgid "Viruses"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:211
+msgid "W3C alerts"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:212
+#, fuzzy
+msgid "W3C validation"
+msgstr "適切な情報ではありません"
+
+#: ../ui/gurlchecker.glade.h:213
+msgid "Wait"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:214
+#, fuzzy
+msgid "Warnings"
+msgstr "ページの情報"
+
+#: ../ui/gurlchecker.glade.h:215
+msgid "Web site"
+msgstr "ウェブ・サイト"
+
+#: ../ui/gurlchecker.glade.h:216
+msgid "When a cookie is added"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:217
+msgid "When a cookie is deleted"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:218
+msgid "When a cookie is updated"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:219
+msgid "Will remove any bookmark pointing to non existent page"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:220
+msgid "With SSL (HTTPS)"
+msgstr "SSL (HTTPS) を有効にする"
+
+#: ../ui/gurlchecker.glade.h:221
+msgid "_Display"
+msgstr "表示(_D)"
+
+#: ../ui/gurlchecker.glade.h:222
+msgid "_Edit"
+msgstr "編集(_E)"
+
+#: ../ui/gurlchecker.glade.h:223
+#, fuzzy
+msgid "_File"
+msgstr "フィルタ"
+
+#: ../ui/gurlchecker.glade.h:224
+msgid "_Help"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:225
+msgid "_Project"
+msgstr "プロジェクト(_P)"
+
+#: ../ui/gurlchecker.glade.h:226
+msgid "attemps"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:227
+msgid "gURLChecker Preferences"
+msgstr "gURLChecker の設定"
+
+#: ../ui/gurlchecker.glade.h:228
+msgid "gURLChecker use the libclamav library to scan files for viruses"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:229
+msgid "gURLChecker use the libcroco library to validate CSS2 stylesheets"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:230
+msgid "gURLChecker use the libtidy library to validate HTML pages"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:231
+msgid "second(s), between  checks."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:232
+msgid "second(s)."
+msgstr ""
+
+#, fuzzy
+#~ msgid ""
+#~ "You can select a local or remote bookmarks file.\n"
+#~ "As this version of gurlchecker have no sqlite3 support, the file have to "
+#~ "be in XBEL format"
+#~ msgstr "チェックするブックマーク・ファイルを選択して下さい"
+
+#, fuzzy
+#~ msgid ""
+#~ "gURLChecker has cancelled the check because you do not have enough space "
+#~ "on your working directory partition.\n"
+#~ "<i>gURLChecker has taken a security margin to estimate free space</i>."
+#~ msgstr ""
+#~ "作業ディレクトリに十分な空き容量がないので、gURLChecker はチェックをキャン"
+#~ "セルしました。\n"
+#~ "\n"
+#~ "gURLChecker は空き容量を見積もるためにセキュリティ・マージンをとりました。"
+
+#, fuzzy
+#~ msgid "Only check given directory and its subdirectories"
+#~ msgstr "このフォルダとサブ・フォルダチェックする"
+
+#, fuzzy
+#~ msgid "Please, check URL syntax and try again."
+#~ msgstr "指定した URL が正しいか確認して再度トライして下さい。"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#, fuzzy
+#~ msgid "HTTPS"
+#~ msgstr "HTTP"
+
+#~ msgid "Choose a bookmarks file"
+#~ msgstr "ブックマーク・ファイルの選択"
+
+#, fuzzy
+#~ msgid "Choose a export path"
+#~ msgstr "ブックマーク・ファイルの選択"
+
+#, fuzzy
+#~ msgid "Save links in..."
+#~ msgstr "ヘッダの取得中..."
+
+#~ msgid "Delete"
+#~ msgstr "削除"
+
+#, fuzzy
+#~ msgid "gtk-preferences"
+#~ msgstr "gURLChecker の設定"
+
+#, fuzzy
+#~ msgid "gtk-properties"
+#~ msgstr "ページのプロパティ"
+
+#, fuzzy
+#~ msgid "link"
+#~ msgstr "リンク"
+
+#, fuzzy
+#~ msgid "Parent"
+#~ msgstr "親ページ:"
+
+#, fuzzy
+#~ msgid "All this link locations"
+#~ msgstr "全てのリンク先を表示する"
+
+#, fuzzy
+#~ msgid "This page online"
+#~ msgstr "親ページのソースの表示"
+
+#, fuzzy
+#~ msgid "Parent page online"
+#~ msgstr "親ページのソースの表示"
+
+#, fuzzy
+#~ msgid "Page source"
+#~ msgstr "ソースの表示"
+
+#, fuzzy
+#~ msgid ""
+#~ "The remote host has refused to serve us the page.\n"
+#~ "Some web servers do not allow HEAD method on particular files... and "
+#~ "gURLChecker need to send HEAD method :-(\n"
+#~ "\n"
+#~ "Try to check it later, or filter this domain in the settings."
+#~ msgstr ""
+#~ "リモート・ホストがページの閲覧を拒否しました。\n"
+#~ "いくつかのウェブ・サーバは特定のファイルに対する HEAD メソッドを許可してい"
+#~ "ませんが、gURLChecker は HEAD メソッドを送信する必要があります :(\n"
+#~ "\n"
+#~ "あとで確認するか、設定でこのドメインをフィルタして下さい。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Some web servers do not allow HEAD method on particular files... and "
+#~ "gURLChecker need to send HEAD method :-(\n"
+#~ "\n"
+#~ "Try to check it later, or filter this domain in the settings."
+#~ msgstr ""
+#~ "リモート・ホストがページの閲覧を拒否しました。\n"
+#~ "いくつかのウェブ・サーバは特定のファイルに対する HEAD メソッドを許可してい"
+#~ "ませんが、gURLChecker は HEAD メソッドを送信する必要があります :(\n"
+#~ "\n"
+#~ "あとで確認するか、設定でこのドメインをフィルタして下さい。"
+
+#, fuzzy
+#~ msgid "gURLChecker project page"
+#~ msgstr "gURLChecker"
+
+#, fuzzy
+#~ msgid "Graphic view"
+#~ msgstr "グラフィックス:"
+
+#, fuzzy
+#~ msgid "Pages relations"
+#~ msgstr "ページの情報"
+
+#, fuzzy
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>META タグ</b>"
+
+#, fuzzy
+#~ msgid "<b>HTTP</b>"
+#~ msgstr "<b>META タグ</b>"
+
+#, fuzzy
+#~ msgid "<b>MAILTO</b>"
+#~ msgstr "MAILTO"
+
+#~ msgid "Please, enter a domain name."
+#~ msgstr "ドメイン名を入力して下さい。"
+
+#~ msgid "Please, enter a directory name."
+#~ msgstr "ディレクトリ名を入力して下さい。"
+
+#~ msgid "The domain you entered seems not to be valid."
+#~ msgstr "入力したドメインは正しくないようです。"
+
+#, fuzzy
+#~ msgid "Please, select a project to delete."
+#~ msgstr "まず最初にアイテムを選択して下さい。"
+
+#~ msgid "Check email MX"
+#~ msgstr "E-メールの MX のチェック"
+
+#~ msgid "Email"
+#~ msgstr "E-メール"
+
+#~ msgid "Emails"
+#~ msgstr "E-メール"
+
+#, fuzzy
+#~ msgid "Check E-Mail MX"
+#~ msgstr "E-メールの MX のチェック"
+
+#, fuzzy
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "ページの情報"
+
+#, fuzzy
+#~ msgid "<b>Check</b>"
+#~ msgstr "<b>ヘッダ</b>"
+
+#, fuzzy
+#~ msgid "<b>Cookies</b>"
+#~ msgstr "ページのプロパティ"
+
+#, fuzzy
+#~ msgid "<b>Debug</b>"
+#~ msgstr "<b>ヘッダ</b>"
+
+#~ msgid "*"
+#~ msgstr "*"

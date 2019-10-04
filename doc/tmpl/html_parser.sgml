@@ -1,0 +1,57 @@
+<!-- ##### SECTION Title ##### -->
+html_parser
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage HTML parser work.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_html_parser_get_tags ##### -->
+<para>
+
+</para>
+
+@buffer_orig: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_html_parser_node_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_html_parser_node_free ##### -->
+<para>
+
+</para>
+
+@tag: 
+
+
+<!-- ##### FUNCTION uc_css_parser_get_tags ##### -->
+<para>
+
+</para>
+
+@buffer_orig: 
+@Returns: 
+
+

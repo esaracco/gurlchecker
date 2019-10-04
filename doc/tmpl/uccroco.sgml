@@ -1,0 +1,62 @@
+<!-- ##### SECTION Title ##### -->
+uccroco
+
+<!-- ##### SECTION Short_Description ##### -->
+To work with libcroco.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT UCCroco ##### -->
+<para>
+
+</para>
+
+@css_handler: 
+@is_valid: 
+@log_error: 
+@parser: 
+@def: 
+@error_buffer: 
+@error_count: 
+
+<!-- ##### FUNCTION uc_uccroco_new ##### -->
+<para>
+
+</para>
+
+@void: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_uccroco_validate ##### -->
+<para>
+
+</para>
+
+@croco: 
+@path: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_uccroco_free ##### -->
+<para>
+
+</para>
+
+@croco: 
+
+

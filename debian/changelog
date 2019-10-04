@@ -1,0 +1,8 @@
+gurlchecker (0.10.0-1.es) unstable; urgency=low
+
+  * This package has nothing to do with debian. It is badly done but should
+    works. Just for me and all fellows that do not want to install this
+    application by their own.
+
+ -- Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>  Thu, 23 Nov 2006 05:53:07 +0100
+

@@ -1,0 +1,55 @@
+<!-- ##### SECTION Title ##### -->
+timeout
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage timeouts.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_timeout_domains_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_timeout_domains_free ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_timeout_domains_register ##### -->
+<para>
+
+</para>
+
+@domain: 
+
+
+<!-- ##### FUNCTION uc_timeout_domains_is_blocked ##### -->
+<para>
+
+</para>
+
+@domain: 
+@Returns: 
+
+

@@ -1,0 +1,44 @@
+<!-- ##### SECTION Title ##### -->
+connection
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage connections work.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_conn_init ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_server_get_response ##### -->
+<para>
+
+</para>
+
+@proto: 
+@host: 
+@port: 
+@buffer: 
+@header_request: 
+@ip: 
+@Returns: 
+
+

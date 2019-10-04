@@ -1,0 +1,60 @@
+<!-- ##### SECTION Title ##### -->
+ucclam
+
+<!-- ##### SECTION Short_Description ##### -->
+To work with libclamav.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### STRUCT UCClam ##### -->
+<para>
+
+</para>
+
+@size: 
+@sigs: 
+@virname: 
+@engine: 
+
+<!-- ##### FUNCTION uc_ucclam_new ##### -->
+<para>
+
+</para>
+
+@error: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_ucclam_scan ##### -->
+<para>
+
+</para>
+
+@clam: 
+@path: 
+@virname: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_ucclam_free ##### -->
+<para>
+
+</para>
+
+@clam: 
+
+

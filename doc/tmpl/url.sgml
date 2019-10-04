@@ -1,0 +1,140 @@
+<!-- ##### SECTION Title ##### -->
+url
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage URL parser work.
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_url_is_faked ##### -->
+<para>
+
+</para>
+
+@prop: 
+@tag: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_extract_url_from_local_path ##### -->
+<para>
+
+</para>
+
+@path: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_correction ##### -->
+<para>
+
+</para>
+
+@prop: 
+
+
+<!-- ##### FUNCTION uc_url_normalize ##### -->
+<para>
+
+</para>
+
+@current_host: 
+@current_path: 
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_get_hostname ##### -->
+<para>
+
+</para>
+
+@current_host: 
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_get_port ##### -->
+<para>
+
+</para>
+
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_add_protocol ##### -->
+<para>
+
+</para>
+
+@proto: 
+@host: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_add_slash ##### -->
+<para>
+
+</para>
+
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_is_valid ##### -->
+<para>
+
+</para>
+
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_get_protocol ##### -->
+<para>
+
+</para>
+
+@url: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_parse ##### -->
+<para>
+
+</para>
+
+@current_host: 
+@current_path: 
+@rurl: 
+@host: 
+@port: 
+@path: 
+@args: 
+@Returns: 
+
+
+<!-- ##### FUNCTION uc_url_get_ip ##### -->
+<para>
+
+</para>
+
+@host: 
+@Returns: 
+
+

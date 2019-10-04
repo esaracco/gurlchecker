@@ -1,0 +1,2320 @@
+# gURLChecker eo.po
+# Copyright (C) 2002, 2003 Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>.
+# This file is distributed under the same license as the gURLChecker package.
+#
+# Florent Jugla <juglaf@wanadoo.fr>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.7.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-23 08:53+0100\n"
+"PO-Revision-Date: 2003-11-16 19:07GMT\n"
+"Last-Translator: \n"
+"Language-Team:  <fr@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.5\n"
+
+#: ../src/cookies.c:239
+msgid "The following cookie will be <b>deleted</b>"
+msgstr ""
+
+#: ../src/cookies.c:259
+msgid "The following cookie will be <b>updated</b>"
+msgstr ""
+
+#: ../src/cookies.c:290
+msgid "The following cookie will be <b>added</b>"
+msgstr ""
+
+#: ../src/uccroco.c:49
+#, c-format
+msgid "%u - Error after: %s\n"
+msgstr ""
+
+#: ../src/uccroco.c:52
+#, c-format
+msgid "%u - Unknown error...\n"
+msgstr ""
+
+#: ../src/application.c:112 ../src/search.c:133
+msgid "Id"
+msgstr "Id"
+
+#: ../src/application.c:118
+msgid "Type"
+msgstr "Tipo"
+
+# Tipo
+#: ../src/application.c:123 ../src/application.c:309 ../src/application.c:1737
+#: ../src/application.c:1804 ../src/application.c:1867 ../src/search.c:141
+msgid "URL"
+msgstr "Retligo (URL)"
+
+#: ../src/application.c:288
+#, fuzzy
+msgid "Custom action"
+msgstr "Elekti dosieron de ligosignoj"
+
+#: ../src/application.c:300 ../src/application.c:1667
+#: ../src/application.c:1743
+msgid "Label"
+msgstr "Marko"
+
+#: ../src/application.c:318
+#, fuzzy
+msgid "Date"
+msgstr "Forigi"
+
+#: ../src/application.c:523 ../src/application.c:1507
+msgid "Name"
+msgstr "Nomo"
+
+#: ../src/application.c:529
+msgid "Content"
+msgstr "Ujo"
+
+#: ../src/application.c:805 ../src/application.c:869
+msgid "At the end of this session"
+msgstr ""
+
+#: ../src/application.c:906
+#, c-format
+msgid "Enter login and password for %s at %s"
+msgstr ""
+
+#: ../src/application.c:1020 ../src/application.c:1024
+msgid "W3C CSS validation result (libcroco)"
+msgstr ""
+
+#: ../src/application.c:1025
+msgid "This is a valid stylesheet."
+msgstr ""
+
+#: ../src/application.c:1029
+msgid ""
+"A problem occured while using Croco library.\n"
+"<i>Please check your configuration or your libcroco version</i>.\n"
+"\n"
+msgstr ""
+
+#: ../src/application.c:1048
+msgid "W3C HTML validation result (libtidy)"
+msgstr ""
+
+#: ../src/application.c:1052
+msgid ""
+"A problem occured while using Tidy library.\n"
+"<i>Please check your configuration or your libtidy version</i>.\n"
+"\n"
+msgstr ""
+
+#: ../src/application.c:1289
+msgid "Found Bad extensions.\n"
+msgstr ""
+
+#: ../src/application.c:1291
+msgid "Found Virus: "
+msgstr ""
+
+#: ../src/application.c:1302 ../src/application.c:1557
+#: ../src/application.c:1559
+msgid "No referrer"
+msgstr ""
+
+#: ../src/application.c:1536
+msgid "Missing URL"
+msgstr ""
+
+#: ../src/application.c:1567 ../src/application.c:1599
+#: ../src/application.c:1609
+msgid "Not specified"
+msgstr ""
+
+#: ../src/application.c:1577
+msgid "Unknown"
+msgstr ""
+
+#: ../src/application.c:1582
+#, fuzzy
+msgid "(gURLChecker internals)"
+msgstr "Preferaĵoj por gURLChecker"
+
+#: ../src/application.c:1592
+msgid "Disk Cache"
+msgstr ""
+
+#: ../src/application.c:1592
+msgid "Not cached"
+msgstr ""
+
+#: ../src/application.c:1661 ../src/check.c:406 ../ui/gurlchecker.glade.h:109
+#, fuzzy
+msgid "E-Mail"
+msgstr "Retpoŝtadreso"
+
+#: ../src/application.c:1776 ../src/application.c:1839
+#: ../src/application.c:1934 ../src/application.c:1978
+#: ../src/application.c:3428 ../src/application.c:3479 ../src/callbacks.c:554
+#: ../src/callbacks.c:568 ../src/callbacks.c:590 ../src/callbacks.c:818
+#: ../src/callbacks.c:864 ../src/callbacks.c:877 ../src/callbacks.c:1028
+#: ../src/check.c:1302 ../src/project.c:548
+#, fuzzy
+msgid "Please, select a item."
+msgstr "Bonvolu selekti anon."
+
+#: ../src/application.c:1906
+#, fuzzy
+msgid ""
+"Cannot start your web browser\n"
+"The following error occured:\n"
+msgstr "Neeblas lanĉi vian krozilon; la jena eraro okazis:"
+
+#: ../src/application.c:1956 ../src/application.c:1988
+#, fuzzy
+msgid ""
+"Either the corresponding file is empty or does not exist in the cache "
+"directory!"
+msgstr "La dosiero estas malplena aŭ ne ekzistas en la kaŝ-dosierujo!"
+
+#: ../src/application.c:1986 ../ui/gurlchecker.glade.h:209
+msgid "View source"
+msgstr "Vidi la fonton"
+
+#: ../src/application.c:2029
+msgid "Redirect"
+msgstr ""
+
+#: ../src/application.c:2030
+#, fuzzy
+msgid "Edit"
+msgstr "_Eldoni"
+
+#: ../src/application.c:2031
+msgid "Create target"
+msgstr ""
+
+#: ../src/application.c:2096
+msgid "Host unreachable"
+msgstr "Servilo nekontaktebla."
+
+#: ../src/application.c:2097
+msgid ""
+"The remote host does not respond at all...\n"
+"Perhaps you would change the timeout in gURLChecker preferences, or perhaps "
+"it is really down.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"La fora servilo ne respondas...\n"
+"\n"
+"La limtempo konfigurata en la preferaĵoj de la uzanto de gURLChecker eble "
+"estas tro mallonga, aŭ la servilo ne plu funkcias.\n"
+"\n"
+"Provu kontroli ĝin poste."
+
+#: ../src/application.c:2106
+msgid "FILE:// protocol"
+msgstr "FILE://protokolo"
+
+#: ../src/application.c:2107
+msgid ""
+"File protocol detected.\n"
+"You have asked me to warn you when I find the \"FILE://\" protocol in a link."
+msgstr ""
+"Dosier-protokolo detektita.\n"
+"Vi petis min de averti vin kiam mi trovas \"FILE://\" protokolon en iu ligo."
+
+#: ../src/application.c:2115 ../src/application.c:2174
+msgid "Page available"
+msgstr "Paĝo disponeblas."
+
+#: ../src/application.c:2116 ../src/application.c:2175
+#: ../src/application.c:2192 ../src/application.c:2200
+msgid ""
+"No problem with this page.\n"
+"Server is up and document can be loaded without any problem."
+msgstr ""
+"Nenia problemo kun tiun paĝon.\n"
+"Eblas aliri la servilon kaj elŝuti la dokumenton."
+
+#: ../src/application.c:2123 ../src/application.c:2240
+msgid "Page not found"
+msgstr "Paĝo netrovita."
+
+#: ../src/application.c:2123 ../src/application.c:2240
+#, fuzzy
+msgid "The page does not exist on the server."
+msgstr "Tiu paĝo ne plu ekzistas en la servilo."
+
+#: ../src/application.c:2129
+#, fuzzy
+msgid "Bad E-Mail link"
+msgstr "Malbona retpoŝt-ligo"
+
+#: ../src/application.c:2130
+#, fuzzy
+msgid "The E-Mail specified in the link is not well formatted."
+msgstr "La retpoŝtadreso indikita en la ligo ne estas bone aranĝita."
+
+#: ../src/application.c:2136
+msgid "Problem with MX"
+msgstr "Problemo kun MX"
+
+#: ../src/application.c:2137
+#, fuzzy
+msgid ""
+"The MX of the domain specified for this E-Mail is not valid or the domain "
+"itself is not valid."
+msgstr ""
+"MX domajno indikita por tiu retpoŝtadreso ne estas valida aŭ ne ekzistas la "
+"domajnon."
+
+#: ../src/application.c:2144
+#, fuzzy
+msgid "E-Mail link ok"
+msgstr "Bona retpoŝtligo."
+
+#: ../src/application.c:2144
+#, fuzzy
+msgid "No problem with this E-Mail."
+msgstr "Nenia problemo kun tiu retpoŝtadreso."
+
+#: ../src/application.c:2150
+msgid "Item ignored"
+msgstr "Ano ignorita."
+
+#: ../src/application.c:2151
+msgid "You chose to ignore this item while gURLChecker was checking it."
+msgstr "Vi elektis ignori tiun anon dum la skanado de gURLChecker."
+
+#: ../src/application.c:2158
+msgid "Malformed link"
+msgstr "Malformita ligo"
+
+#: ../src/application.c:2159
+#, fuzzy
+msgid ""
+"The HTML link is malformed.\n"
+"Perhaps HREF value is missing?"
+msgstr ""
+"La HTML-a kodo estas malformita.\n"
+"Eble mankas la SRC atributon, aŭ eble la relativa ligo ne estas valida."
+
+#: ../src/application.c:2165
+msgid "No valid information"
+msgstr "Nenia valida informo."
+
+#: ../src/application.c:2166
+msgid ""
+"gURLChecker can't interpret the status code sent by the remote host.\n"
+"Please, report the value of the \"Status\" header field to the author of "
+"gURLChecker."
+msgstr ""
+"gURLChecker ne povas interpreti la kodon sendita de la fora komputilo.\n"
+"Bonvolu sendi la valoron de la kampo \"Statuso\" al la aŭtoro de gURLChecker."
+
+#: ../src/application.c:2182
+msgid "Page moved permanently"
+msgstr "La paĝo definitive translokis"
+
+#: ../src/application.c:2183
+msgid ""
+"No real problem with this page.\n"
+"The requested resource just has been assigned a new permanent URI."
+msgstr ""
+"Nenia problemo kun tiun paĝon.\n"
+"Novan definitivan retligon estis aldonita la petita risurco."
+
+#: ../src/application.c:2191
+#, fuzzy
+msgid "Page moved Temporarily"
+msgstr "La paĝo definitive translokis"
+
+#: ../src/application.c:2199
+msgid "The response to the request can be found under a different URI"
+msgstr ""
+
+#: ../src/application.c:2207
+msgid "Restricted access"
+msgstr "Aliro protektas."
+
+#: ../src/application.c:2208
+msgid "This page need authentication to be viewed."
+msgstr "Necesas aŭtenteco por aliri tiun paĝon."
+
+#: ../src/application.c:2214
+msgid "Access forbidden"
+msgstr "Aliro malpermesitas."
+
+#: ../src/application.c:2215 ../src/application.c:2263
+msgid ""
+"The remote host has refused to serve us the page.\n"
+"Given the way gURLChecker process links, this error should not occured.\n"
+"\n"
+"Please report this bug to the gURLChecker Team."
+msgstr ""
+
+#: ../src/application.c:2224
+msgid "Page available, but with no content"
+msgstr "Paĝo disponebla, sed malplena."
+
+#: ../src/application.c:2225
+#, fuzzy
+msgid ""
+"No problem with this page, but it has no content at all...\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Nenia problemo kun tiun paĝon, sed tiu estas malplena.\n"
+"\n"
+"Provu kontroli ĝin poste."
+
+#: ../src/application.c:2232
+msgid "Malformed URL"
+msgstr "Malformita retligo"
+
+#: ../src/application.c:2233
+msgid ""
+"The request could not be understood by the server due to malformed syntax."
+msgstr ""
+"La fora servilo ne komprenis la peton, probable ĉar ĝi estas sintakse "
+"malformita."
+
+#: ../src/application.c:2246
+msgid "Method not allowed"
+msgstr "Metodo malpermesita."
+
+#: ../src/application.c:2247
+msgid ""
+"The remote host has refused to serve us the page.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"La fora servilo rifuzis elsendi la paĝon.\n"
+"\n"
+"Provu kontroli ĝin poste."
+
+#: ../src/application.c:2254
+msgid "Internal server error"
+msgstr "Interna eraro de la servilo."
+
+#: ../src/application.c:2255
+msgid ""
+"The page contain bad code, or the server is misconfigured.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"Tiu paĝo enhavas erarojn, aŭ la servilo estas malbone konfigurita.\n"
+"\n"
+"Provu kontroli ĝin poste."
+
+#: ../src/application.c:2262
+#, fuzzy
+msgid "Method not supported"
+msgstr "Metodo malpermesita."
+
+#: ../src/application.c:2272
+msgid "Bad Gateway"
+msgstr ""
+
+#: ../src/application.c:2273
+#, fuzzy
+msgid ""
+"The server, while acting as a gateway or proxy, received an invalid response "
+"from the upstream server it accessed in attempting to fulfill the request.\n"
+"\n"
+"Try to check this page later."
+msgstr ""
+"La kluza aŭ prokura servilo ne ricevis respondon de la servilo specifita en "
+"la retligo (ekz. HTTP, FTP, LDAP) aŭ de intera servilo (ekz. DNS) de kiu ĝi "
+"dependas."
+
+#: ../src/application.c:2282
+msgid "Service unavailable"
+msgstr "Servo nedisponeblas."
+
+#: ../src/application.c:2283
+msgid ""
+"The server is currently unable to handle the request due to a temporary "
+"overloading or maintenance of the server. It is also possible that you are "
+"using a proxy that can not join the given host.\n"
+"\n"
+"Try to check it later, or change your proxy settings."
+msgstr ""
+"La servilo ne povas respondi: eble ĝi tro laboras aŭ estas administrata nun. "
+"Ankaŭ eblas ke via proksima servilo ne povas aliri al tiu servilo.\n"
+"\n"
+"Provu kontroli ĝin poste."
+
+#: ../src/application.c:2293
+msgid "Request not completed"
+msgstr "Peto nekompletis."
+
+#: ../src/application.c:2294
+#, fuzzy
+msgid ""
+"The server, while acting as a gateway or proxy, did not receive a timely "
+"response from the upstream server specified by the URI (e.g. HTTP, FTP, "
+"LDAP) or some other auxiliary server (e.g. DNS) it needed to access in "
+"attempting to complete the request."
+msgstr ""
+"La kluza aŭ prokura servilo ne ricevis respondon de la servilo specifita en "
+"la retligo (ekz. HTTP, FTP, LDAP) aŭ de intera servilo (ekz. DNS) de kiu ĝi "
+"dependas."
+
+#: ../src/application.c:2304
+msgid "Access forbidden or too many connections"
+msgstr ""
+
+#: ../src/application.c:2306
+msgid ""
+"This server do not accept anonymous users, or the maximum number of allowed "
+"clients are already connected.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+
+#: ../src/application.c:2314
+msgid "Receiving timout requesting the page"
+msgstr "Transpasis la limtempo por tiu paĝo."
+
+#: ../src/application.c:2315
+msgid ""
+"Perhaps you would change the timeout in gURLChecker preferences. Perhaps the "
+"remote host is too busy for the moment to responde to gURLChecker request, "
+"or perhaps the remote host does not exist at all.\n"
+"\n"
+"Try to check it later."
+msgstr ""
+"La konfigurita limtempo en la preferaĵoj de la uzanto de gURLChecker eble "
+"estas tro mallonga, aŭ la fora servilo estas nun tro okupata por respondi al "
+"la petoj de gURLChecker.\n"
+"\n"
+"Provu kontroli ĝin poste."
+
+#: ../src/application.c:2371
+msgid "Cannot start new instance of gURLChecker; the following error occured:"
+msgstr "Neeblas lanĉi novan aperon de gURLChecker; la jena eraro okazis:"
+
+#: ../src/application.c:2698
+#, c-format
+msgid ""
+"A problem occured while initializing Clamav library :\n"
+"<b><i>%s</i></b>\n"
+"<i>Please check your configuration or your libclamav version</i>.\n"
+"\n"
+"<b>Virii will not be detected</b>."
+msgstr ""
+
+#: ../src/application.c:2726
+msgid ""
+"A problem occured while initializing Croco library.\n"
+"<i>Please check your configuration or your libcroco version</i>.\n"
+"\n"
+"<b>CSS stylesheets will not be validated</b>."
+msgstr ""
+
+#: ../src/application.c:2743
+msgid ""
+"A problem occured while initializing Tidy library.\n"
+"<i>Please check your configuration or your libtidy version</i>.\n"
+"\n"
+"<b>HTML pages will not be validated</b>."
+msgstr ""
+
+#: ../src/application.c:3003 ../src/web_site.c:270 ../src/bookmarks.c:544
+#: ../ui/gurlchecker.glade.h:59
+msgid "Check in progress..."
+msgstr "Nuna kontrolado..."
+
+#: ../src/application.c:3067
+msgid ""
+"Emmanuel Saracco\n"
+"\n"
+"Contributors:\n"
+"Stephane Loeuillet"
+msgstr ""
+
+#: ../src/application.c:3074
+msgid "Manpage:"
+msgstr ""
+
+#: ../src/application.c:3078
+msgid "Code:"
+msgstr ""
+
+#: ../src/application.c:3083
+#, fuzzy
+msgid ""
+"Takeshi Aihana, Japanese\n"
+"Alexander Hunziker, German\n"
+"Florent Jugla, Esperanto\n"
+"Daniel Pecos, Spanish\n"
+"Gunner Poulsen, Danish\n"
+"Emmanuel Saracco, French\n"
+"Angelo Theodorou, Italian\n"
+msgstr ""
+"Takeshi Aihana <aihana@gnome.gr.jp>, Japana\n"
+"Alexander Hunziker <alex.hunziker@rega-sense.ch>, Germana\n"
+"Daniel Pecos <dani@netpecos.org>, Kastilia\n"
+"Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>, Franca\n"
+"Gunner Poulsen <gp@lyngbjerggaardskolen.dk>, Danish\n"
+"Florent Jugla <juglaf@wanadoo.fr>, Esperanta\n"
+
+#: ../src/application.c:3103
+#, fuzzy
+msgid ""
+"gURLChecker is a graphical web links checker.\n"
+"It can work on a whole site, a single local page or a browser bookmarks file"
+msgstr ""
+"gURLChecker estas kontrolilo de retligoj.\n"
+"Povas funkcii kun kompleta teksejo, kun simpla retpaĝo aŭ ankoraŭ kun "
+"dosiero de legosignoj"
+
+#: ../src/application.c:3327
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, Google Chrome, or Firefox "
+"database file"
+msgstr "Elekti kontrolota dosieron de ligosignoj"
+
+#: ../src/application.c:3332
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, or a Firefox database file"
+msgstr "Elekti kontrolota dosieron de ligosignoj"
+
+#: ../src/application.c:3337
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be either a XBEL, Opera, or a Google Chrome file"
+msgstr "Elekti kontrolota dosieron de ligosignoj"
+
+#: ../src/application.c:3342
+#, fuzzy
+msgid ""
+"You can select a local or remote bookmarks file.\n"
+"This file have to be in XBEL or Opera format"
+msgstr "Elekti kontrolota dosieron de ligosignoj"
+
+#: ../src/application.c:3359
+msgid "New domain to reject"
+msgstr "Nova domajno malakceptota"
+
+#: ../src/application.c:3360
+msgid "Add a domain to reject"
+msgstr "Aldoni domajno malakceptota"
+
+#: ../src/application.c:3372
+#, fuzzy
+msgid "This domain name is not valid."
+msgstr "La domajno ne la retpoŝtadreso ne ŝajnas valida"
+
+#: ../src/application.c:3441
+msgid "New directory to reject"
+msgstr "Nova dosierujo malakceptota"
+
+#: ../src/application.c:3442
+msgid "Add a directory to reject"
+msgstr "Aldoni dosierujo malakceptota"
+
+#: ../src/application.c:3543
+#, fuzzy
+msgid "Please, enter a string to search."
+msgstr "Bonvolu enmeti nomo de dosierujo kie vi volas serĉi"
+
+#: ../src/application.c:3566
+#, fuzzy
+msgid "Please, check that there is no mismatch in your URL and try again."
+msgstr ""
+"Bonvolu kontroli ke la enmetita retligo estas valida kaj poste restari."
+
+#: ../src/application.c:3593
+msgid "Sorry, but this version of gurlchecker have no SSL support"
+msgstr ""
+
+#: ../src/application.c:3672 ../src/project.c:441
+#, fuzzy
+msgid "[<b>Local file</b>] Page information"
+msgstr "Informojn pri la paĝo"
+
+#: ../src/application.c:3675 ../src/project.c:444
+#, fuzzy
+msgid "[<b>Web site</b>] Page information"
+msgstr "Informojn pri la paĝo"
+
+#: ../src/application.c:3730
+msgid "Please choose a bookmarks file to check."
+msgstr "Selektu dosiero de ligosignoj kiun vi volas kontroli."
+
+#: ../src/application.c:3785
+msgid ""
+"A problem occured when retrieving remote bookmarks file.\n"
+"<i>Try to pump up the timeout delay</i>."
+msgstr ""
+
+#: ../src/application.c:3799
+#, fuzzy
+msgid ""
+"Either the file is not correct or your don't have appropriate rights on it.\n"
+"<b>Please choose a valid bookmarks file</b>."
+msgstr ""
+"La dosiero kiun vi enmetis ne estas valida, aŭ vi ne havas la necesajn "
+"rajtojn por uzi tiun. Bonvolu slekti validan dosiero de ligosignoj."
+
+#: ../src/application.c:3815
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b>, <b>Google "
+"Chrome</b>, and <b>Firefox</b> database file</i>."
+msgstr ""
+"Formato de elektita dosiero ne estas korekta.\n"
+"gURLChecker nune ne povas kontroligi XBEL formaton."
+
+#: ../src/application.c:3822
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b> "
+"and <b>Firefox</b> database file</i>."
+msgstr ""
+"Formato de elektita dosiero ne estas korekta.\n"
+"gURLChecker nune ne povas kontroligi XBEL formaton."
+
+#: ../src/application.c:3829
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b>, <b>Opera</b> "
+"and <b>Google Chrome</b> file</i>."
+msgstr ""
+"Formato de elektita dosiero ne estas korekta.\n"
+"gURLChecker nune ne povas kontroligi XBEL formaton."
+
+#: ../src/application.c:3835
+#, fuzzy
+msgid ""
+"The file format is not correct.\n"
+"<i>This version of gurlchecker can deal only with <b>XBEL</b> and <b>Opera</"
+"b> file</i>."
+msgstr ""
+"Formato de elektita dosiero ne estas korekta.\n"
+"gURLChecker nune ne povas kontroligi XBEL formaton."
+
+#: ../src/application.c:3852
+#, fuzzy
+msgid "[<b>Remote bookmarks</b>] Page information"
+msgstr "Informojn pri la paĝo"
+
+#: ../src/application.c:3855
+#, fuzzy
+msgid "[<b>Local bookmarks</b>] Page information"
+msgstr "Informojn pri la paĝo"
+
+#: ../src/application.c:4071 ../src/check.c:1556
+#, fuzzy
+msgid "Cleaning..."
+msgstr "Finanta..."
+
+#: ../src/callbacks.c:774
+msgid ""
+"All bookmarks referring to not found page will be removed.\n"
+"<b>Do you want to continue</b>?"
+msgstr ""
+
+#: ../src/callbacks.c:803
+msgid ""
+"Selected link will be removed.\n"
+"<b>Do you want to continue</b>?"
+msgstr ""
+
+#: ../src/callbacks.c:900 ../src/callbacks.c:918
+#, fuzzy
+msgid "Please, select a project."
+msgstr "Bonvolu selekti anon."
+
+#: ../src/callbacks.c:913 ../src/callbacks.c:1013
+msgid "Are you sure you want to delete this project?"
+msgstr ""
+
+#: ../src/check.c:400
+msgid "Hypertext Link"
+msgstr ""
+
+#: ../src/check.c:402
+msgid "Local Hypertext Link"
+msgstr ""
+
+#: ../src/check.c:404
+#, fuzzy
+msgid "Local Image"
+msgstr "Loka dosiero"
+
+#: ../src/check.c:408 ../ui/gurlchecker.glade.h:131
+#, fuzzy
+msgid "Image"
+msgstr "Bildoj"
+
+#: ../src/check.c:410
+#, fuzzy
+msgid "Frame link"
+msgstr "Malformita ligo"
+
+#: ../src/check.c:412
+msgid "StyleSheet link"
+msgstr ""
+
+#: ../src/check.c:414
+msgid "Unknown Type"
+msgstr ""
+
+#: ../src/check.c:867
+#, fuzzy
+msgid "Retrieving source..."
+msgstr "Ekstraktado de la ĉap-kampoj..."
+
+#: ../src/check.c:998
+msgid "Continue"
+msgstr "Daŭrigi"
+
+#: ../src/check.c:1004 ../ui/gurlchecker.glade.h:184
+msgid "Suspend"
+msgstr "Interrompi"
+
+#: ../src/check.c:1045
+#, fuzzy
+msgid "Checking file (FTP)..."
+msgstr "Kontroladas la lokan dosieron..."
+
+#: ../src/check.c:1056
+msgid "Retrieving header..."
+msgstr "Ekstraktado de la ĉap-kampoj..."
+
+#: ../src/check.c:1228
+msgid "Item already checked..."
+msgstr "Ano jam estis kontrolita..."
+
+#: ../src/check.c:1316
+#, fuzzy, c-format
+msgid "MX host %s for this domain is alive and listen on port 25."
+msgstr ""
+"MX servilo %s en la specifita domajno funkcias kaj auskŭltadas la 25 pordon."
+
+#: ../src/check.c:1322
+#, fuzzy
+msgid "MX host does not respond or the E-Mail's domain is not valid."
+msgstr ""
+"MX servilo ne respondas aŭ ne ekzistas la domajnon de tiu repoŝtadreso."
+
+#: ../src/check.c:1328
+#, fuzzy
+msgid "The E-Mail's domain is not valid."
+msgstr "La domajno ne la retpoŝtadreso ne ŝajnas valida"
+
+#: ../src/check.c:1767
+msgid "<b>SECURITY</b>: Checking for virii..."
+msgstr ""
+
+#: ../src/check.c:1797
+msgid "<b>W3C</b>: Validate CSS stylesheet..."
+msgstr ""
+
+#: ../src/check.c:1829
+msgid "<b>W3C</b>: Validate HTML page..."
+msgstr ""
+
+#: ../src/check.c:1917
+#, c-format
+msgid "<b>SECURITY</b>: Checking for bad extensions [<b>%s</b>]..."
+msgstr ""
+
+#: ../src/check.c:2006
+#, c-format
+msgid "Sleeping %u second(s)..."
+msgstr "Endormanta %u sekundo(j)..."
+
+#: ../src/check.c:2119
+#, fuzzy
+msgid "Checking E-Mail..."
+msgstr "Kontroladas la retpoŝtadreson..."
+
+#: ../src/check.c:2185
+msgid "Checking local file..."
+msgstr "Kontroladas la lokan dosieron..."
+
+#: ../src/check.c:2288 ../ui/gurlchecker.glade.h:203
+#, fuzzy
+msgid "Updating report..."
+msgstr "Ekstraktado de la ĉap-kampoj..."
+
+#: ../src/check.c:2594 ../src/web_site.c:175
+msgid "Searching..."
+msgstr "Serĉadas..."
+
+#: ../src/web_site.c:267
+#, fuzzy
+msgid "Updating link..."
+msgstr "Kontroladas la retpoŝtadreson..."
+
+#: ../src/web_site.c:683
+#, fuzzy
+msgid "Updating branch..."
+msgstr "Ekstraktado de la ĉap-kampoj..."
+
+#: ../src/web_site.c:733
+#, fuzzy
+msgid "Updating all project..."
+msgstr "Finanta..."
+
+#: ../src/web_site.c:814
+#, c-format
+msgid "Checking %s..."
+msgstr "Kontrolado de %s..."
+
+#: ../src/web_site.c:829
+msgid "MAIN PAGE"
+msgstr ""
+
+#: ../src/web_site.c:848
+#, fuzzy
+msgid ""
+"Access to the specified project URL is restricted.\n"
+"Check has been cancelled"
+msgstr ""
+"La enmetita retligo ne respondas.\n"
+"Kontrolado estis nuligita."
+
+#: ../src/web_site.c:908
+#, fuzzy
+msgid ""
+"The specified project URL does not respond.\n"
+"Check has been cancelled."
+msgstr ""
+"La enmetita retligo ne respondas.\n"
+"Kontrolado estis nuligita."
+
+#: ../src/bookmarks.c:305
+msgid "Should remote bookmarks be saved on your machine?"
+msgstr ""
+
+#: ../src/bookmarks.c:311
+#, fuzzy
+msgid "Save bookmarks file"
+msgstr "Savkopii ligosignojn"
+
+#: ../src/bookmarks.c:312
+msgid "Input filename"
+msgstr ""
+
+#: ../src/bookmarks.c:320
+#, fuzzy
+msgid ""
+"The filename is not in a correct format.\n"
+"<b>Nothing has been done</b>."
+msgstr ""
+"Eraro okuris kiam savkopias la dosieron de ligosignoj.\n"
+"Nenio estis farita."
+
+#: ../src/bookmarks.c:344
+#, fuzzy
+msgid ""
+"Bookmarks changes will be saved.\n"
+"<i>Your old bookmarks file will be renamed with \".uc\" extension</i>.\n"
+"<b>Do you want to save</b>?"
+msgstr ""
+"Ŝanĝoj de legosignoj estos savkopita.\n"
+"Via malnova dosiero de legosignoj estas renomita kun la \".uc\" sufixo.\n"
+"\n"
+"Savkopii ?"
+
+#: ../src/bookmarks.c:379
+#, fuzzy
+msgid ""
+"A error occured.\n"
+"<b>Nothing has been done</b>."
+msgstr ""
+"Eraro okuris kiam savkopias la dosieron de ligosignoj.\n"
+"Nenio estis farita."
+
+#: ../src/bookmarks.c:391
+#, fuzzy
+msgid ""
+"Bookmarks changes will be applied.\n"
+"<i>We recommand you to manually backup your Firefox database before applying "
+"changes!</i>\n"
+"<b>Do you want to apply</b>?"
+msgstr ""
+"Ŝanĝoj de legosignoj estos savkopita.\n"
+"Via malnova dosiero de legosignoj estas renomita kun la \".uc\" sufixo.\n"
+"\n"
+"Savkopii ?"
+
+#: ../src/bookmarks.c:1058
+#, fuzzy
+msgid ""
+"Either the given XML file is not well formed or its encoding can not be "
+"found...\n"
+"<i>If you are checking a remote bookmarks file, try to pump up the timeout "
+"delay</i>.\n"
+"<b>Check has been aborted</b>."
+msgstr ""
+"Enmetita XML dosiero ne havas validan formon, aŭ la kodigo ne estis "
+"trovita..\n"
+"Kontrolado estis stopita."
+
+#: ../src/bookmarks.c:1073
+msgid "The given XML file is empty.\n"
+msgstr "Enmetita XML dosiero estas malplena.\n"
+
+#: ../src/main.c:126
+#, fuzzy
+msgid "Wrote by Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>."
+msgstr ""
+"Programo fare de Emmanuel Saracco <esaracco@users.labs.libre-entreprise.org>"
+
+#: ../src/main.c:127
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO "
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr ""
+"Tiu programo estas libera; Por pliaj informoj, vidu la fonton. NENIA "
+"GARANTIO, i.a. nenia implica garantio pri SURMERKATIGEBLO aŭ TAŬGECO POR IU "
+"KONKRETA CELO."
+
+#: ../src/main.c:136
+#, fuzzy, c-format
+msgid ""
+"Usage: %s [OPTION] [URL]\n"
+"A graphic web link checker.\n"
+"\n"
+"  -h, --help          display this help\n"
+"  -V, --version       display %s version\n"
+"  -u, --http-user     user for basic authentication\n"
+"  -p, --http-passwd   password for basic authentication\n"
+"  -A, --no-urls-args   ignore URLs arguments\n"
+"\n"
+"Report bugs to <esaracco@users.labs.libre-entreprise.org>\n"
+msgstr ""
+"Uzado: %s [OPCIO] [URL]\n"
+"Gnome 2 programo por kontroli la teksejojn.\n"
+"\n"
+"  -h, --help\tafiŝas tiun helpilon\n"
+"  -V, --version\tafiŝas la version de %s\n"
+"Bonvolu signali la program-erarojn al <esaracco@users.labs.libre-entreprise."
+"org>\n"
+
+#: ../src/report.c:244
+#, fuzzy
+msgid "Cannot execute xsltproc; the following error occured:"
+msgstr "Neeblas lanĉi vian krozilon; la jena eraro okazis:"
+
+#: ../src/report.c:472
+#, c-format
+msgid "<i><b>Checked links</b></i>: %d"
+msgstr "<i><b>Kontrolitaj ligoj</b></i> : %d"
+
+#: ../src/report.c:475
+#, c-format
+msgid "<i><b>Checked links</b></i>: %d / %d"
+msgstr "<i><b>Kontrolitaj ligoj</b></i> : %d / %d"
+
+#: ../src/report.c:484 ../ui/gurlchecker.glade.h:124
+msgid "Good links"
+msgstr "Nur la ĝustaj ligoj"
+
+#: ../src/report.c:488 ../ui/gurlchecker.glade.h:44
+msgid "Bad links"
+msgstr "Nur la malĝustaj ligoj"
+
+#: ../src/report.c:493 ../ui/gurlchecker.glade.h:144
+msgid "Malformed links"
+msgstr "Nur la ĝustaj ligoj"
+
+#: ../src/report.c:499
+msgid "Ignored links"
+msgstr "Ignotiraj ligoj"
+
+#: ../src/report.c:504 ../ui/gurlchecker.glade.h:191
+msgid "Timeouts"
+msgstr "Transpasitaj limtempoj"
+
+#: ../src/report.c:562
+#, c-format
+msgid "<i><b>Elapsed time</b></i>: %02d:%02d:%02d"
+msgstr "<i><b>Pasinta tempo</b></i> : %02d:%02d:%02d"
+
+#: ../src/utils.c:1671
+#, c-format
+msgid "%lu bytes"
+msgstr ""
+
+#: ../src/utils.c:1673
+#, c-format
+msgid "%.2f KB (%lu bytes)"
+msgstr ""
+
+#: ../src/utils.c:1676
+#, c-format
+msgid "%.2f MB (%lu bytes)"
+msgstr ""
+
+#: ../src/html_parser.c:84
+msgid "Parsing HTML code..."
+msgstr "Analizo de HTML kodo..."
+
+#: ../src/html_parser.c:129
+#, fuzzy
+msgid "Parsing CSS code..."
+msgstr "Analizo de HTML kodo..."
+
+#: ../src/search.c:522
+#, c-format
+msgid "<b>%u</b> item(s) found"
+msgstr "<b>%u</b> ano(j) trovitaj"
+
+#: ../src/search.c:528
+msgid "Search ended"
+msgstr "Serĉado finis"
+
+#. status bar message
+#: ../src/project.c:361
+#, fuzzy, c-format
+msgid "Loading [%s] project..."
+msgstr "Finanta..."
+
+#: ../src/project.c:562
+#, c-format
+msgid ""
+"<i>Created on</i> %s\n"
+"<i>Updated on</i> %s"
+msgstr ""
+
+#: ../src/project.c:609
+#, fuzzy
+msgid "Please, enter a title for the current project."
+msgstr "Bonvolu enmeti nomo de dosierujo kie vi volas serĉi"
+
+#: ../src/project.c:1391
+#, fuzzy
+msgid "Save the current project ?"
+msgstr "Nova projekto"
+
+#: ../src/project.c:1400
+#, fuzzy
+msgid "Saving project..."
+msgstr "Finanta..."
+
+#: ../src/tooltips.c:214
+#, c-format
+msgid ""
+"<b>Status</b>: %s\n"
+"<b>Location</b>: %s\n"
+"<b>Parent location</b>: %s\n"
+"<b>Last modified</b>: %s"
+msgstr ""
+
+#: ../gurlchecker.desktop.in.h:1
+msgid "Graphical Web Links checker"
+msgstr ""
+
+#: ../gurlchecker.desktop.in.h:2
+#, fuzzy
+msgid "gurlchecker"
+msgstr "gURLChecker"
+
+#: ../src/getopt.c:689
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr ""
+
+#: ../src/getopt.c:715
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../src/getopt.c:721
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../src/getopt.c:740 ../src/getopt.c:919
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr ""
+
+#: ../src/getopt.c:771
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr ""
+
+#: ../src/getopt.c:777
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr ""
+
+#. 1003.2 specifies the format of this message.
+#: ../src/getopt.c:803
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr ""
+
+#: ../src/getopt.c:805
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr ""
+
+#: ../src/getopt.c:836 ../src/getopt.c:969
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr ""
+
+#: ../src/getopt.c:886
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr ""
+
+#: ../src/getopt.c:904
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:1
+msgid "\n"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:3
+msgid "    "
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:4
+#, fuzzy
+msgid "<b>CSS Extensions to check</b>"
+msgstr "Bonvolu enmeti nomo de dosierujo kie vi volas serĉi"
+
+#: ../ui/gurlchecker.glade.h:5
+#, fuzzy
+msgid "<b>Content management</b>"
+msgstr "Administrado de ujo"
+
+#: ../ui/gurlchecker.glade.h:6
+#, fuzzy
+msgid "<b>Documents to ignore</b>"
+msgstr "Dokumentoj rifuzotaj"
+
+#: ../ui/gurlchecker.glade.h:7
+#, fuzzy
+msgid "<b>Expires :</b>"
+msgstr "<b>META tags</b>"
+
+#: ../ui/gurlchecker.glade.h:8
+#, fuzzy
+msgid "<b>Extensions to search for</b>"
+msgstr "Bonvolu enmeti nomo de dosierujo kie vi volas serĉi"
+
+#: ../ui/gurlchecker.glade.h:9
+#, fuzzy
+msgid "<b>Files to check</b>"
+msgstr "Dokumentoj rifuzotaj"
+
+#: ../ui/gurlchecker.glade.h:10
+#, fuzzy
+msgid "<b>HTML extensions to check</b>"
+msgstr "Bonvolu enmeti nomo de dosierujo kie vi volas serĉi"
+
+#: ../ui/gurlchecker.glade.h:11
+#, fuzzy
+msgid "<b>Images to ignore</b>"
+msgstr "Bildoj rifuzotaj"
+
+#: ../ui/gurlchecker.glade.h:12
+#, fuzzy
+msgid "<b>Location :</b>"
+msgstr "Informojn pri la paĝo"
+
+#: ../ui/gurlchecker.glade.h:13
+#, fuzzy
+msgid "<b>Location:</b>"
+msgstr "Informojn pri la paĝo"
+
+#: ../ui/gurlchecker.glade.h:14
+#, fuzzy
+msgid "<b>Meta Tags</b>"
+msgstr "<b>Ĉap-kampo<b>"
+
+#: ../ui/gurlchecker.glade.h:15
+#, fuzzy
+msgid "<b>Modified :</b>"
+msgstr "<b>Ĉap-kampo<b>"
+
+#: ../ui/gurlchecker.glade.h:16
+#, fuzzy
+msgid "<b>Name :</b>"
+msgstr "<b>META tags</b>"
+
+#: ../ui/gurlchecker.glade.h:17
+#, fuzzy
+msgid "<b>Options</b>"
+msgstr "Informojn pri la paĝo"
+
+#: ../ui/gurlchecker.glade.h:18
+#, fuzzy
+msgid "<b>Page:</b>"
+msgstr "<b>META tags</b>"
+
+#: ../ui/gurlchecker.glade.h:19
+#, fuzzy
+msgid "<b>Path :</b>"
+msgstr "<b>Ĉap-kampo<b>"
+
+#: ../ui/gurlchecker.glade.h:20
+#, fuzzy
+msgid "<b>Properties</b>"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:21
+#, fuzzy
+msgid "<b>Referrer :</b>"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:22
+#, fuzzy
+msgid "<b>Security:</b>"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:23
+#, fuzzy
+msgid "<b>Server type :</b>"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:24
+#, fuzzy
+msgid "<b>Server:</b>"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:25
+#, fuzzy
+msgid "<b>Size :</b>"
+msgstr "<b>Ĉap-kampo<b>"
+
+#: ../ui/gurlchecker.glade.h:26
+#, fuzzy
+msgid "<b>Source :</b>"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:27
+#, fuzzy
+msgid "<b>Status :</b>"
+msgstr "<b>Ĉap-kampo<b>"
+
+#: ../ui/gurlchecker.glade.h:28
+#, fuzzy
+msgid "<b>Type :</b>"
+msgstr "<b>META tags</b>"
+
+#: ../ui/gurlchecker.glade.h:29
+#, fuzzy
+msgid "<b>Value :</b>"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:30
+#, fuzzy
+msgid "<b>Warnings</b>"
+msgstr "Informojn pri la paĝo"
+
+#: ../ui/gurlchecker.glade.h:31
+msgid "<i>You can edit cookie's properties before accepting it:</i>"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:32
+msgid "Accept"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:33
+msgid "Accept all cookies"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:34
+msgid "Activate"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:35
+msgid "Activate W3C validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:36
+msgid "Activate security checks"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:37
+msgid "Advanced options"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:38
+msgid "After that time, unsuccessful connection intent will be aborted"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:39
+msgid "All the links"
+msgstr "Ĉiuj ligoj"
+
+#: ../ui/gurlchecker.glade.h:40
+msgid "Authentication"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:41
+msgid ""
+"Bad extensions to search for, separated by comma.\n"
+"Ex.: bak,bad,sav,~,ok,-,old,orig,false,::$data"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:43
+msgid "Bad extentions on server"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:45
+msgid "Block a host in timeout after"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:46
+msgid "Bookmarks file"
+msgstr "Dosiero de ligosignoj"
+
+#: ../ui/gurlchecker.glade.h:47
+#, fuzzy
+msgid "Branch update"
+msgstr "Parenco:"
+
+#: ../ui/gurlchecker.glade.h:48
+#, fuzzy
+msgid "By protocol"
+msgstr "Protokoloj"
+
+#: ../ui/gurlchecker.glade.h:49
+#, fuzzy
+msgid "By status"
+msgstr "Statuso"
+
+#: ../ui/gurlchecker.glade.h:50
+msgid "By type"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:51
+msgid ""
+"CSS extensions to check, separated by comma.\n"
+"Ex.: css"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:53
+#, fuzzy
+msgid "CSV export"
+msgstr "Raporto de kontrolo"
+
+#: ../ui/gurlchecker.glade.h:54
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: ../ui/gurlchecker.glade.h:55
+#, fuzzy
+msgid "Cancel check"
+msgstr "Nuligi"
+
+#: ../ui/gurlchecker.glade.h:56
+msgid "Case sensitive"
+msgstr "Usklecodistinga"
+
+#: ../ui/gurlchecker.glade.h:57
+msgid "Check"
+msgstr "Kontrolo"
+
+#: ../ui/gurlchecker.glade.h:58
+msgid "Check MX"
+msgstr "Kontroli MX"
+
+#: ../ui/gurlchecker.glade.h:60
+msgid "Check report"
+msgstr "Raporto de kontrolo"
+
+#: ../ui/gurlchecker.glade.h:61
+msgid "Check this option for links numbering"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:62
+msgid "Check this option if you are not interested in bookmarks pages content"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:63
+msgid ""
+"Check this option if you want to limit check to the given directory and its "
+"subdirectories on the given Web site"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:64
+msgid ""
+"Check this option to avoid possible infinite scan (when some arguments are "
+"randomly generated, for example)"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:65
+msgid ""
+"Check this option to avoid some nasty infinite loops (when some arguments "
+"are randomly generated, for example)"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:66
+msgid ""
+"Check this option to be prompted for Basic Authentication when a page "
+"request it"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:67
+msgid "Check this option to check FTP links"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:68
+msgid "Check this option to check MX of e-mails domains"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:69
+msgid "Check this option to check for e-mails syntax"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:70
+msgid "Check this option to check secure URLs too"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:71
+msgid "Check this option to enable CSS validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:72
+msgid "Check this option to enable HTML validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:73
+msgid "Check this option to enable W3C validation"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:74
+msgid "Check this option to enable detection of uncommon files extensions"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:75
+msgid "Check this option to enable security checks"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:76
+msgid "Check this option to enable virus scan of pages content"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:77
+msgid "Check this option to export links label"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:78
+msgid "Check this option to export links labels"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:79
+msgid "Check this option to export only external links"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:80
+msgid ""
+"Check this option to ignore servers that do not respond after more than n "
+"tries"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:81
+msgid ""
+"Check this option to retreive content of documents other than HTML pages and "
+"images: PDF, tarballs..."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:82
+msgid "Check this option to retreive images content for local preview"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:83
+msgid "Check this option to scan only one page"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:84
+#, fuzzy
+msgid "Choose a location"
+msgstr "Elekti dosieron de ligosignoj"
+
+#: ../ui/gurlchecker.glade.h:85
+#, fuzzy
+msgid "Clear export history"
+msgstr "Purigas historion de projekto"
+
+#: ../ui/gurlchecker.glade.h:86
+msgid "Clear project history"
+msgstr "Purigas historion de projekto"
+
+#: ../ui/gurlchecker.glade.h:87
+msgid "Clear search history"
+msgstr "Purigas historion de serĉo"
+
+#: ../ui/gurlchecker.glade.h:88
+msgid "Collapse all the list"
+msgstr "Enruli la tutan liston"
+
+#: ../ui/gurlchecker.glade.h:89
+msgid "Consider as error"
+msgstr "Rigardi kiel eraro"
+
+#: ../ui/gurlchecker.glade.h:90
+msgid "Consider that the code is not W3C compliant if it contains:"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:91
+#, fuzzy
+msgid "Cookie"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:92
+#, fuzzy
+msgid "Cookies"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:93
+msgid "DEBUG mode"
+msgstr "DEBUG modo"
+
+#: ../ui/gurlchecker.glade.h:94
+msgid "Debug"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:95
+#, fuzzy
+msgid "Delete project"
+msgstr "Nova projekto"
+
+#: ../ui/gurlchecker.glade.h:96
+#, fuzzy
+msgid "Description:"
+msgstr "Priskribo"
+
+#: ../ui/gurlchecker.glade.h:97
+msgid "Directories"
+msgstr "Dosierujoj"
+
+#: ../ui/gurlchecker.glade.h:98
+msgid "Display tooltips"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:99
+msgid "Do not accept any cookies"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:100
+msgid "Do not display this dialog anymore"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:101
+msgid "Do not retrieve page content (speed up the check)"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:102
+#, fuzzy
+msgid "Document"
+msgstr "Dokumentoj"
+
+#: ../ui/gurlchecker.glade.h:103
+msgid ""
+"Document extensions to ignore, separated by comma.\n"
+"Ex.: asp,aspx,exe,pif"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:105
+msgid "Documents"
+msgstr "Dokumentoj"
+
+#: ../ui/gurlchecker.glade.h:106
+msgid "Domains"
+msgstr "Domajnoj"
+
+#: ../ui/gurlchecker.glade.h:107
+msgid "Dump link properties while checking"
+msgstr "Atributoj de ŝuto kiam kontroladas"
+
+#: ../ui/gurlchecker.glade.h:108
+msgid "Dynamic values"
+msgstr "Dinamikaj valoroj"
+
+#: ../ui/gurlchecker.glade.h:110
+#, fuzzy
+msgid "E-Mails"
+msgstr "Retpoŝtadreso"
+
+#: ../ui/gurlchecker.glade.h:111
+#, fuzzy
+msgid "E-Mails syntax"
+msgstr "Sintakso de retpoŝtadreso"
+
+#: ../ui/gurlchecker.glade.h:112
+msgid "Enter a URL to check"
+msgstr "Enmetu ret-ligon kiun vi volas kontroli"
+
+#: ../ui/gurlchecker.glade.h:113
+#, fuzzy
+msgid "Enter a local file path or URL to check"
+msgstr "Enmetu ret-ligon kiun vi volas kontroli"
+
+#: ../ui/gurlchecker.glade.h:114
+msgid "Errors"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:115
+msgid "Exclude images"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:116
+msgid "Expand all the list"
+msgstr "Elruli la tutan liston"
+
+#: ../ui/gurlchecker.glade.h:117
+#, fuzzy
+msgid "Export"
+msgstr "<b>META tags</b>"
+
+#: ../ui/gurlchecker.glade.h:118
+#, fuzzy
+msgid "Files"
+msgstr "Filtroj"
+
+#: ../ui/gurlchecker.glade.h:119
+msgid "Filters"
+msgstr "Filtroj"
+
+#: ../ui/gurlchecker.glade.h:120
+msgid ""
+"First part of the mime-type of files to check for virus, separated by "
+"comma.\n"
+"Ex.: application,audio,image,text,video,x-world"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:122
+#, fuzzy
+msgid "Frame"
+msgstr "Malformita ligo"
+
+#: ../ui/gurlchecker.glade.h:123
+msgid "General"
+msgstr "Ĝenerala"
+
+#: ../ui/gurlchecker.glade.h:125
+msgid ""
+"HTML extensions to check, separated by comma.\n"
+"Ex.: php,html,htm,pl"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:127
+#, fuzzy
+msgid "History"
+msgstr "<b>META tags</b>"
+
+#: ../ui/gurlchecker.glade.h:128
+#, fuzzy
+msgid "IP address"
+msgstr "Retpoŝtadresoj"
+
+#: ../ui/gurlchecker.glade.h:129
+msgid "Ignore URLs arguments"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:130
+msgid "Ignore this item"
+msgstr "Ignori tiun anon"
+
+#: ../ui/gurlchecker.glade.h:132
+msgid ""
+"Image extensions to ignore, separated by comma.\n"
+"Ex.: gif,png"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:134
+msgid "Image preview"
+msgstr "Videbligo de bildo"
+
+#: ../ui/gurlchecker.glade.h:135
+msgid "Images"
+msgstr "Bildoj"
+
+#: ../ui/gurlchecker.glade.h:136
+msgid "Labels export"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:137
+#, fuzzy
+msgid "Link update"
+msgstr "Nomo de ligoj"
+
+#: ../ui/gurlchecker.glade.h:138
+msgid "Links"
+msgstr "Ligoj"
+
+#: ../ui/gurlchecker.glade.h:139
+msgid "Links name"
+msgstr "Nomo de ligoj"
+
+#: ../ui/gurlchecker.glade.h:140
+msgid "Local file"
+msgstr "Loka dosiero"
+
+#: ../ui/gurlchecker.glade.h:141
+msgid "Location:"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:142
+msgid "Login : "
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:143
+msgid "META tags content"
+msgstr "Ujo de META tags"
+
+#: ../ui/gurlchecker.glade.h:145
+msgid "Max depth of levels to check:"
+msgstr "Maksimuma profundo de esplorado"
+
+#: ../ui/gurlchecker.glade.h:146
+#, fuzzy
+msgid "Network"
+msgstr "<b>Ĉap-kampo<b>"
+
+#: ../ui/gurlchecker.glade.h:147
+#, fuzzy
+msgid "New"
+msgstr "Reto"
+
+#: ../ui/gurlchecker.glade.h:148
+msgid "New bookmarks project"
+msgstr "Nova projekto de ligosignoj"
+
+#: ../ui/gurlchecker.glade.h:149
+msgid "New instance"
+msgstr "Nova apero"
+
+#: ../ui/gurlchecker.glade.h:150
+#, fuzzy
+msgid "New local file project"
+msgstr "Nova projekto"
+
+#: ../ui/gurlchecker.glade.h:151
+msgid "New project"
+msgstr "Nova projekto"
+
+#: ../ui/gurlchecker.glade.h:152
+msgid "New web project"
+msgstr "Nova projekto"
+
+#: ../ui/gurlchecker.glade.h:153
+msgid "Numbering"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:154
+msgid "Only check local links"
+msgstr "Nur kontrolas lokajn ligojn"
+
+#: ../ui/gurlchecker.glade.h:155
+msgid "Only check this directory and its subdirectories"
+msgstr "Nur kontrolas tiun dosierujon kaj liajn sub-dosierujojn"
+
+#: ../ui/gurlchecker.glade.h:156
+#, fuzzy
+msgid "Only external links"
+msgstr "Nur kontrolas lokajn ligojn"
+
+#: ../ui/gurlchecker.glade.h:157
+msgid "Open"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:158
+#, fuzzy
+msgid "Open a project"
+msgstr "Nova projekto"
+
+#: ../ui/gurlchecker.glade.h:159
+#, fuzzy
+msgid "Open project"
+msgstr "Nova projekto"
+
+#: ../ui/gurlchecker.glade.h:160
+#, fuzzy
+msgid "Page content"
+msgstr "Ujo de paĝo"
+
+#: ../ui/gurlchecker.glade.h:161
+msgid "Page information"
+msgstr "Informojn pri la paĝo"
+
+#: ../ui/gurlchecker.glade.h:162
+msgid "Page properties"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:163
+#, fuzzy
+msgid "Parent update"
+msgstr "Parenco:"
+
+#: ../ui/gurlchecker.glade.h:164
+msgid "Password : "
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:165
+#, fuzzy
+msgid "Personal data"
+msgstr "Propraj datenoj"
+
+#: ../ui/gurlchecker.glade.h:166
+#, fuzzy
+msgid "Project properties"
+msgstr "Atributoj de la paĝo..."
+
+#: ../ui/gurlchecker.glade.h:167
+msgid "Prompt for authentication"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:168
+msgid "Protocols"
+msgstr "Protokoloj"
+
+#: ../ui/gurlchecker.glade.h:169
+msgid "Refuse"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:170
+#, fuzzy
+msgid "Remove all 404 links"
+msgstr "Kontroladas la retpoŝtadreson..."
+
+#: ../ui/gurlchecker.glade.h:171
+msgid "Report export"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:172
+msgid "Retrieve content of non HTML files"
+msgstr "Ekstrakti ujon de ne-HTML dosieroj"
+
+#: ../ui/gurlchecker.glade.h:173
+msgid "Retrieve images content"
+msgstr "Ekstrakti ujon de bildoj"
+
+#: ../ui/gurlchecker.glade.h:174
+msgid "Save"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:175
+#, fuzzy
+msgid "Save bookmarks"
+msgstr "Savkopii ligosignojn"
+
+#: ../ui/gurlchecker.glade.h:176
+#, fuzzy
+msgid "Save report in..."
+msgstr "Ekstraktado de la ĉap-kampoj..."
+
+#: ../ui/gurlchecker.glade.h:177
+msgid "Search in progress..."
+msgstr "Nuna serĉado..."
+
+#: ../ui/gurlchecker.glade.h:178
+msgid "Search..."
+msgstr "Serĉado..."
+
+#: ../ui/gurlchecker.glade.h:179
+msgid "Security"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:180
+msgid "Security alerts"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:181
+msgid "Similar link locations"
+msgstr "Samaj ret-ligoj"
+
+#: ../ui/gurlchecker.glade.h:182
+#, fuzzy
+msgid "Status code"
+msgstr "Statuso"
+
+#: ../ui/gurlchecker.glade.h:183
+msgid "Stylesheet"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:185
+msgid "This option will only be active for <i>Web site</i> projects."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:186
+msgid "Those choices will override [Filters/Documents]."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:187
+msgid ""
+"Time to wait between two checks, \n"
+"in second:"
+msgstr ""
+"Atendata tempo inter du kontroloj,\n"
+"en sekundoj:"
+
+#: ../ui/gurlchecker.glade.h:189
+msgid "Timeout in seconds:"
+msgstr "Limtempo esprimata pri sekundoj"
+
+#: ../ui/gurlchecker.glade.h:190
+#, fuzzy
+msgid "Timeout:"
+msgstr "Transpasitaj limtempoj"
+
+#: ../ui/gurlchecker.glade.h:192
+#, fuzzy
+msgid "Title:"
+msgstr "<b>META tags</b>"
+
+#: ../ui/gurlchecker.glade.h:193
+msgid "Uncheck this option to check external links too"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:194
+msgid "Uncheck this option to check external pages too"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:195
+msgid "Update all children for this link"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:196
+#, fuzzy
+msgid "Update all links..."
+msgstr "Kontroladas la retpoŝtadreson..."
+
+#: ../ui/gurlchecker.glade.h:197
+#, fuzzy
+msgid "Update main page..."
+msgstr "Kontroladas la retpoŝtadreson..."
+
+#: ../ui/gurlchecker.glade.h:198
+msgid "Update page containing this link"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:199
+msgid "Update this link"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:200
+#, fuzzy
+msgid ""
+"Updating report's counters\n"
+"\n"
+"<b>Please wait...</b>"
+msgstr ""
+"Finanta la kontrolado.\n"
+"\n"
+"<b>Bonvolu atendi...</b>"
+
+#: ../ui/gurlchecker.glade.h:204
+msgid "Use passive mode"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:205
+#, fuzzy
+msgid "View all link locations"
+msgstr "Vidu ĉiujn ret-ligojn"
+
+#: ../ui/gurlchecker.glade.h:206
+msgid "View bad extensions"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:207
+msgid "View online"
+msgstr "Vidi enlinia"
+
+#: ../ui/gurlchecker.glade.h:208
+msgid "View parent page online"
+msgstr "Vidi la parencon enlinia"
+
+#: ../ui/gurlchecker.glade.h:210
+msgid "Viruses"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:211
+msgid "W3C alerts"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:212
+#, fuzzy
+msgid "W3C validation"
+msgstr "Nenia valida informo."
+
+#: ../ui/gurlchecker.glade.h:213
+msgid "Wait"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:214
+#, fuzzy
+msgid "Warnings"
+msgstr "Informojn pri la paĝo"
+
+#: ../ui/gurlchecker.glade.h:215
+msgid "Web site"
+msgstr "Teksejo"
+
+#: ../ui/gurlchecker.glade.h:216
+msgid "When a cookie is added"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:217
+msgid "When a cookie is deleted"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:218
+msgid "When a cookie is updated"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:219
+msgid "Will remove any bookmark pointing to non existent page"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:220
+msgid "With SSL (HTTPS)"
+msgstr "Kun SSL (HTTPS)"
+
+#: ../ui/gurlchecker.glade.h:221
+msgid "_Display"
+msgstr "_Afiŝado"
+
+#: ../ui/gurlchecker.glade.h:222
+msgid "_Edit"
+msgstr "_Eldoni"
+
+#: ../ui/gurlchecker.glade.h:223
+#, fuzzy
+msgid "_File"
+msgstr "Filtroj"
+
+#: ../ui/gurlchecker.glade.h:224
+msgid "_Help"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:225
+msgid "_Project"
+msgstr "_Projekto"
+
+#: ../ui/gurlchecker.glade.h:226
+msgid "attemps"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:227
+msgid "gURLChecker Preferences"
+msgstr "Preferaĵoj por gURLChecker"
+
+#: ../ui/gurlchecker.glade.h:228
+msgid "gURLChecker use the libclamav library to scan files for viruses"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:229
+msgid "gURLChecker use the libcroco library to validate CSS2 stylesheets"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:230
+msgid "gURLChecker use the libtidy library to validate HTML pages"
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:231
+msgid "second(s), between  checks."
+msgstr ""
+
+#: ../ui/gurlchecker.glade.h:232
+msgid "second(s)."
+msgstr ""
+
+#, fuzzy
+#~ msgid ""
+#~ "You can select a local or remote bookmarks file.\n"
+#~ "As this version of gurlchecker have no sqlite3 support, the file have to "
+#~ "be in XBEL format"
+#~ msgstr "Elekti kontrolota dosieron de ligosignoj"
+
+#, fuzzy
+#~ msgid ""
+#~ "gURLChecker has cancelled the check because you do not have enough space "
+#~ "on your working directory partition.\n"
+#~ "<i>gURLChecker has taken a security margin to estimate free space</i>."
+#~ msgstr ""
+#~ "gURLChecker forlasis la skanon, ĉar ĝi ne disponigas pri sufiĉe da spaco "
+#~ "en la subdisko de la funkcianta dosierujo.\n"
+#~ "\n"
+#~ "gURLChecker konsideris sekur-marĝenon kiam ĝi kalkulas la necesan spacon."
+
+#, fuzzy
+#~ msgid "Only check given directory and its subdirectories"
+#~ msgstr "Nur kontrolas tiun dosierujon kaj liajn sub-dosierujojn"
+
+#, fuzzy
+#~ msgid "Please, check URL syntax and try again."
+#~ msgstr ""
+#~ "Bonvolu kontroli ke la enmetita retligo estas valida kaj poste restari."
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#, fuzzy
+#~ msgid "HTTPS"
+#~ msgstr "HTTP"
+
+#~ msgid "Choose a bookmarks file"
+#~ msgstr "Elekti dosieron de ligosignoj"
+
+#, fuzzy
+#~ msgid "Choose a export path"
+#~ msgstr "Elekti dosieron de ligosignoj"
+
+#, fuzzy
+#~ msgid "Save links in..."
+#~ msgstr "Ekstraktado de la ĉap-kampoj..."
+
+#~ msgid "Delete"
+#~ msgstr "Forigi"
+
+#, fuzzy
+#~ msgid "gtk-preferences"
+#~ msgstr "Preferaĵoj por gURLChecker"
+
+#, fuzzy
+#~ msgid "gtk-properties"
+#~ msgstr "Atributoj de la paĝo..."
+
+#, fuzzy
+#~ msgid "link"
+#~ msgstr "Ligoj"
+
+#, fuzzy
+#~ msgid "Parent"
+#~ msgstr "Parenco:"
+
+#, fuzzy
+#~ msgid "All this link locations"
+#~ msgstr "Vidu ĉiujn ret-ligojn"
+
+#, fuzzy
+#~ msgid "This page online"
+#~ msgstr "Vidi la parencon enlinia"
+
+#, fuzzy
+#~ msgid "Parent page online"
+#~ msgstr "Vidi la parencon enlinia"
+
+#, fuzzy
+#~ msgid "Page source"
+#~ msgstr "Vidi la fonton"
+
+#, fuzzy
+#~ msgid ""
+#~ "The remote host has refused to serve us the page.\n"
+#~ "Some web servers do not allow HEAD method on particular files... and "
+#~ "gURLChecker need to send HEAD method :-(\n"
+#~ "\n"
+#~ "Try to check it later, or filter this domain in the settings."
+#~ msgstr ""
+#~ "La fora komputilo rifuzis servi la paĝon.\n"
+#~ "Iuj retpaĝaj serviloj ne permesas la HEAD metodon en iuj dosieroj...kaj "
+#~ "gURLChecker necesas sendi tiun metodon :-(\n"
+#~ "\n"
+#~ "Bonvolu kontroli tiun poste, aŭ filtru tiun domajnon"
+
+#, fuzzy
+#~ msgid ""
+#~ "Some web servers do not allow HEAD method on particular files... and "
+#~ "gURLChecker need to send HEAD method :-(\n"
+#~ "\n"
+#~ "Try to check it later, or filter this domain in the settings."
+#~ msgstr ""
+#~ "La fora komputilo rifuzis servi la paĝon.\n"
+#~ "Iuj retpaĝaj serviloj ne permesas la HEAD metodon en iuj dosieroj...kaj "
+#~ "gURLChecker necesas sendi tiun metodon :-(\n"
+#~ "\n"
+#~ "Bonvolu kontroli tiun poste, aŭ filtru tiun domajnon"
+
+#, fuzzy
+#~ msgid "gURLChecker project page"
+#~ msgstr "gURLChecker"
+
+#, fuzzy
+#~ msgid "Graphic view"
+#~ msgstr "Grafikaj artoj:"
+
+#, fuzzy
+#~ msgid "Pages relations"
+#~ msgstr "Informojn pri la paĝo"
+
+#, fuzzy
+#~ msgid "<b>FTP</b>"
+#~ msgstr "<b>META tags</b>"
+
+#, fuzzy
+#~ msgid "<b>HTTP</b>"
+#~ msgstr "<b>META tags</b>"
+
+#, fuzzy
+#~ msgid "<b>MAILTO</b>"
+#~ msgstr "MAILTO"
+
+#~ msgid "Please, enter a domain name."
+#~ msgstr "Bonvolu enmeti domajnon"
+
+#~ msgid "Please, enter a directory name."
+#~ msgstr "Bonvolu enmeti nomo de dosierujo"
+
+#~ msgid "The domain you entered seems not to be valid."
+#~ msgstr "La domajno kiun vi enmetis ne ŝajnas valida"
+
+#, fuzzy
+#~ msgid "Please, select a project to delete."
+#~ msgstr "Bonvolu selekti anon."
+
+#~ msgid "Check email MX"
+#~ msgstr "Kontroli MX poŝtadreson"
+
+#~ msgid "Email"
+#~ msgstr "Retpoŝtadreso"
+
+#~ msgid "Emails"
+#~ msgstr "Retpoŝtadresoj"
+
+#, fuzzy
+#~ msgid "Check E-Mail MX"
+#~ msgstr "Kontroli MX poŝtadreson"
+
+#, fuzzy
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "Informojn pri la paĝo"
+
+#, fuzzy
+#~ msgid "<b>Check</b>"
+#~ msgstr "<b>Ĉap-kampo<b>"
+
+#, fuzzy
+#~ msgid "<b>Cookies</b>"
+#~ msgstr "Atributoj de la paĝo..."
+
+#, fuzzy
+#~ msgid "<b>Debug</b>"
+#~ msgstr "<b>Ĉap-kampo<b>"
+
+#~ msgid "*"
+#~ msgstr "*"

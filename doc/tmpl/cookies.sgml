@@ -1,0 +1,48 @@
+<!-- ##### SECTION Title ##### -->
+cookies
+
+<!-- ##### SECTION Short_Description ##### -->
+Manage some common cookies actions
+
+<!-- ##### SECTION Long_Description ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION See_Also ##### -->
+<para>
+
+</para>
+
+<!-- ##### SECTION Stability_Level ##### -->
+
+
+<!-- ##### SECTION Image ##### -->
+
+
+<!-- ##### FUNCTION uc_cookies_add ##### -->
+<para>
+
+</para>
+
+@prop: 
+@cook: 
+
+
+<!-- ##### FUNCTION uc_cookies_free ##### -->
+<para>
+
+</para>
+
+@void: 
+
+
+<!-- ##### FUNCTION uc_cookies_get_header_field ##### -->
+<para>
+
+</para>
+
+@path: 
+@Returns: 
+
+
