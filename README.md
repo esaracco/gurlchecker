@@ -2,7 +2,11 @@
 > _This is a dead, no longer maintained, project!_
 > 
 
+<p align="center"><img src="https://gurlchecker.esaracco.fr/images/gurlchecker.png"/></p>
+
 # gURLChecker
+
+[Project homepage](https://gurlchecker.esaracco.fr)
 
 gURLChecker is a graphical websites checker for GNU/Linux.
 
