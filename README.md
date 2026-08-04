@@ -1,6 +1,9 @@
-> ***IMPORTANT:***
-> _This is a dead, no longer maintained, project!_
-> 
+⚠️ This project has been archived
+
+gURLChecker is no longer maintained.
+
+This repository remains available for historical reference.
+---------------------------------
 
 # gURLChecker
 
